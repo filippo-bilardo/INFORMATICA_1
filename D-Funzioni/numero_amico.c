@@ -6,6 +6,11 @@ Ad esempio, i numeri 220 e 284 sono amici perché la somma dei divisori propri d
 1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284 e la somma dei divisori propri 
 di 284 è 1 + 2 + 4 + 71 + 142 = 220.
 
+Inserisci un numero: 220
+Il numero 220 è un numero amico
+Inserisci un numero: 100
+Il numero 100 non è un numero amico
+
 In questo esempio, la funzione sum_divisors calcola la somma dei divisori di un numero. 
 La funzione is_amicable determina se un numero è amico confrontando la somma dei divisori 
 del numero con un altro numero e verificando che la somma dei divisori del secondo numero 
