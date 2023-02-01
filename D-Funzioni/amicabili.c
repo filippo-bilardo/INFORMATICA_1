@@ -1,3 +1,15 @@
+/*
+Scrivere una funzione che ricerca i primi due numeri amicabili e li visualizzi sullo schermo.
+
+In questo esempio, la funzione sum_divisors calcola la somma dei divisori di un numero. 
+La funzione find_amicable_numbers cerca i numeri amicabili confrontando la somma dei divisori 
+dei due numeri n1 e n2 e, se sono amicabili, li visualizza sullo schermo.
+
+Infine, il codice principale nella funzione main utilizza un doppio ciclo for per cercare 
+i primi due numeri amicabili tra 1 e 10.000. Questo può essere modificato per cercare numeri 
+amicabili in un intervallo più ampio o più piccolo.
+*/
+
 #include <stdio.h>
 
 int sum_divisors(int n) {
