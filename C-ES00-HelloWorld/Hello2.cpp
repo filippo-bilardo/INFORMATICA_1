@@ -13,7 +13,7 @@ int main()
   
   //stampiamo a schermo un messaggio contenente
   //il valore del numero inserito da tastiera
-  printf("Hai inserito il numero %d", a);
+  printf("Hai inserito il numero %d\n", a);
  
   //terminiamo il programma
   return 0;
