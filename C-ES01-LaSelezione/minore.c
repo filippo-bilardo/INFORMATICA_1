@@ -1,5 +1,5 @@
 /* FB 06/2023
-   determinare minore */
+   determinare il minore tra due numeri */
 #include <stdio.h>
 
 int main()
