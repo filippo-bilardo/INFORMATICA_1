@@ -1,4 +1,6 @@
 /* FB 06/2023
+	gcc minore.c
+	./a.out
    determinare il minore tra due numeri */
 #include <stdio.h>
 
