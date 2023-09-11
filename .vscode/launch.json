@@ -1,0 +1,92 @@
+{
+    "name": "C++ Launch",
+    "type": "cppdbg",
+    "request": "launch",
+    "program": "${workspaceFolder}/a.out",
+    "stopAtEntry": false,
+    "customLaunchSetupCommands": [
+      { "text": "target-run", "description": "run target", "ignoreFailures": false }
+    ],
+    "launchCompleteCommand": "exec-run",
+    "linux": {
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb"
+    },
+    "osx": {
+      "MIMode": "lldb"
+    },
+    "windows": {
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGw\\bin\\gdb.exe"
+    },
+    "configurations": [
+        {
+            "name": "(gdb) Launch1",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/workspaces/INFORMATICA_1/C - Istruzioni decisionali e iterative/ES00-HelloWorld/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Abilita la riformattazione per gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Imposta Versione Disassembly su Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Abilita la riformattazione per gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Imposta Versione Disassembly su Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+    {
+        "name": "(gdb) Associa",
+        "type": "cppdbg",
+        "request": "attach",
+        "program": "immettere il nome del programma, ad esempio ${workspaceFolder}/a.out",
+        "MIMode": "gdb",
+        "setupCommands": [
+            {
+                "description": "Abilita la riformattazione per gdb",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            },
+            {
+                "description": "Imposta Versione Disassembly su Intel",
+                "text": "-gdb-set disassembly-flavor intel",
+                "ignoreFailures": true
+            }
+        ]
+    }
+    ]
+  }
