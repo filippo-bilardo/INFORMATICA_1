@@ -11,7 +11,7 @@ della variabile esterna durante l'esecuzione del blocco di codice o della funzio
 Di conseguenza, quando si fa riferimento a quella variabile all'interno dello 
 scope locale, verrà utilizzata la sua definizione locale, mentre all'esterno dello 
 scope locale sarà visibile la variabile esterna.
-
+ 
 22/06/23
 */
 #include <stdio.h> //printf, scanf
@@ -44,7 +44,7 @@ int main()
     fun2();
     fun2();
     printf(".\n");
-    printf("%d\n",x);
+    printf("%d\n",x); 
 
     //terminiamo il programma
     return 0;
