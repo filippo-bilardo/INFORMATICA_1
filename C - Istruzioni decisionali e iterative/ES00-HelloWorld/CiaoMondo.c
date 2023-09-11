@@ -1,3 +1,5 @@
+//gcc CiaoMondo.c -g  
+
 #include <stdio.h> //printf, scanf
 
 int main() 
