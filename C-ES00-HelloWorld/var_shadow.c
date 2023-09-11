@@ -44,7 +44,7 @@ int main()
     fun2();
     fun2();
     printf(".\n");
-    printf("%d\n",x);
+    printf("%d\n",x); 
 
     //terminiamo il programma
     return 0;
