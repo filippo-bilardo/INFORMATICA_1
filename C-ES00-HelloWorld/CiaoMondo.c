@@ -1,4 +1,4 @@
-//gcc -g CiaoMondo.c
+//gcc -g CiaoMondo.c 
 #include <stdio.h> //printf, scanf
 
 int main() 
