@@ -8,7 +8,7 @@ int main()
   int a;
   
   //scrivere a schermo un messagio
-  printf("Inserisci il tuo voto ");
+  printf("Inserisci un numero intero ");
   
   //lettura da tastiera di un intero in base 10
   scanf("%d", &a);
