@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Utente"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-24 12:06:49 "/>
+        <attribute name="created" value="VXRlbnRlOyBQQy1XSU43OyAyMDE3LTEwLTI5OyAwNjozMjo1NiA7IDIzNDE="/>
+        <attribute name="edited" value="VXRlbnRlOyBQQy1XSU43OyAyMDE3LTEwLTI5OyAwNjozODoyMyA7IDIzNDE="/>
+        <attribute name="edited" value="ZmlsaXBwby5iaWxhcmRvO1VSQU5POzIwMjMtMDktMjQ7IjEyOjA2OjQ5ICI7MjszMjMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Ciao Mondo!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
