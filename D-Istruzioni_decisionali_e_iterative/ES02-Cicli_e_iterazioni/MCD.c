@@ -18,30 +18,28 @@
 
 int main() {
     int num1, num2;
-
-    // Input dei due numeri dall'utente
-    printf("Inserisci il primo numero: ");
-    scanf("%d", &num1);
-
-    printf("Inserisci il secondo numero: ");
-    scanf("%d", &num2);
-
     int mcd, resto;
 
-    // Calcola il MCD utilizzando l'algoritmo di Euclide
-    if (num1 == 0 || num2 == 0) {
-        mcd = 0;
-    } else {
-        while (num2 != 0) {
-            resto = num1 % num2;
-            num1 = num2;
-            num2 = resto;
-        }
-        mcd = num1;
-    }
+    // Input dei due numeri dall'utente
+    printf("Inserisci il primo numero diverso da 0: ");
+    scanf("%d", &num1);
+
+    printf("Inserisci il secondo numero diverso da 0: ");
+    scanf("%d", &num2);
 
     // Stampare il MCD
-    printf("Il Massimo Comune Divisore (MCD) di %d e %d è: %d\n", num1, num2, mcd);
+    printf("Il Massimo Comune Divisore (MCD) di %d e %d ", num1, num2);
+
+    // Calcola il MCD utilizzando l'algoritmo di Euclide
+    while (num2 != 0) {
+        resto = num1 % num2;
+        num1 = num2;
+        num2 = resto;
+    }
+    mcd = num1;
+    
+    // Stampare il MCD
+    printf("è: %d\n", mcd);
 
     return 0;
 }
