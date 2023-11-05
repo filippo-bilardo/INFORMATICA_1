@@ -1,5 +1,5 @@
 /**
- * @file mcd.c
+ * @file MCDc
  * @date 05/11/2023
  * 
  * @brief Calcola il Massimo Comune Divisore (MCD) di due numeri interi positivi utilizzando l'algoritmo di Euclide.
