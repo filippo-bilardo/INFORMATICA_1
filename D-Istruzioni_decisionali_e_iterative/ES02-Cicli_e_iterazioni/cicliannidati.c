@@ -1,7 +1,8 @@
 /**
  * @file cicliannidati.c
  * 
- * Esempio di cicli annidati
+ * Esempio di cicli annidati. 
+ * Stampo un rettangolo di caratteri.
  * 
  * @author FB
  * @version 1.0 20/11/2023
@@ -9,8 +10,8 @@
 
 #include <stdio.h> // printf, scanf
 
-#define RIGHE_TOT 5
-#define COLONNE_TOT 4
+#define RIGHE_TOT 3
+#define COLONNE_TOT 7
 
 int main()
 {
