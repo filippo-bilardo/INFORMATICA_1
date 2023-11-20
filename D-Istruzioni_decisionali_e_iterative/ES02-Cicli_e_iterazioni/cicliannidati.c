@@ -7,7 +7,6 @@
  * @author FB
  * @version 1.0 20/11/2023
  */
-
 #include <stdio.h> // printf, scanf
 
 #define RIGHE_TOT 3
