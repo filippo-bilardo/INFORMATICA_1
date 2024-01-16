@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "author": "Filippo Bilardo",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0.6, "left": -0.6, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -128.4,
+      "left": 99.8,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -62.4,
+      "left": 95.45,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -115.8,
+      "left": 185.4,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "led1:C", "uno:GND.1", "black", [ "v28.8", "h10" ] ],
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "r1:2", "uno:4", "green", [ "v8.4", "h92.7" ] ],
+    [ "btn1:1.r", "uno:2", "green", [ "v0" ] ],
+    [ "btn1:2.r", "uno:GND.1", "black", [ "v48.2", "h-96.2", "v28.8" ] ]
+  ],
+  "dependencies": {}
+}
