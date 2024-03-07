@@ -1,12 +1,16 @@
 #include <stdio.h> 
 
-int main(void) 
-{ 
-  char t[]={'a','b','c','A','B'}; 
+int main(void) { 
+	int i, t[5]; 
 
-  printf("'G'-'I' = %d; \n",'G'-'I' );
-  printf("t[2]-t[0] + t[4]-t[3] = %d; \n",t[2]-t[0] + t[4]-t[3]);
-} 
+	for(i=4; i>=0; i--) {
+		t[i] = i-1;
+		printf("t[%d]=%d; ",i , t[i]);
+	}
+	printf("\nt[ t[2]+t[3] = %d; \n",t[ t[2]+t[3] ]);
+	
+	return 0; 
+}
 
 
 

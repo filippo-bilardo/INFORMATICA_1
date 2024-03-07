@@ -7,9 +7,68 @@
 #include <stdlib.h>
 #include <time.h>
 
-void vet_rand();
-void vet_rand_2();
+void vet_rand(int vet[], int n);
+void vet_rand_2(int vet[], int n);
 void vet_rand_3(int vet[], int min, int max);
+void vet_stampa(int vet[], int n);
+
+/**
+ * Stampa un vettore di interi
+ * @param vet il vettore da stampare
+ * @param n il numero di elementi del vettore
+ */
+void vet_stampa(int vet[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", vet[i]);
+    }
+    printf("\n");
+}
+
+/**
+ * Inizializzo un vettore di n elementi con numeri casuali
+ * compresi tra 0 e 9.
+ * @param vet il vettore da inizializzare
+ * @param n il numero di elementi del vettore
+ * @return none
+ */
+void vet_rand(int vet[], int n) {
+    for (int i = 0; i < n; i++) {
+        //generiamo un numero random tra 0 e 9 compresi
+        vet[i] = rand() % 10;
+    }
+}
+
+/**
+ * Inizializzo un vettore di n elementi con numeri casuali
+ * compresi tra 10 e 100 compresi.
+ * @param vet il vettore da inizializzare
+ * @param n il numero di elementi del vettore
+ * @return none
+ */
+void vet_rand_2(int vet[], int n) {
+    for (int i = 0; i < n; i++) {
+        //generiamo un numero random tra 10 e 100 compresi
+        vet[i] = rand() % 91 + 10;
+    }
+}
+
+/**
+ * Inizializzo un vettore di n elementi con numeri casuali
+ * compresi tra min e max compresi.
+ * @param vet il vettore da inizializzare
+ * @param n il numero di elementi del vettore
+ * @param min il valore minimo
+ * @param max il valore massimo
+ * @return none
+ */
+void vet_rand_3(int vet[], int n, int min, int max) {
+    for (int i = 0; i < n; i++) {
+        //generiamo un numero random tra min e max compresi
+        vet[i] = rand() % (max - min + 1) + min;
+    }
+}
+
+
 
 int main() {
     int vet[100];
@@ -18,60 +77,20 @@ int main() {
     // altrimenti i numeri generati saranno sempre gli stessi
     srand(time(NULL)); 
 
-    vet_rand();
+    // inizializzo il vettore con numeri casuali
+    vet_rand(vet, 100);
+    vet_stampa(vet, 100);
     printf("\n");   
-    printf("\n");   
-    vet_rand_2();
-    printf("\n");   
-    vet_rand_3(vet, 45, 55);
+    
+    // inizializzo il vettore con numeri casuali
+    // con valori tra 10 e 100 compresi
+    vet_rand_2(vet, 100);
+    vet_stampa(vet, 100);
     printf("\n");
-}
 
-void vet_rand() {
-    int vet[10];
-
-    for (int i = 0; i < 10; i++) {
-        //generiamo un numero random tra 0 e 9 compresi
-        vet[i] = rand() % 10;
-    }
-    for (int i = 0; i < 10; i++) {
-        printf("%d ", vet[i]);
-    }
-    printf("\n");
-}
-
-void vet_rand_2() {
-    int vet[100];
-    int i;
-
-    // Generiamo un numero random tra 10 e 100 compresi
-    for (i = 0; i < 100; i++) {
-        vet[i] = rand() % 91 + 10;
-    }
-    for (i = 0; i < 100; i++) {
-        printf("%d ", vet[i]);
-    }
-    printf("\n");
-}
-
-/**
- * Inizializzo un vettore di 100 elementi con numeri casuali
- * compresi tra i parametri min e max.
- * Stampiamo il vettore
- * @param vet il vettore da inizializzare
- * @param min il valore minimo
- * @param max il valore massimo
- * @return none
- */
-void vet_rand_3(int vet[], int min, int max) {
-    int i;
-
-    for (i = 0; i < 100; i++) {
-        vet[i] = rand() % (max - min + 1) + min;
-    }
-
-    for (i = 0; i < 100; i++) {
-        printf("%d ", vet[i]);
-    }
+    // inizializzo il vettore con numeri casuali
+    // con valori tra 33 e 55 compresi
+    vet_rand_3(vet, 100, 33, 55);
+    vet_stampa(vet, 100);
     printf("\n");
 }
