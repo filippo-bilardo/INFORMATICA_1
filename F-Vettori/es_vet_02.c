@@ -1,3 +1,10 @@
+/**
+ * file: es_vet_02.c
+ * 
+ * Il programma inizializza un vettore di 5 elementi con i valori 0, 1, 2, 3, 4
+ * 
+ * data: 
+*/
 #include <stdio.h>
 
 int main(void)
