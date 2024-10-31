@@ -8,10 +8,10 @@ int main()
 {
 	int num1, num2;    //dichiararazione dell variabili
 	
-	printf("Inserisci il valore del primo numero\n");
+	printf("Inserisci il valore del primo numero ");
 	scanf("%d", &num1);  
 	
-	printf("Inserisci il valore del secondo numero\n");
+	printf("Inserisci il valore del secondo numero ");
 	scanf("%d", &num2);
 	
 	printf("il numero minore e': ");
