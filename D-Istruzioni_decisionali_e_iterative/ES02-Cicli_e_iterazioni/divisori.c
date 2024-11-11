@@ -1,5 +1,5 @@
 /** ****************************************************************************************
-* \mainpage <divisori.c>
+* \mainpage divisori.c
 *
 * @brief Scrivere un programma che, richiesto un numero intero, visualizzi tutti i 
 *        suoi divisori

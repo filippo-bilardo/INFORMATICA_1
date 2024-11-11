@@ -1,15 +1,23 @@
 /** ****************************************************************************************
 * \mainpage <divisori.c>
 *
-* @brief Scrivere un programma che, richiesto un numero intero, visualizzi tutti i 
-*        suoi divisori
+* @brief <breve descrizione>
 * <specifiche del progetto>
 * <specifiche del collaudo>
 * 
 * @author Filippo Bilardo
-* @date 02/12/22 
-* @version 1.0 02/12/22 Versione iniziale
+* @date 11/11/24 
+* @version 1.0 11/11/24 Versione iniziale
 */
+#include <stdio.h>
 
+int main() {
+    int i = 1;
 
-// Modifica ultima
+    while (i <= 5) {
+        printf("%d\n", i);
+        i++;
+    }
+    
+    return 0;
+}
