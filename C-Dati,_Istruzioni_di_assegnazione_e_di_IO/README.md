@@ -1,2 +1,3 @@
-# INFORMATICA1
-Esempi per gli studenti del corso INFORMATICA1
+## C - Dati, Istruzioni di assegnazione e di I/O
+
+[Corso INF1](../README.md)
