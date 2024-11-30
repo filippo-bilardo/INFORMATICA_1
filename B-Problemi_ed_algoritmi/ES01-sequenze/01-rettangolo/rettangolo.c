@@ -6,13 +6,15 @@
 
 int main()
 {
-
     float base, altezza;
     float perimetro, area;
+
     scanf("%f", &base);
     scanf("%f", &altezza);
+
     perimetro = base*2 + altezza*2;
     area = base*altezza;
+    
     printf("Perimetro = %f\n", perimetro);
     printf("Area = %f\n", area);
 

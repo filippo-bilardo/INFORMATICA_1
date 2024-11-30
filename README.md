@@ -9,4 +9,4 @@ Appunti ed esempi per gli studenti del corso INFORMATICA1
 - [D-Istruzioni_decisionali_e_iterative](D-Istruzioni_decisionali_e_iterative/README.md)  
 - [E-Funzioni](E-Funzioni/README.md) 
 - [F-Strutture_dati](F-Strutture_dati/README.md)  
-- [H-Web_Development_(html,css)](H-Web_Development_(html,css)/README.md)  
+- [G-Web_Development_(html,css)](G-Web_Development_(html,css)/README.md)  
