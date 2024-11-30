@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'a.hex'
+elf = 'a.elf'
