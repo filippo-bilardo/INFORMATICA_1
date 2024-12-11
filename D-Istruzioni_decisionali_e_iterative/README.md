@@ -6,6 +6,8 @@
 - [ES03 - Cicli for e argomenti avanzati](<https://docs.google.com/presentation/d/1Ra2a06Whl2p6Z3pwOpJW_5Ic5PoJzlM007o6TTPEb_8/edit?usp=sharing>)
 
 ### Teoria
+- I numeri random
+- Menu e codici ANSI
 
 ---
 [Corso INF1](../README.md)
