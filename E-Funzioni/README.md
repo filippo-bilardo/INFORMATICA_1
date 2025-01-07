@@ -13,6 +13,10 @@
 - [2. Struttura di una Funzione](<02. Struttura di una Funzione.md>)
 - [3. Passaggio dei Parametri](<03. Passaggio dei Parametri.md>)
 - [4. Valori di Ritorno](<04. Valori di Ritorno.md>)
+- [5. Scope e Lifetime delle Variabili](<05. Scope e Lifetime delle Variabili.md>)
+- Scope delle variabili: globale, locale e statico.
+- Differenza tra variabili automatiche e statiche.
+- Implicazioni sul comportamento delle funzioni.
 
 ---
 
@@ -24,12 +28,7 @@
 - Introduzione alle funzioni `inline` (introdotte con C99).
 - Quando e perché usarle.
 - Differenze tra macro e funzioni inline.
-### **7. Scope e Lifetime delle Variabili**
-- Scope delle variabili: globale, locale e statico.
-- Differenza tra variabili automatiche e statiche.
-- Implicazioni sul comportamento delle funzioni.
 ### **8. Overloading e Polimorfismo**
-*(Concetto avanzato per simulazione in C)*
 - Simulazione dell’overloading tramite macro o puntatori a funzione.
 - Come emulare il polimorfismo.
 ### **9. Funzioni Predefinite**
@@ -47,11 +46,8 @@
 ### **12. Esercitazioni Pratiche**
 - Scrivere funzioni per:
   - Calcolare il massimo comune divisore (MCD).
-  - Trovare il minimo e il massimo in un array.
-  - Ordinare un array (es. Bubble Sort).
-- Progetti:
+ - Progetti:
   - Creazione di una calcolatrice modulare con funzioni per somma, sottrazione, moltiplicazione e divisione.
-  - Analisi di stringhe (contare parole, lettere, ecc.) usando funzioni.
-
+ 
 ---
 [Corso INF1](../README.md)
