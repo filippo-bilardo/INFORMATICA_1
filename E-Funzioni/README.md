@@ -10,7 +10,7 @@
 ### Teoria
 
 - [1. Introduzione alle Funzioni](<01. Introduzione alle Funzioni.md>)
-- [2. Struttura di una Funzione](<02. Struttura di una Funzione.md>)
+- [2. Utilizzo di una Funzione](<02. Utilizzo di una Funzione.md>)
 - [3. Passaggio dei Parametri](<03. Passaggio dei Parametri.md>)
 - [4. Valori di Ritorno](<04. Valori di Ritorno.md>)
 - [5. Scope e Lifetime delle Variabili](<05. Scope e Lifetime delle Variabili.md>)
@@ -19,7 +19,7 @@
 - Implicazioni sul comportamento delle funzioni.
 
 ---
-
+### **Prototipi delle funzioni e codice in file separati**
 ### **5. Funzioni Ricorsive**
 - Concetto di ricorsione e differenze con i cicli.
 - Funzioni ricorsive: esempi pratici (fattoriale, Fibonacci).
