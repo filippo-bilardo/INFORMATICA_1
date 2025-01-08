@@ -11,12 +11,9 @@
 
 - [1. Introduzione alle Funzioni](<01. Introduzione alle Funzioni.md>)
 - [2. Utilizzo di una Funzione](<02. Utilizzo di una Funzione.md>)
-- [3. Passaggio dei Parametri](<03. Passaggio dei Parametri.md>)
+- [3. Passaggio dei Parametri e Argomenti](<03. Passaggio dei Parametri e Argomenti.md>)
 - [4. Valori di Ritorno](<04. Valori di Ritorno.md>)
 - [5. Scope e Lifetime delle Variabili](<05. Scope e Lifetime delle Variabili.md>)
-- Scope delle variabili: globale, locale e statico.
-- Differenza tra variabili automatiche e statiche.
-- Implicazioni sul comportamento delle funzioni.
 
 ---
 ### **Prototipi delle funzioni e codice in file separati**
