@@ -14,20 +14,18 @@
 - [3. Passaggio dei Parametri e Argomenti](<03. Passaggio dei Parametri e Argomenti.md>)
 - [4. Valori di Ritorno](<04. Valori di Ritorno.md>)
 - [5. Scope e Lifetime delle Variabili](<05. Scope e Lifetime delle Variabili.md>)
+- [6. Prototipi delle Funzioni e Codice in File Separati](<06. Prototipi delle Funzioni e Codice in File Separati.md>)
 
 ---
-### **Prototipi delle funzioni e codice in file separati**
-### **5. Funzioni Ricorsive**
+
+### **7. Funzioni Ricorsive**
 - Concetto di ricorsione e differenze con i cicli.
 - Funzioni ricorsive: esempi pratici (fattoriale, Fibonacci).
 - Problemi comuni nella ricorsione (overflow dello stack).
-### **6. Funzioni Inline**
+### **8. Funzioni Inline**
 - Introduzione alle funzioni `inline` (introdotte con C99).
 - Quando e perché usarle.
 - Differenze tra macro e funzioni inline.
-### **8. Overloading e Polimorfismo**
-- Simulazione dell’overloading tramite macro o puntatori a funzione.
-- Come emulare il polimorfismo.
 ### **9. Funzioni Predefinite**
 - Uso delle funzioni standard della libreria C.
   - Esempi: `printf`, `scanf`, `strlen`, `sqrt`, `malloc`.
@@ -40,7 +38,10 @@
 - Mancata corrispondenza dei tipi nei parametri.
 - Valori restituiti non utilizzati.
 - Errori nel passaggio dei puntatori.
-### **12. Esercitazioni Pratiche**
+### **12. Overloading e Polimorfismo**
+- Simulazione dell’overloading tramite macro o puntatori a funzione.
+- Come emulare il polimorfismo.
+### **13. Esercitazioni Pratiche**
 - Scrivere funzioni per:
   - Calcolare il massimo comune divisore (MCD).
  - Progetti:
