@@ -14,8 +14,8 @@
 - [3. Passaggio dei Parametri e Argomenti](<03. Passaggio dei Parametri e Argomenti.md>)
 - [4. Valori di Ritorno](<04. Valori di Ritorno.md>)
 - [5. Quiz di autovalutazione](<05. Quiz di autovalutazione.md>)
-- [6. Scope e Lifetime delle Variabili](<05. Scope e Lifetime delle Variabili.md>)
-- [7. Prototipi delle Funzioni e Codice in File Separati](<06. Prototipi delle Funzioni e Codice in File Separati.md>)
+- [6. Scope e Lifetime delle Variabili](<06. Scope e Lifetime delle Variabili.md>)
+- [7. Prototipi delle Funzioni e Codice in File Separati](<07. Prototipi delle Funzioni e Codice in File Separati.md>)
 - [8. Quiz di autovalutazione](<08. Quiz di autovalutazione.md>)
 
 ---
