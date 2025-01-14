@@ -11,7 +11,7 @@
 
 - [1. Introduzione alle Funzioni](<01. Introduzione alle Funzioni.md>)
 - [2. Utilizzo di una Funzione](<02. Utilizzo di una Funzione.md>)
-- [3. Passaggio dei Parametri e Argomenti](<03. Passaggio dei Parametri e Argomenti.md>)
+- [3. Parametri e Argomenti](<03. Parametri e Argomenti.md>)
 - [4. Valori di Ritorno](<04. Valori di Ritorno.md>)
 - [5. Quiz di autovalutazione](<05. Quiz di autovalutazione.md>)
 - [6. Scope e Lifetime delle Variabili](<06. Scope e Lifetime delle Variabili.md>)
@@ -19,6 +19,8 @@
 - [8. Quiz di autovalutazione](<08. Quiz di autovalutazione.md>)
 
 ---
+
+- [9. Passaggio parametri per riferimento](<09. Passaggio parametri per riferimento.md>)
 
 ### **7. Funzioni Ricorsive**
 - Concetto di ricorsione e differenze con i cicli.
