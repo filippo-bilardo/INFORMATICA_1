@@ -14,5 +14,6 @@
   - Struttura di un programma C.
   - Compilazione ed esecuzione di programmi.
   - Il primo programma: "Hello, World!"
+  - Scrittura, compilazione ed esecuzione  
 
 [Corso INF1](../README.md)

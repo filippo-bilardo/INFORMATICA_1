@@ -17,6 +17,7 @@ D.1. La selezione
 
 D.2. Cicli ed iterazioni
  - `for`, `while`, `do-while`.
+ - Break e continue  
  - Tecniche per ottimizzare i cicli.
  - Esercizi di laboratorio sui cicli.
 
