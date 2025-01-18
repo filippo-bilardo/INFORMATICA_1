@@ -1,9 +1,10 @@
 ## E - Funzioni
 
+---
 ### Esercitazioni
 
+---
 ### Teoria
-
 ### **7. Funzioni Ricorsive**
 - Concetto di ricorsione e differenze con i cicli.
 - Funzioni ricorsive: esempi pratici (fattoriale, Fibonacci).

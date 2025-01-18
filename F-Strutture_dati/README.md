@@ -1,5 +1,10 @@
 ## F - Strutture dati
 
+---
+### Esercitazioni
+
+---
+### Teoria
 F.1. Array
   - Dichiarazione e manipolazione di array.
   - Array multidimensionali.
@@ -23,4 +28,5 @@ F.4. Strutture
   - Unioni e enumerazioni.
   - Esercitazioni con dati complessi.
 
+---
 [Corso INF1](../README.md)
