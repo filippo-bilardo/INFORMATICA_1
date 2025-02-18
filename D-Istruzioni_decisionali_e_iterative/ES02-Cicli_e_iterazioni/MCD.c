@@ -43,3 +43,23 @@ int main() {
 
     return 0;
 }
+
+/*
+@startuml
+|Inizio|
+start
+
+:Inserisci il primo numero diverso da 0;
+:Inserisci il secondo numero diverso da 0;
+
+while (num2 != 0) is (num2 è diverso da 0?)
+  :Calcola il resto della divisione di num1 per num2;
+  :Assegna il valore di num2 a num1;
+  :Assegna il valore di resto a num2;
+endwhile (fine ciclo)
+
+:Il MCD è num1;
+
+stop
+@enduml
+*/

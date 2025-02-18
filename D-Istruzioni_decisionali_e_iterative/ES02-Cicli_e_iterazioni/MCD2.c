@@ -31,3 +31,27 @@ int main() {
     printf("Il MCD è: %d\n", a); // 8
     return 0;                   // 9
 }
+/*
+@startuml
+|Inizio|
+start
+
+:Inizializza a = 48;
+:Inizializza b = 12;
+
+while (a != b) is (a diverso da b?)
+
+if (a > b) then (si)
+  :a = a - b;
+else (no)
+  :b = b - a;
+endif
+
+endwhile (fine ciclo)
+
+:Stampa "Il MCD è: " + a;
+
+stop
+@enduml
+
+*/
