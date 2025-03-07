@@ -12,6 +12,7 @@ D.0.
  - [I numeri random](<I numeri random.md>)
  - [I codici ANSI](<ES03-Menu_e_codici_ANSI/I codici ANSI.md>)
  - [I codici ANSI esempio](<ES03-Menu_e_codici_ANSI/I codici ANSI esempio.md>)
+ - [Problema dell'else pendente](<Problema dell'else pendente.md>)
 
 D.1. La selezione
  - Istruzioni condizionali: `if`, `else`, `else if`, `switch`.

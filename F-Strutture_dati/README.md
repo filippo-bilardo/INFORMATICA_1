@@ -1,8 +1,10 @@
 ## F - Strutture dati
+### Esercitazioni
+- [ES01 - Vettori](<https://docs.google.com/presentation/d/1dkbGl5zQ0Qj9Z-gyl33H6tjckeecTT85lrA9-WZp08c>)
 
-### **01 Array**
-Gli array sono strutture di dati fondamentali utilizzate per archiviare e manipolare insiemi ordinati di elementi dello stesso tipo. Questo capitolo esplora in dettaglio come dichiarare, inizializzare e utilizzare gli array in C/C++, introducendo concetti avanzati e le innovazioni introdotte nelle ultime versioni del linguaggio.
-
+---
+### Teoria
+#### **01 Array**
 - [01.1 Concetti Fondamentali sugli Array](<01.1 Concetti Fondamentali sugli Array.md>)
 - [01.3 Passaggio di Array alle funzioni](<01.3 Passaggio di Array alle funzioni.md>)
 - [01.2 Operazioni sui Array](<01.2 Operazioni sui Array.md>)
@@ -12,11 +14,15 @@ Gli array sono strutture di dati fondamentali utilizzate per archiviare e manipo
 - [01.7 Gestione della Memoria Dinamica per Array](<01.7 Gestione della Memoria Dinamica per Array.md>)
 - [01.8 Definizioni](<01.8 Definizioni.md>)
 
----
-### Esercitazioni
+#### **02 Struct**
+- [02.1 Struct](<02.1 Struct.md>)
+
+#### **03 Union**
+- [03.1 Union](<03.1 Union.md>)
+
+#### **04 Enum**
 
 ---
-### Teoria
 
 F.2. Puntatori
   - Introduzione ai puntatori e loro utilizzo.
@@ -40,10 +46,6 @@ F.4. Strutture
 [Corso INF1](../README.md)
 
 ---
-
-### **
----
-
 ### **Sezione 3: Array Multidimensionali**
 - **Che cos'è un array multidimensionale?**
   - Definizione e utilizzo di array bidimensionali e tridimensionali.
@@ -67,8 +69,6 @@ F.4. Strutture
   - Dichiarazione e utilizzo di puntatori a matrici.
   - Accesso agli elementi tramite puntatori.
 - **Esempio pratico:** Scrivere una funzione che accetta un array di stringhe e restituisce la più lunga.
-
----
 
 ### **Sezione 6: Innovazioni delle Ultime Versioni di C++**
 - **Inizializzazione con `{}` (C++11):**
@@ -123,8 +123,6 @@ F.4. Strutture
     int arr[5] = {[2] = 42, [4] = 99}; // Inizializza solo gli elementi specificati
     ```
 
----
-
 ### **Sezione 7: Tecniche Avanzate**
 
 - **Array di strutture:**
@@ -136,8 +134,6 @@ F.4. Strutture
   - Filtraggio e trasformazione di array con lambda.
 
 - **Esempio pratico:** Usare `std::transform` per applicare una funzione a tutti gli elementi di un array.
-
----
 
 ### **Sezione 8: Progetti Pratici**
 
@@ -153,15 +149,9 @@ F.4. Strutture
 - **Progetto 4: Utilizzo di `std::span`:**
   - Scrivere una funzione generica che accetti un `std::span` e calcoli la somma degli elementi.
 
----
-
 ### **Esercizi**
 
 1. Scrivere un programma che inverta gli elementi di un array utilizzando un ciclo `for` e `std::swap`.
 2. Implementare una funzione `constexpr` che controlli se un array contiene duplicati.
 3. Creare un array dinamico di dimensione specificata dall'utente e popolarlo con numeri casuali. Utilizzare `std::vector` o `std::unique_ptr`.
 4. Utilizzare `std::span` per passare una vista su un array a una funzione che calcola la media dei valori.
-
----
-
-Questo capitolo offre una panoramica completa degli array in C/C++, integrando le innovazioni introdotte nelle ultime versioni del linguaggio. Ogni sezione è arricchita da esempi pratici e progetti per applicare quanto imparato, rendendo il contenuto adatto sia a principianti che a programmatori esperti.
