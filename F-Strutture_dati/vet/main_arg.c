@@ -1,3 +1,13 @@
+/**
+ * @file main_arg.c
+ * 
+ * Il programma stampa il contenuto di un vettore di caratteri
+ * e il codice ascii dei caratteri stampati
+ * 
+ * Utilizzo: ./a.out [stringa] [stringa] ...
+ * gcc main_arg.c
+ * es.: ./a.out ciao mario 12 34 
+ */
 #include <stdio.h> //printf
 #include <string.h> 
 
@@ -13,8 +23,8 @@ void printAscii()
 }
     
      
-int main(int argc, char **argv) 
-//int main(int argc, char *argv[]) 
+//int main(int argc, char **argv) 
+int main(int argc, char *argv[]) 
 {
   // Verifica argomenti passati al main
   int i;
@@ -37,7 +47,7 @@ int main(int argc, char **argv)
   char B[]="Mario";
   char C[30];
   
-  //msg1[2] = 10;   //Istruzione illegale perchè msg1 punta ad una stinga costante
+  //msg1[2] = 10;   //Istruzione illegale perche' msg1 punta ad una stinga costante
   msg2[3] = 'Z';
   msg2[4] = 65;
   msg2[8] = 0;
@@ -49,8 +59,8 @@ int main(int argc, char **argv)
   printf("\n");
   
   printf("\nInserisci una stringa: ");
-  scanf("%s", &msg3);
-  printf("\nmsg3=%s", msg3);
+  scanf("%s", msg3);
+  printf("\nmsg3=%s\n", msg3);
 
   // Codice Ascii
   //printf("\n----------------");

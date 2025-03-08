@@ -11,6 +11,9 @@ int main(void)
 {
   //inizializzo i primi 3 elementi del vettore
   int vet[5]={1,2,3}; 
+  //Equivalente a 
+  //int vet[5]={1,2,3,0,0};
+  //int vet[]={1,2,3,0,0};
   int i;
 
   //stampo tutti gli elementi del vettore
