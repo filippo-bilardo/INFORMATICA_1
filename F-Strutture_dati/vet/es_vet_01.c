@@ -27,5 +27,11 @@ int main(void)
   }
   printf("\n");
 
+  int zeri[10]; //Senza inizializzazione i valori sono indefiniti
+  for(int i=0;i<10;i++) {
+    printf("zeri[%d]= %d\n",i , zeri[i]);
+  }
+  printf("\n");
+
 	return 0;
 } 
