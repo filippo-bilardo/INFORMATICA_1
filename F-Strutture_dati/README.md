@@ -6,6 +6,7 @@
 ### Teoria
 #### **01 Array**
 - [01.1 Gli array monodimensionali in C](<01.1 Gli array monodimensionali in C.md>)
+- [01.2 Gli array monodimensionali in C](<01.1 Gli array monodimensionali in C.md>)
 - [01.1 Esercitazioni pratiche](<01.1 Esercitazioni pratiche.md>)
 - [01.2 Gli array monodimensionali, Differenze tra C e C++](<01.2 Gli array monodimensionali, Differenze tra C e C++.md>)
 - [01.3 Array Multidimensionali in C](<01.3 Array Multidimensionali in C.md>)
