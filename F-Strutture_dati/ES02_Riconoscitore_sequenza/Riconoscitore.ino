@@ -22,7 +22,7 @@ const int PIN_LED_VERDE = 8;                                             // Pin 
 const int PIN_LED_ROSSO = 13;                                            // Pin per il LED rosso
 const int LUNGHEZZA_SEQUENZA = 6;                                        // Lunghezza della sequenza da riconoscere
 char sequenzaInput[LUNGHEZZA_SEQUENZA] = {'9', '9', '9', '9', '9', '9'}; // Inizializza l'array
-char sequenzaCorretta[] = "123456";                                      // Sequenza predefinita da riconoscere
+char sequenzaCorretta[] = {'1','2','3','4','5','6'};                     // Sequenza predefinita da riconoscere
 bool allarmeAttivo = false;                                              // Stato dell'allarme (attivo/disattivo)
 
 // Prototipi delle funzioni
@@ -56,8 +56,10 @@ void setup()
 
 void loop()
 {
+    // Controlla se è disponibile un carattere da leggere dalla linea seriale
     if (Serial.available() > 0)
     {
+        // Legge il carattere ricevuto dalla linea seriale
         char carattereInput = Serial.read();
 
         // Ignora il carattere di ritorno a capo
