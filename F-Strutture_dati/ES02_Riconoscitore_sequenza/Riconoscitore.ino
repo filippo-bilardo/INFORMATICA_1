@@ -11,6 +11,8 @@
  * Se la sequenza viene reinserita, un LED rosso lampeggia e rimane acceso, indicando
  * che l'allarme è disattivato, e così via.
  *
+ * https://wokwi.com/projects/419596014187366401
+ *
  * @author Filippo Bilardo
  * @version 1.0 17/03/25 - Versione iniziale
  */
