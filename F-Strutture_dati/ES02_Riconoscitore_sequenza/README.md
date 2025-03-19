@@ -14,7 +14,7 @@ Crea un sistema di riconoscimento sequenza utilizzando Arduino e Wokwi. L'utente
 - Quando l'array è pieno, i valori devono essere shiftati a sinistra per fare spazio al nuovo carattere
 
 #### 1.2 Riconoscimento della Sequenza
-- Il sistema deve confrontare la sequenza inserita con una sequenza di caratteri predefinita ("aBc456")
+- Il sistema deve confrontare la sequenza inserita con una sequenza di caratteri predefinita ("abc456")
 - Il confronto deve avvenire dopo ogni nuovo carattere inserito
 - Il sistema deve riconoscere quando la sequenza inserita corrisponde esattamente alla sequenza predefinita
 
