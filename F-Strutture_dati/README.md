@@ -11,7 +11,7 @@
 - [01.2 Gli array monodimensionali, Differenze tra C e C++](<01.2 Gli array monodimensionali, Differenze tra C e C++.md>)
 - [01.3 Array Multidimensionali in C](<01.3 Array Multidimensionali in C.md>)
 - [01.1 Concetti Fondamentali sugli Array](<01.1 Concetti Fondamentali sugli Array.md>)
-- [01.3 Passaggio di Array alle funzioni](<01.3 Passaggio di Array alle funzioni.md>)
+- [01.3 Passaggio di Array alle funzioni in C](<01.3 Passaggio di Array alle funzioni in C.md>)
 - [01.2 Operazioni sui Array](<01.2 Operazioni sui Array.md>)
 - [01.4 Array multidimensionali](<01.4 Array multidimensionali.md>)
 - [01.5 Esempi](<01.5 Esempi.md>)
