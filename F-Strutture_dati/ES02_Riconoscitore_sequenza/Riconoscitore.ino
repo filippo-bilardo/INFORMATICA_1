@@ -22,7 +22,7 @@ const int PIN_LED_VERDE = 8;                                             // Pin 
 const int PIN_LED_ROSSO = 13;                                            // Pin per il LED rosso
 const int LUNGHEZZA_SEQUENZA = 6;                                        // Lunghezza della sequenza da riconoscere
 char sequenzaInput[LUNGHEZZA_SEQUENZA] = {'9', '9', '9', '9', '9', '9'}; // Inizializza l'array
-char sequenzaCorretta[] = {'1','2','3','4','5','6'};                     // Sequenza predefinita da riconoscere
+char sequenzaCorretta[] = {'3','3','3','4','5','6'};                     // Sequenza predefinita da riconoscere
 bool allarmeAttivo = false;                                              // Stato dell'allarme (attivo/disattivo)
 
 // Prototipi delle funzioni
@@ -87,6 +87,46 @@ void loop()
     }
 }
 
+
+/**
+ * Imposta il valore di un elemento dell'array
+ * @param array L'array da modificare
+ * @param valore Il valore da impostare
+ * @param posizione La posizione dell'elemento da modificare
+ */
+void ArrayImpostaValoreElemento(char array[], char valore, int posizione)
+{
+}
+
+/**
+ * Sposta tutti gli elementi dell'array di una posizione a sinistra
+ * @param array L'array da modificare
+ * @param dimensione La dimensione dell'array
+ */
+void ArrayShiftSinistra(char array[], int dimensione)
+{
+}
+
+/**
+ * Verifica se due array sono identici
+ * @param array1 Il primo array da confrontare
+ * @param array2 Il secondo array da confrontare
+ * @param dimensione La dimensione degli array
+ * @return true se gli array sono identici, false altrimenti
+ */
+bool ArrayConfronta(char array1[], char array2[], int dimensione)
+{
+}
+
+/**
+ * Stampa il contenuto dell'array
+ */
+void ArrayStampa()
+{
+}
+
+//----------------------------------------------------------------------
+//----------------------------------------------------------------------
 /**
  * Configura il pin del LED verde
  */
@@ -227,57 +267,3 @@ void AllarmeImpostaStato(bool attivo)
     }
 }
 
-
-/**
- * Imposta il valore di un elemento dell'array
- * @param array L'array da modificare
- * @param valore Il valore da impostare
- * @param posizione La posizione dell'elemento da modificare
- */
-void ArrayImpostaValoreElemento(char array[], char valore, int posizione)
-{
-    array[posizione] = valore;
-}
-
-/**
- * Sposta tutti gli elementi dell'array di una posizione a sinistra
- * @param array L'array da modificare
- * @param dimensione La dimensione dell'array
- */
-void ArrayShiftSinistra(char array[], int dimensione)
-{
-    for (int i = 0; i < dimensione - 1; i++)
-    {
-        array[i] = array[i + 1];
-    }
-}
-
-/**
- * Verifica se due array sono identici
- * @param array1 Il primo array da confrontare
- * @param array2 Il secondo array da confrontare
- * @param dimensione La dimensione degli array
- * @return true se gli array sono identici, false altrimenti
- */
-bool ArrayConfronta(char array1[], char array2[], int dimensione)
-{
-    for (int i = 0; i < dimensione; i++)
-    {
-        if (array1[i] != array2[i])
-        {
-            return false;
-        }
-    }
-    return true;
-}
-
-/**
- * Stampa il contenuto dell'array
- */
-void ArrayStampa()
-{
-    char msg[50];
-    sprintf(msg, "Contenuto dell'array: %s", sequenzaInput);
-    Serial.println(msg);
-    Serial.println();
-}

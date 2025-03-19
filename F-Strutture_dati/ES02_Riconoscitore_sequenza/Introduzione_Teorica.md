@@ -13,7 +13,7 @@ Gli array rappresentano una struttura dati fondamentale nella programmazione, pe
 Nel progetto, utilizziamo due array principali:
 ```c
 char sequenzaInput[LUNGHEZZA_SEQUENZA] = {'9', '9', '9', '9', '9', '9'}; // Array per memorizzare l'input dell'utente
-char sequenzaCorretta[] = "123456";                                      // Array con la sequenza da riconoscere
+char sequenzaCorretta[] = {'a', '2', '3', '4', '5', 'z'};                // Array con la sequenza da riconoscere
 ```
 
 ## 2. Il Concetto di Buffer
@@ -61,13 +61,7 @@ Lo shift a sinistra è una tecnica fondamentale per gestire sequenze di dati in 
 ### Implementazione dello shift a sinistra:
 
 ```c
-void ArrayShiftSinistra(char array[], int dimensione)
-{
-    for (int i = 0; i < dimensione - 1; i++)
-    {
-        array[i] = array[i + 1];
-    }
-}
+void ArrayShiftSinistra(char array[], int dimensione);
 ```
 
 Questa tecnica permette di mantenere una "finestra scorrevole" sugli ultimi N caratteri inseriti, essenziale per il riconoscimento di sequenze in un flusso continuo di input.
@@ -79,17 +73,7 @@ Il confronto tra sequenze è il cuore del sistema di riconoscimento. Il programm
 ### Algoritmo di confronto:
 
 ```c
-bool ArrayConfronta(char array1[], char array2[], int dimensione)
-{
-    for (int i = 0; i < dimensione; i++)
-    {
-        if (array1[i] != array2[i])
-        {
-            return false;
-        }
-    }
-    return true;
-}
+bool ArrayConfronta(char array1[], char array2[], int dimensione);
 ```
 
 Questo algoritmo confronta ogni elemento delle due sequenze e restituisce `false` alla prima differenza trovata. Se tutti gli elementi corrispondono, restituisce `true`.
