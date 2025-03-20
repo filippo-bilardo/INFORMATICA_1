@@ -1,13 +1,13 @@
 // Sketch base per buzzer attivo
-const int buzzerPin = 8;  // Pin a cui è collegato il buzzer
+const int BUZZER_PIN = 8;  // Pin a cui è collegato il buzzer
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);  // Imposta il pin del buzzer come output
+  pinMode(BUZZER_PIN, OUTPUT);  // Imposta il pin del buzzer come output
 }
 
 void loop() {
-  digitalWrite(buzzerPin, HIGH);  // Attiva il buzzer
+  digitalWrite(BUZZER_PIN, HIGH);  // Attiva il buzzer
   delay(1000);                    // Mantieni attivo per 1 secondo
-  digitalWrite(buzzerPin, LOW);   // Disattiva il buzzer
+  digitalWrite(BUZZER_PIN, LOW);   // Disattiva il buzzer
   delay(1000);                    // Pausa di 1 secondo
 }

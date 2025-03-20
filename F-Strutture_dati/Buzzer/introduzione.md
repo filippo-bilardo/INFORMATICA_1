@@ -3,9 +3,17 @@
 ## Parte 1: Le basi
 
 ### Cos'è un Buzzer?
-Un buzzer è un componente elettronico che converte un segnale elettrico in un suono. Esistono principalmente due tipi di buzzer:
-- **Buzzer passivi**: richiedono un segnale oscillante per produrre suono
-- **Buzzer attivi**: hanno un oscillatore interno e producono un tono fisso quando alimentati
+Un buzzer è un componente elettronico che converte un segnale elettrico in un suono. Spesso viene utilizzato come segnalatore acustico nei sistemi con microcontrollori. Esistono principalmente due tipi di buzzer:
+- **Buzzer passivo**: è un dispositivo che genera suono tramite una membrana piezoelettrica vibrante, richiedendo un segnale esterno per funzionare. Non ha un oscillatore interno, quindi necessita di un circuito esterno per produrre il segnale oscillante. È utilizzato in allarmi e notifiche per la sua semplicità e basso consumo energetico. La frequenza del suono dipende dal segnale applicato, offrendo flessibilità nel tono. È economico e permette un controllo personalizzato del suono, rendendolo ideale per progetti fai-da-te.
+- **Buzzer attivo**: ha un oscillatore interno che permette di emettere un tono a frequenza fissa se viene alimentato con una tensione continua. L’oscillatore interno è in grado di modificare il campo magnetico di una bobina a cui è connesso meccanicamente una membrana che oscillerà alla frequenza fissata dall’oscillatore.
+
+![alt text](img/image01.png)
+
+### Datasheet
+Ecco alcuni link a datasheet di buzzer disponibili in commercio:
+- [Mouser - EC211 SDR Datasheet](http://www.mouser.com/ds/2/400/ec211_sdr-28101.pdf) 
+- [Same Sky Devices - CEM-1203-42 Datasheet](https://www.sameskydevices.com/product/resource/cem-1203-42-.pdf) 
+- [Gavazzionline - PLBZ Datasheet](https://www.gavazzionline.com/pdf/Datasheet_PLBZ.pdf) 
 
 ### Componenti necessari
 - Arduino (qualsiasi modello)
@@ -18,21 +26,22 @@ Un buzzer è un componente elettronico che converte un segnale elettrico in un s
 1. Collega il pin positivo del buzzer a un pin digitale di Arduino (es. pin 8)
 2. Collega il pin negativo del buzzer a GND
 3. Opzionalmente, inserisci un resistore da 100Ω in serie per limitare la corrente
+Per il collegamento diretto del buzzer ad Arduino, verificare che la corrente assorbita sia inferiore a 20mA. E’ altamente raccomandato comandare il buzzer tramite un transistor.
 
 ### Primo sketch: Tono semplice
 
 ```cpp
 // Sketch base per buzzer attivo
-const int buzzerPin = 8;  // Pin a cui è collegato il buzzer
+const int BUZZER_PIN = 8;  // Pin a cui è collegato il buzzer
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);  // Imposta il pin del buzzer come output
+  pinMode(BUZZER_PIN, OUTPUT);  // Imposta il pin del buzzer come output
 }
 
 void loop() {
-  digitalWrite(buzzerPin, HIGH);  // Attiva il buzzer
+  digitalWrite(BUZZER_PIN, HIGH);  // Attiva il buzzer
   delay(1000);                    // Mantieni attivo per 1 secondo
-  digitalWrite(buzzerPin, LOW);   // Disattiva il buzzer
+  digitalWrite(BUZZER_PIN, LOW);   // Disattiva il buzzer
   delay(1000);                    // Pausa di 1 secondo
 }
 
@@ -43,16 +52,16 @@ Se usi un buzzer passivo, puoi generare diverse frequenze utilizzando la funzion
 
 ```cpp
 // Sketch base per buzzer passivo
-const int buzzerPin = 8;  // Pin a cui è collegato il buzzer
+const int BUZZER_PIN = 8;  // Pin a cui è collegato il buzzer
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);  // Imposta il pin del buzzer come output
+  pinMode(BUZZER_PIN, OUTPUT);  // Imposta il pin del buzzer come output
 }
 
 void loop() {
-  tone(buzzerPin, 1000);  // Genera un tono a 1000 Hz
+  tone(BUZZER_PIN, 1000);  // Genera un tono a 1000 Hz
   delay(1000);            // Mantieni il tono per 1 secondo
-  noTone(buzzerPin);      // Ferma il tono
+  noTone(BUZZER_PIN);      // Ferma il tono
   delay(1000);            // Pausa di 1 secondo
 }
 
@@ -64,7 +73,7 @@ void loop() {
 
 ```cpp
 // Riproduzione di una melodia semplice
-const int buzzerPin = 8;
+const int BUZZER_PIN = 8;
 
 // Definizione delle note (frequenze in Hz)
 #define NOTE_C4  262
@@ -87,15 +96,15 @@ int noteDurations[] = {
 };
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
 }
 
 void loop() {
   // Riproduci una volta la melodia
   for (int i = 0; i < 8; i++) {
-    tone(buzzerPin, melody[i]);
+    tone(BUZZER_PIN, melody[i]);
     delay(noteDurations[i]);
-    noTone(buzzerPin);
+    noTone(BUZZER_PIN);
     delay(50);  // Breve pausa tra le note
   }
   
@@ -109,22 +118,22 @@ Per i buzzer passivi, puoi simulare diversi livelli di volume utilizzando il PWM
 
 ```cpp
 // Controllo del volume tramite PWM
-const int buzzerPin = 9;  // Usa un pin che supporti PWM (es. 3, 5, 6, 9, 10, 11)
+const int BUZZER_PIN = 9;  // Usa un pin che supporti PWM (es. 3, 5, 6, 9, 10, 11)
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
 }
 
 void loop() {
   // Volume crescente
   for (int volume = 0; volume <= 255; volume += 5) {
-    analogWrite(buzzerPin, volume);  // Imposta il "volume" tramite duty cycle
+    analogWrite(BUZZER_PIN, volume);  // Imposta il "volume" tramite duty cycle
     delay(30);
   }
   
   // Volume decrescente
   for (int volume = 255; volume >= 0; volume -= 5) {
-    analogWrite(buzzerPin, volume);
+    analogWrite(BUZZER_PIN, volume);
     delay(30);
   }
   
@@ -139,24 +148,24 @@ void loop() {
 
 ```cpp
 // Sistema di allarme con sensore PIR
-const int buzzerPin = 8;
-const int pirPin = 2;     // Pin del sensore PIR
-const int ledPin = 13;    // LED integrato
+const int BUZZER_PIN = 8;
+const int PIR_PIN = 2;     // Pin del sensore PIR
+const int LED_PIN = 13;    // LED integrato
 
 // Parametri allarme
-const int alarmDuration = 3000;  // Durata dell'allarme in ms
+const int ALARM_DURATION = 3000;  // Durata dell'allarme in ms
 boolean alarmActive = false;     // Stato dell'allarme
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
-  pinMode(pirPin, INPUT);
-  pinMode(ledPin, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+  pinMode(PIR_PIN, INPUT);
+  pinMode(LED_PIN, OUTPUT);
   Serial.begin(9600);
   Serial.println("Sistema di allarme attivo");
 }
 
 void loop() {
-  int motionDetected = digitalRead(pirPin);
+  int motionDetected = digitalRead(PIR_PIN);
   
   if (motionDetected == HIGH) {
     Serial.println("Movimento rilevato!");
@@ -170,23 +179,23 @@ void triggerAlarm() {
   unsigned long startTime = millis();
   
   // Suona per la durata impostata
-  while (millis() - startTime < alarmDuration) {
+  while (millis() - startTime < ALARM_DURATION) {
     // Suono di allarme modulato
     for (int freq = 800; freq < 2000; freq += 10) {
-      tone(buzzerPin, freq);
-      digitalWrite(ledPin, HIGH);
+      tone(BUZZER_PIN, freq);
+      digitalWrite(LED_PIN, HIGH);
       delay(5);
     }
     for (int freq = 2000; freq > 800; freq -= 10) {
-      tone(buzzerPin, freq);
-      digitalWrite(ledPin, LOW);
+      tone(BUZZER_PIN, freq);
+      digitalWrite(LED_PIN, LOW);
       delay(5);
     }
   }
   
   // Disattiva l'allarme
-  noTone(buzzerPin);
-  digitalWrite(ledPin, LOW);
+  noTone(BUZZER_PIN);
+  digitalWrite(LED_PIN, LOW);
   alarmActive = false;
 }
 
@@ -196,7 +205,7 @@ void triggerAlarm() {
 
 ```cpp
 // Comunicazione in codice Morse
-const int buzzerPin = 8;
+const int BUZZER_PIN = 8;
 
 // Parametri temporali del codice Morse (in ms)
 const int dotDuration = 200;
@@ -215,7 +224,7 @@ String morseDict[] = {
 };
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
   Serial.begin(9600);
   Serial.println("Sistema di comunicazione Morse attivo");
   Serial.println("Inserisci il messaggio da convertire:");
@@ -260,16 +269,16 @@ void playMorseCode(String code) {
   for (int i = 0; i < code.length(); i++) {
     if (code.charAt(i) == '.') {
       // Punto
-      tone(buzzerPin, 1000);
+      tone(BUZZER_PIN, 1000);
       delay(dotDuration);
     } else if (code.charAt(i) == '-') {
       // Linea
-      tone(buzzerPin, 1000);
+      tone(BUZZER_PIN, 1000);
       delay(dashDuration);
     }
     
     // Ferma il tono e attendi prima del prossimo simbolo
-    noTone(buzzerPin);
+    noTone(BUZZER_PIN);
     delay(symbolPause);
   }
 }
@@ -280,9 +289,9 @@ void playMorseCode(String code) {
 
 ```cpp
 // Theremin digitale con sensore ad ultrasuoni
-const int buzzerPin = 8;
-const int trigPin = 9;    // Trigger del sensore HC-SR04
-const int echoPin = 10;   // Echo del sensore HC-SR04
+const int BUZZER_PIN = 8;
+const int US_TRIG_PIN = 9;    // Trigger del sensore HC-SR04
+const int US_ECHO_PIN = 10;   // Echo del sensore HC-SR04
 
 // Parametri del theremin
 const int minFreq = 100;   // Frequenza minima (Hz)
@@ -291,9 +300,9 @@ const int minDist = 5;     // Distanza minima (cm)
 const int maxDist = 50;    // Distanza massima (cm)
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
+  pinMode(US_TRIG_PIN, OUTPUT);
+  pinMode(US_ECHO_PIN, INPUT);
   Serial.begin(9600);
   Serial.println("Theremin digitale attivo");
 }
@@ -303,14 +312,14 @@ void loop() {
   long duration, distance;
   
   // Invia impulso ultrasonico
-  digitalWrite(trigPin, LOW);
+  digitalWrite(US_TRIG_PIN, LOW);
   delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
+  digitalWrite(US_TRIG_PIN, HIGH);
   delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
+  digitalWrite(US_TRIG_PIN, LOW);
   
   // Calcola la distanza
-  duration = pulseIn(echoPin, HIGH);
+  duration = pulseIn(US_ECHO_PIN, HIGH);
   distance = duration / 58;  // Conversione in cm
   
   // Limita la distanza nell'intervallo definito
@@ -327,11 +336,11 @@ void loop() {
   Serial.println(" Hz");
   
   // Genera il tono corrispondente
-  tone(buzzerPin, frequency);
+  tone(BUZZER_PIN, frequency);
   
   // Se la mano è troppo lontana, ferma il suono
   if (distance >= maxDist) {
-    noTone(buzzerPin);
+    noTone(BUZZER_PIN);
   }
   
   delay(50);  // Piccolo ritardo per stabilità
@@ -343,7 +352,7 @@ void loop() {
 
 ```cpp
 // Sintetizzatore MIDI base
-const int buzzerPin = 8;
+const int BUZZER_PIN = 8;
 
 // Note MIDI (frequenze in Hz)
 const int notes[] = {
@@ -358,7 +367,7 @@ const String noteNames[] = {
 };
 
 void setup() {
-  pinMode(buzzerPin, OUTPUT);
+  pinMode(BUZZER_PIN, OUTPUT);
   Serial.begin(9600);
   Serial.println("Sintetizzatore MIDI attivo");
   Serial.println("Inserisci un numero da 1 a 24 per suonare una nota:");
@@ -380,9 +389,9 @@ void loop() {
       Serial.println(" Hz)");
       
       // Suona la nota
-      tone(buzzerPin, notes[noteIndex]);
+      tone(BUZZER_PIN, notes[noteIndex]);
       delay(500);
-      noTone(buzzerPin);
+      noTone(BUZZER_PIN);
     } else {
       Serial.println("Nota non valida. Inserisci un numero da 1 a 24.");
       printNoteTable();
