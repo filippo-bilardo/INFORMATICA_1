@@ -44,7 +44,7 @@ void loop() {
   digitalWrite(BUZZER_PIN, LOW);   // Disattiva il buzzer
   delay(1000);                    // Pausa di 1 secondo
 }
-
+```
 [Scarica il codice completo](01_buzzer_attivo.ino)
 
 ### Utilizzo di un buzzer passivo
@@ -64,7 +64,7 @@ void loop() {
   noTone(BUZZER_PIN);      // Ferma il tono
   delay(1000);            // Pausa di 1 secondo
 }
-
+```
 [Scarica il codice completo](02_buzzer_passivo.ino)
 
 ## Parte 2: Funzionalità intermedie
@@ -106,7 +106,7 @@ void loop() {
   
   delay(2000);  // Pausa prima di ripetere
 }
-
+```
 [Scarica il codice completo](03_melodia_semplice.ino)
 
 ### Controllo del volume (PWM)
@@ -135,7 +135,7 @@ void loop() {
   
   delay(1000);  // Pausa prima di ripetere
 }
-
+```
 [Scarica il codice completo](04_controllo_volume_pwm.ino)
 
 ## Parte 3: Applicazioni avanzate
