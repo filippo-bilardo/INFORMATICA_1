@@ -9,6 +9,11 @@
 ### Teoria
 1. **Introduzione ai linguaggi C e C++**  
   - [01.1 - Storia e caratteristiche principali del linguaggio C](<01.1 - Storia e caratteristiche principali del linguaggio C.md>)
+  - [02.2 - Struttura di un programma C](<02.2 - Struttura di un programma C.md>)
+  - [cloud developer environments](<cloud developer environments.md>)
+  - [code playground](<code playground.md>) 
+  - [hello](hello.md)
+  
   - Differenze e complementarità tra C e C++  
   - Applicazioni pratiche del C.
   - Strumenti di sviluppo: compilatori, IDE e debugger 

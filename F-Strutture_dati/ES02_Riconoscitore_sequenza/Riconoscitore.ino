@@ -12,6 +12,7 @@
  * che l'allarme è disattivato, e così via.
  *
  * https://wokwi.com/projects/419596014187366401
+ * https://github.com/filippo-bilardo/INFORMATICA_1/blob/a359542667b12596fbf0b84d4f4c12642d9b6184/F-Strutture_dati/ES02_Riconoscitore_sequenza/README.md
  *
  * @author Filippo Bilardo
  * @version 1.0 17/03/25 - Versione iniziale
@@ -22,7 +23,7 @@ const int PIN_LED_VERDE = 8;                                             // Pin 
 const int PIN_LED_ROSSO = 13;                                            // Pin per il LED rosso
 const int LUNGHEZZA_SEQUENZA = 6;                                        // Lunghezza della sequenza da riconoscere
 char sequenzaInput[LUNGHEZZA_SEQUENZA] = {'9', '9', '9', '9', '9', '9'}; // Inizializza l'array
-char sequenzaCorretta[] = {'3','3','3','4','5','6'};                     // Sequenza predefinita da riconoscere
+char sequenzaCorretta[] = {'a','2','3','4','5','Z'};                     // Sequenza predefinita da riconoscere
 bool allarmeAttivo = false;                                              // Stato dell'allarme (attivo/disattivo)
 
 // Prototipi delle funzioni
