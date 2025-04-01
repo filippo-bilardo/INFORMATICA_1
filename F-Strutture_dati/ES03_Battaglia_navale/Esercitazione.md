@@ -41,11 +41,11 @@ Il progetto è stato sviluppato come esercizio didattico per il corso di Informa
 
 Questi sono i file template per gli esercizi. Contengono solo i prototipi delle funzioni e i commenti, senza implementazione:
 
-1. [Step 1: Inizializzazione e visualizzazione del campo](/home/git-projects/INFORMATICA_1_MY/F-Strutture_dati/batt_nav/es_battaglia_navale_step1.c)
-2. [Step 2: Posizionamento casuale della nave](/home/git-projects/INFORMATICA_1_MY/F-Strutture_dati/batt_nav/es_battaglia_navale_step2.c)
-3. [Step 3: Implementazione del meccanismo di sparo](/home/git-projects/INFORMATICA_1_MY/F-Strutture_dati/batt_nav/es_battaglia_navale_step3.c)
-4. [Step 4: Completamento del gioco](/home/git-projects/INFORMATICA_1_MY/F-Strutture_dati/batt_nav/es_battaglia_navale_step4.c)
-5. [Step 5: Aggiunta di colori](/home/git-projects/INFORMATICA_1_MY/F-Strutture_dati/batt_nav/es_battaglia_navale_step5.c)
+1. [Step 1: Inizializzazione e visualizzazione del campo](es_battaglia_navale_step1.c)
+2. [Step 2: Posizionamento casuale della nave](es_battaglia_navale_step2.c)
+3. [Step 3: Implementazione del meccanismo di sparo](es_battaglia_navale_step3.c)
+4. [Step 4: Completamento del gioco](es_battaglia_navale_step4.c)
+5. [Step 5: Aggiunta di colori](es_battaglia_navale_step5.c)
 
 
 ## Come usare questi esercizi
