@@ -1,4 +1,4 @@
-# Esercitazione sugli Array Bidimensionali in C
+# Array Bidimensionali in C
 
 ## Introduzione alle Matrici
 
