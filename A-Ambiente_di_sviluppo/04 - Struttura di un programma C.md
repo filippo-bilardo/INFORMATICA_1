@@ -145,9 +145,67 @@ int somma(int a, int b) {
 
 ---
 
+### **Analisi Dettagliata di un Programma "Hello World"**
+
+Per comprendere meglio la struttura di un programma C, analizziamo in dettaglio un classico esempio "Hello World":
+
+```c
+#include <stdio.h> //printf
+
+int main(void) 
+{
+  //stampiamo a schermo un messaggio di benvenuto
+  printf("Ciao Mondo!");
+ 
+  //terminiamo il programma
+  return 0;
+}
+```
+
+#### **Analisi Riga per Riga**
+
+1. **`#include <stdio.h> //printf`**
+   - **Direttiva al preprocessore**: Questa riga dice al preprocessore di includere il file di intestazione `stdio.h`, che contiene le dichiarazioni per le funzioni di input/output standard, come `printf`.
+   - **Commento**: Il commento `//printf` spiega brevemente che `stdio.h` contiene la definizione della funzione `printf`.
+
+2. **`int main(void)`**
+   - **Definizione della funzione principale**: `main` è la funzione principale che il sistema operativo esegue all'avvio del programma. Restituisce un valore intero (`int`).
+   - **Parametro `void`**: Indica che la funzione `main` non accetta argomenti.
+
+3. **`{`**
+   - **Inizio del blocco di codice**: Segna l'inizio del corpo della funzione `main`.
+
+4. **`//stampiamo a schermo un messaggio di benvenuto`**
+   - **Commento**: Spiega cosa fa l'istruzione successiva, migliorando la leggibilità del codice.
+
+5. **`printf("Ciao Mondo!");`**
+   - **Funzione `printf`**: Utilizzata per stampare testo sullo schermo. In questo caso, stampa "Ciao Mondo!".
+   - **Punto e virgola `;`**: Ogni istruzione in C deve terminare con un punto e virgola.
+
+6. **`//terminiamo il programma`**
+   - **Commento**: Indica la funzione dell'istruzione successiva.
+
+7. **`return 0;`**
+   - **Restituzione del valore di uscita**: Restituire `0` indica che il programma è terminato con successo. Altri valori possono indicare errori.
+
+8. **`}`**
+   - **Fine del blocco di codice**: Indica la fine del corpo della funzione `main`.
+
+#### **Riassunto del Funzionamento**
+
+- Il programma include la libreria `stdio.h` per usare la funzione `printf`.
+- Definisce una funzione principale `main`, che è il punto di partenza dell'esecuzione.
+- Usa `printf` per stampare "Ciao Mondo!" sullo schermo.
+- Restituisce `0` per indicare che il programma è terminato con successo.
+- I commenti migliorano la leggibilità spiegando cosa fanno le singole istruzioni.
+
+---
+
 ### **Punti Chiave**
 - La funzione `main` è obbligatoria: senza di essa, il programma non può essere eseguito.
 - Le sezioni opzionali, come le variabili globali e i prototipi di funzione, sono utili per migliorare la modularità e la leggibilità.
 - Un programma ben strutturato facilita il debugging, il testing e la manutenzione.
+- L'uso appropriato di commenti migliora la comprensione del codice.
+- Ogni istruzione in C deve terminare con un punto e virgola (`;`).
 
 La comprensione di questa struttura è il primo passo per scrivere programmi efficienti e leggibili in linguaggio C.

@@ -8,8 +8,10 @@
 ---
 ### Teoria
 1. **Introduzione ai linguaggi C e C++**  
-  - [01.1 - Storia e caratteristiche principali del linguaggio C](<01.1 - Storia e caratteristiche principali del linguaggio C.md>)
-  - [02.2 - Struttura di un programma C](<02.2 - Struttura di un programma C.md>)
+  - [01 - Storia e caratteristiche principali del linguaggio C](<01 - Storia e caratteristiche principali del linguaggio C.md>)
+  - [02 - Installazione ed utilizzo di VS Code su Windows](<02 - Installazione ed utilizzo di VS Code su Windows.md>)
+  - [03 - Installazione ed utilizzo di CodeBlocks su Windows](<03 - Installazione ed utilizzo di CodeBlocks su Windows.md>)
+  - [04 - Struttura di un programma C](<04 - Struttura di un programma C.md>)
   - [cloud developer environments](<cloud developer environments.md>)
   - [code playground](<code playground.md>) 
   - [hello](hello.md)

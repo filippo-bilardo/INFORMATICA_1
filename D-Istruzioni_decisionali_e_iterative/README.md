@@ -15,16 +15,19 @@ D.0.
  - [Problema dell'else pendente](<Problema dell'else pendente.md>)
 
 D.1. La selezione
+ - [La selezione](<D.1 La selezione.md>)
  - Istruzioni condizionali: `if`, `else`, `else if`, `switch`.
  - Esempi e casi d'uso.
 
 D.2. Cicli ed iterazioni
+ - [Cicli ed iterazioni](<D.2 Cicli ed iterazioni.md>)
  - `for`, `while`, `do-while`.
  - Break e continue  
  - Tecniche per ottimizzare i cicli.
  - Esercizi di laboratorio sui cicli.
 
 D.3. Gestione degli Errori
+ - [Gestione degli Errori](<D.3 Gestione degli Errori.md>)
  - Introduzione agli errori runtime.
  - Verifica delle condizioni e prevenzione degli errori.
  - Esempi di gestione degli errori nei programmi.
