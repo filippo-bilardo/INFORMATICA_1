@@ -21,10 +21,10 @@
 
 
 ### Parte 1: Fondamenti di HTML5
-5. [Struttura di base di una pagina HTML5](05_Struttura_base_HTML5.md)
-6. [Elementi e tag principali](06_Elementi_tag_principali.md)
-7. [Caratteri speciali e notazione di escape](07_Caratteri_speciali_escape.md)
-8. [Commenti e buone pratiche di leggibilità del codice](08_Commenti_buone_pratiche.md)
+02.01. [Struttura di base di una pagina HTML5](02.01_Struttura_base_HTML5.md)
+02.02. [Elementi e tag principali](02.02_Elementi_tag_principali.md)
+02.03. [Caratteri speciali e notazione di escape](02.03_Caratteri_speciali_escape.md)
+02.04. [Commenti e buone pratiche di leggibilità del codice](02.04_Commenti_buone_pratiche.md)
 
 ### Parte 2: Testo e Formattazione
 9. [Gestione del testo: paragrafi, titoli e liste](09_Gestione_testo.md)
