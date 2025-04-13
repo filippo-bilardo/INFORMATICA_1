@@ -27,33 +27,33 @@
 02.04. [Commenti e buone pratiche di leggibilità del codice](02.04_Commenti_buone_pratiche.md)
 
 ### Parte 2: Testo e Formattazione
-9. [Gestione del testo: paragrafi, titoli e liste](09_Gestione_testo.md)
-10. [Elementi inline e block-level](10_Elementi_inline_block.md)
-11. [Collegamenti ipertestuali](11_Collegamenti_ipertestuali.md)
-12. [Inserimento e gestione di immagini](12_Inserimento_gestione_immagini.md)
-13. [Tabelle: struttura e stile](13_Tabelle_struttura_stile.md)
+03.01. [Gestione del testo: paragrafi, titoli e liste](03.01_Gestione_testo.md)
+03.02. [Elementi inline e block-level](03.02_Elementi_inline_block.md)
+03.03. [Collegamenti ipertestuali](03.03_Collegamenti_ipertestuali.md)
+03.04. [Inserimento e gestione di immagini](03.04_Inserimento_gestione_immagini.md)
+03.05. [Tabelle: struttura e stile](03.05_Tabelle_struttura_stile.md)
 
 ### Parte 3: Struttura e Layout delle Pagine
-14. [Struttura delle pagine con HTML5](14_Struttura_pagine_HTML5.md)
-15. [Layout responsivi e flessibili](15_Layout_responsivi_flessibili.md)
-16. [Tecniche di posizionamento con CSS](16_Tecniche_posizionamento_CSS.md)
+04.01. [Struttura delle pagine con HTML5](04.01_Struttura_pagine_HTML5.md)
+04.02. [Layout responsivi e flessibili](04.02_Layout_responsivi_flessibili.md)
+04.03. [Tecniche di posizionamento con CSS](04.03_Tecniche_posizionamento_CSS.md)
 
 ### Parte 4: Form e Contenuti Multimediali
-17. [Form HTML](17_Form_HTML.md)
-18. [Audio e Video in HTML5](18_Audio_Video_HTML5.md)
+05.01. [Form HTML](05.01_Form_HTML.md)
+05.02. [Audio e Video in HTML5](05.02_Audio_Video_HTML5.md)
 
 ### Parte 5: API e Funzionalità Avanzate
-19. [API HTML5](19_API_HTML5.md)
-20. [Web Storage](20_Web_Storage.md)
-21. [Offline Web Applications](21_Offline_Web_Applications.md)
-22. [Progressive Web Apps](22_Progressive_Web_Apps.md)
-23. [Web Components](23_Web_Components.md)
-24. [Performance Optimization](24_Performance_Optimization.md)
+06.01. [API HTML5](06.01_API_HTML5.md)
+06.02. [Web Storage](06.02_Web_Storage.md)
+06.03. [Offline Web Applications](06.03_Offline_Web_Applications.md)
+06.04. [Progressive Web Apps](06.04_Progressive_Web_Apps.md)
+06.05. [Web Components](06.05_Web_Components.md)
+06.06. [Performance Optimization](06.06_Performance_Optimization.md)
 
 ### Parte 6: Semantica e Accessibilità
-25. [Nuovi tag semantici in HTML5 (header, footer, section, article)](25_Nuovi_tag_semantici.md)
-26. [Best practice per un markup semantico](26_Best_practice_markup_semantico.md)
-27. [Introduzione all'accessibilità web (WCAG e ARIA)](27_Introduzione_accessibilita_web.md)
+07.01. [Nuovi tag semantici in HTML5 (header, footer, section, article)](07.01_Nuovi_tag_semantici.md)
+07.02. [Best practice per un markup semantico](07.02_Best_practice_markup_semantico.md)
+07.03. [Introduzione all'accessibilità web (WCAG e ARIA)](07.03_Introduzione_accessibilita_web.md)
 
 ### Appendici
 A. [Riferimento completo ai tag HTML5](A_Riferimento_completo_tag_HTML5.md)
