@@ -2,11 +2,7 @@
 
 ---
 ### Esercitazioni
-- ES01. [Primi passi con HTML5](ES01/README.md)
-- ES02. [Creazione di un layout responsive](ES02/README.md)
-- ES03. [Form e validazione](ES03/README.md)
-- ES04. [Multimedia e API HTML5](ES04/README.md)
-- ES05. [Progetto finale: Sito web completo](ES05/README.md)
+- [ES01 - Creazione di una semplice pagina HTML](https://docs.google.com/presentation/d/1Ln-fThuBwAGrx0Ys9Tsy8wIILpvEpRtMdXyNX46idPo/edit?usp=sharing)
 
 ---
 ### Teoria
