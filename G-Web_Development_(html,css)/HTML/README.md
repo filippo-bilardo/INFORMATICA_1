@@ -2,6 +2,11 @@
 
 ---
 ### Esercitazioni
+- ES01. [Primi passi con HTML5](ES01/README.md)
+- ES02. [Creazione di un layout responsive](ES02/README.md)
+- ES03. [Form e validazione](ES03/README.md)
+- ES04. [Multimedia e API HTML5](ES04/README.md)
+- ES05. [Progetto finale: Sito web completo](ES05/README.md)
 
 ---
 ### Teoria
@@ -56,10 +61,10 @@
 - 07.03. [Introduzione all'accessibilità web (WCAG e ARIA)](07.03_Introduzione_accessibilita_web.md)
 
 ### Appendici
-A. [Riferimento completo ai tag HTML5](A_Riferimento_completo_tag_HTML5.md)
-B. [Strumenti utili per lo sviluppo HTML5](B_Strumenti_utili_sviluppo_HTML5.md)
-C. [Risorse online e comunità per il web development](C_Risorse_online_comunita.md)
-D. [Soluzioni agli esercizi](D_Soluzioni_esercizi.md)
+- A. [Riferimento completo ai tag HTML5](A_Riferimento_completo_tag_HTML5.md)
+- B. [Strumenti utili per lo sviluppo HTML5](B_Strumenti_utili_sviluppo_HTML5.md)
+- C. [Risorse online e comunità per il web development](C_Risorse_online_comunita.md)
+- D. [Soluzioni agli esercizi](D_Soluzioni_esercizi.md)
 
 ---
 [INDICE](../README.md)
