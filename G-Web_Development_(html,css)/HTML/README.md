@@ -6,19 +6,32 @@
 
 ---
 ### Teoria
-### Parte 1: Introduzione
-- 01-01. [Perché HTML5?](01.01_Perche_HTML5.md)
-- 01-02. [Breve storia del Web e degli standard HTML](01.02_Breve_storia_del_Web.md)
-- 01-03. [Le novità di HTML5 rispetto alle versioni precedenti](01.03_Novita_HTML5.md)
-- 01-04. [Strumenti per lo sviluppo web](01.04_Strumenti_sviluppo_web.md)
-- 01-05. [Il processo di standardizzazione di HTML5](01.05_Processo_standardizzazione_HTML5.md)
-- 01-06. [Best Practices per lo sviluppo HTML5](01.06_Best_Practices_HTML5.md)
-- 01-07. [HTML5 e il Mobile Web](01.07_HTML5_Mobile_Web.md)
-- 01-08. [Breve storia di Internet](01.08_Breve_storia_di_Internet.md)
-- 01-09. [Front-end e Back-end nello sviluppo web](01.09_Front_end_e_Back_end.md)
-- 01-10. [Siti web statici e dinamici](01.10_Siti_web_statici_e_dinamici.md)
-- 01-11. [Le tecnologie web: HTML, CSS e JavaScript](01.11_Tecnologie_web.md)
-- 01-12. [I protocolli del WWW e messaggi HTTP](01.12_Protocolli_WWW_e_messaggi_HTTP.md)
+### Parte 0: Introduzione
+- 00-01. [Breve storia di Internet](00.08_Breve_storia_di_Internet.md)
+- 00-02. [Breve storia del Web e degli standard HTML](00.02_Breve_storia_del_Web.md)
+- 00-03. [Perché HTML5?](00.01_Perche_HTML5.md)
+- 00-04. [Le novità di HTML5 rispetto alle versioni precedenti](00.03_Novita_HTML5.md)
+- 00-05. [Strumenti per lo sviluppo web](00.04_Strumenti_sviluppo_web.md)
+- 00-06. [Il processo di standardizzazione di HTML5](00.05_Processo_standardizzazione_HTML5.md)
+- 00-07. [Best Practices per lo sviluppo HTML5](00.06_Best_Practices_HTML5.md)
+- 00-08. [HTML5 e il Mobile Web](00.07_HTML5_Mobile_Web.md)
+- 00-09. [Front-end e Back-end nello sviluppo web](00.09_Front_end_e_Back_end.md)
+- 00-10. [Siti web statici e dinamici](00.10_Siti_web_statici_e_dinamici.md)
+- 00-11. [Le tecnologie web: HTML, CSS e JavaScript](00.11_Tecnologie_web.md)
+- 00-12. [I protocolli del WWW e messaggi HTTP](00.12_Protocolli_WWW_e_messaggi_HTTP.md)
+
+### Parte 1: Ambiente di sviluppo
+- 01.01. [Editor HTML e IDE](01.01_Editor_HTML_e_IDE.md)
+- 01.02. [Browser e strumenti di sviluppo integrati](01.02_Browser_e_strumenti_sviluppo.md)
+- 01.03. [Validatori e strumenti di debugging](01.03_Validatori_e_strumenti_debugging.md)
+- 01.04. [Gestione dei file e organizzazione del progetto](01.04_Gestione_file_organizzazione_progetto.md)
+- 01.05. [Configurazione dell'ambiente locale](01.05_Configurazione_ambiente_locale.md)
+- 01.06. [Utilizzo di server locali per lo sviluppo](01.06_Utilizzo_server_locali_sviluppo.md)
+- 01.07. [Git e controllo versione per progetti web](01.07_Git_controllo_versione.md)
+- 01.08. [Servizi di hosting per siti web](01.08_Servizi_hosting.md)
+- 01.09. [Code playground per HTML, CSS e JavaScript](01.09_Code_playground.md)
+- 01.10. [Editor WYSIWYG per lo sviluppo web](01.10_Editor_WYSIWYG.md)
+- 01.11. [Utilizzo di GitHub Pages](01.11_GitHub_Pages.md)
 
 
 ### Parte 2: Fondamenti di HTML5
