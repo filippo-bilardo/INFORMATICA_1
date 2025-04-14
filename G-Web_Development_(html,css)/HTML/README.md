@@ -73,7 +73,6 @@
 - A. [Riferimento completo ai tag HTML5](A_Riferimento_completo_tag_HTML5.md)
 - B. [Strumenti utili per lo sviluppo HTML5](B_Strumenti_utili_sviluppo_HTML5.md)
 - C. [Risorse online e comunità per il web development](C_Risorse_online_comunita.md)
-- D. [Soluzioni agli esercizi](D_Soluzioni_esercizi.md)
 
 ---
 [INDICE](../README.md)
