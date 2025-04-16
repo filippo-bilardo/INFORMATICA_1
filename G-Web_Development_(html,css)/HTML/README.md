@@ -40,7 +40,7 @@
 - 02.03. [Caratteri speciali e notazione di escape](02.03_Caratteri_speciali_escape.md)
 - 02.04. [Commenti e buone pratiche di leggibilità del codice](02.04_Commenti_buone_pratiche.md)
 - 02.05. [Sintassi dei tag e degli attributi, tag annidati e tag vuoti](02.05_Sintassi_tag_attributi.md)
-- 02.06. [i tag head e body](02.06_Tag_head_e_body.md)
+- 02.06. [I tag head e body](02.06_Tag_head_e_body.md)
 
 
 ### Parte 3: Testo e Formattazione
