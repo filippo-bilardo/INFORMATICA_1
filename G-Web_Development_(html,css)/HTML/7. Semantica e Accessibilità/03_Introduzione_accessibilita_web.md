@@ -252,3 +252,10 @@ Gli screen reader sono software che leggono ad alta voce il contenuto dello sche
 
 - NVDA (NonVisual Desktop Access): gratuito e open source, popolare su Windows
 - JAWS (
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Best practice per un markup semantico](<02_Best_practice_markup_semantico.md>)
+- [➡️ Riferimento completo ai tag HTML5](<../Appendici/01_Riferimento_completo_tag_HTML5.md>)

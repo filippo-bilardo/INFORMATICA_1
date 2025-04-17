@@ -113,4 +113,9 @@ Per garantire la compatibilità della struttura base, è consigliabile adottare 
 Il testing della struttura su diversi browser è un passaggio cruciale. Strumenti come BrowserStack, CrossBrowserTesting o il più economico servizio integrato in Firefox Developer Edition (Responsive Design Mode) permettono di verificare come la pagina viene visualizzata su diverse combinazioni di browser e dispositivi. Particolare attenzione dovrebbe essere dedicata a Internet Explorer 11, che pur essendo obsoleto è ancora utilizzato in alcuni contesti aziendali, e ai browser mobile, che potrebbero avere limitazioni specifiche. Un approccio sistematico al testing cross-browser permette di identificare e risolvere problemi di compatibilità prima che raggiungano gli utenti finali.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Utilizzo di GitHub Pages](<../1. Ambiente di sviluppo/11_GitHub_Pages.md>)
+- [➡️ Elementi e tag principali](<02_Elementi_tag_principali.md>)
+
