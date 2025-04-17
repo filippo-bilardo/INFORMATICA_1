@@ -454,4 +454,8 @@ Flexbox e CSS Grid hanno rivoluzionato il modo in cui strutturiamo le pagine web
 Ricordate che un buon design responsive non riguarda solo l'adattamento del layout, ma anche l'ottimizzazione di immagini, tipografia e interazioni per garantire prestazioni eccellenti su tutti i dispositivi. Implementando le tecniche discusse in questo capitolo, potrete creare siti web che offrono un'esperienza utente coerente e di alta qualità, indipendentemente dal dispositivo utilizzato per accedervi.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Struttura delle pagine con HTML5](<01_Struttura_pagine_HTML5.md>)
+- [➡️ Tecniche di posizionamento con CSS](<03_Tecniche_posizionamento_CSS.md>)

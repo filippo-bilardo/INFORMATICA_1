@@ -446,4 +446,8 @@ Con l'evoluzione del CSS, abbiamo assistito a un significativo miglioramento nel
 Implementare le tecniche di posizionamento discusse in questo capitolo vi permetterà di creare interfacce web responsive, accessibili e visivamente coerenti su tutti i dispositivi. Ricordate che un buon layout non è solo una questione estetica, ma influisce direttamente sull'usabilità, l'accessibilità e l'esperienza complessiva dell'utente.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Layout responsivi e flessibili](<02_Layout_responsivi_flessibili.md>)
+- [➡️ Form HTML](<../5. Form e Input/01_Form_HTML.md>)

@@ -464,9 +464,6 @@ Implementare una struttura HTML5 corretta porta numerosi vantaggi: migliora l'ac
 
 La vera potenza di HTML5 emerge quando la struttura semantica viene combinata con CSS moderno e JavaScript, creando esperienze web ricche, responsive e accessibili. Adottare le best practice discusse in questo capitolo è essenziale per creare pagine web moderne che siano pronte per il futuro del web.
 
----
-[Torna all'Indice](README.md)
-
 Gli elementi semantici di HTML5 hanno una corrispondenza diretta con i landmark ARIA (Accessible Rich Internet Applications), che aiutano gli utenti di screen reader a navigare nella pagina:
 
 | Elemento HTML5 | Ruolo ARIA equivalente |
@@ -475,4 +472,14 @@ Gli elementi semantici di HTML5 hanno una corrispondenza diretta con i landmark 
 | `<nav>`        | `role="navigation"`    |
 | `<main>`       | `role="main"`          |
 | `<aside>`      | `role="complementary"` |
-| `<footer>`     |
+| `<footer>`     | `role="contentinfo"`   |
+| `<section>`    | `role="region"`        |
+| `<article>`    | `role="article"`       |
+| `<form>`       | `role="form"`          |
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Elementi multimediali](<../3. Testo e Formattazione/05_Elementi_multimediali.md>)
+- [➡️ Layout responsivi e flessibili](<02_Layout_responsivi_flessibili.md>)
