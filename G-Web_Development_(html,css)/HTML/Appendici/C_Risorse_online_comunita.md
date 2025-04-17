@@ -236,3 +236,8 @@ Rimanere aggiornati sulle tendenze e le innovazioni è fondamentale nel campo in
 
 ---
 [INDICE](README.md)
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ B. Strumenti utili per lo sviluppo HTML5](<B_Strumenti_utili_sviluppo_HTML5.md>)

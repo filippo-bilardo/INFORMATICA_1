@@ -397,3 +397,9 @@ Questi elementi forniscono significato strutturale al contenuto:
   ```
 
 - `<nav>` - Sezione di navig
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Guida Precedente](<../Accessibilità/03_Introduzione_accessibilita_web.md>)
+- [➡️ B. Strumenti utili per lo sviluppo HTML5](<B_Strumenti_utili_sviluppo_HTML5.md>)
