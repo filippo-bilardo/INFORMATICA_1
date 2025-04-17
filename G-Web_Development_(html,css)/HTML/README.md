@@ -41,7 +41,6 @@
 - 02.05. [Sintassi dei tag e degli attributi, tag annidati e tag vuoti](02.05_Sintassi_tag_attributi.md)
 - 02.06. [I tag head e body](02.06_Tag_head_e_body.md)
 
-
 ### 3. Testo e Formattazione
 - 03.01. [Gestione del testo: paragrafi, titoli e liste](03.01_Gestione_testo.md)
 - 03.02. [Elementi inline e block-level](03.02_Elementi_inline_block.md)
