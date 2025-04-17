@@ -43,9 +43,33 @@ Il mantenimento della coerenza visiva e semantica è fondamentale quando si comb
 ### Accessibilità del testo
 Le considerazioni di accessibilità per il testo sono fondamentali per garantire che i contenuti web siano fruibili da tutti gli utenti, inclusi quelli con disabilità visive, cognitive o motorie. I principi base includono: utilizzare una struttura semantica corretta, con titoli gerarchici appropriati e markup significativo; mantenere un contrasto sufficiente tra testo e sfondo (conformemente alle linee guida WCAG); permettere il ridimensionamento del testo senza perdita di funzionalità; e fornire alternative testuali per contenuti non testuali come immagini. È inoltre importante evitare di comunicare informazioni esclusivamente attraverso colori o formattazione visiva, poiché questi elementi potrebbero non essere percepibili da tutti gli utenti.
 
-L'utilizzo di ARIA (Accessible Rich Internet Applications) può migliorare significativamente l'accessibilità del testo, specialmente in contesti interattivi o dinamici. Attributi come `aria-label` possono fornire descrizioni alternative per elementi che non hanno un testo visibile, mentre `aria-expanded` e `aria-controls` migliorano la navigazione in contenuti collassabili come FAQ o menu a discesa. Ruoli ARIA come `role="heading"` con `aria-level` possono essere utilizzati quando la struttura semantica standard non è applicabile, sebbene sia sempre preferibile utilizzare elementi HTML nativi quando possibile.
+L'utilizzo di ARIA (Accessible Rich Internet Applications) può migliorare significativamente l'accessibilità del testo, specialmente in contesti interattivi o dinamici. Attributi come `aria-label` possono fornire descrizioni alternative per elementi che non hanno un testo visibile, mentre `aria-expanded` e `aria-controls` migliorano la navigazione in contenuti collassabili come FAQ o menu a discesa. Ruoli ARIA come `role="heading"` con `aria-level` possono essere utilizzati quando la struttura semantica standard non è applicabile, sebbene sia sempre preferibile utilizzare elementi HTML nativi quando possibile. Ecco un esempio pratico di implementazione ARIA in un menu collassabile:
 
-I test di leggibilità e accessibilità dovrebbero essere parte integrante del processo di sviluppo. Strumenti automatici come WAVE, axe o Lighthouse possono identificare problemi comuni come contrasto insufficiente, mancanza di testo alternativo o struttura di intestazioni errata. Tuttavia, è essenziale complementare questi test automatici con valutazioni manuali e test con utenti reali che utilizzano tecnologie assistive. Il supporto per screen reader e altre tecnologie assistive può essere ottimizzato seguendo le best practices di markup semantico, fornendo descrizioni appropriate per immagini e link, e testando regolarmente con software come NVDA, JAWS o VoiceOver per verificare che il contenuto sia navigabile e comprensibile anche senza riferimenti visivi.
+```html
+<button aria-expanded="false" aria-controls="faq-1">
+  Cos'è l'accessibilità web?
+</button>
+<div id="faq-1" hidden>
+  L'accessibilità web si riferisce alla pratica di rendere i siti web utilizzabili
+  da tutte le persone, indipendentemente dalle loro abilità o disabilità.
+</div>
+```
+
+I test di leggibilità e accessibilità dovrebbero essere parte integrante del processo di sviluppo. Strumenti automatici come WAVE, axe, Lighthouse, o il Web Accessibility Evaluation Tool (WAVE) possono identificare problemi comuni come contrasto insufficiente, mancanza di testo alternativo o struttura di intestazioni errata. Strumenti di analisi della leggibilità come Hemingway Editor o Readable possono aiutare a valutare la complessità del testo e suggerire miglioramenti per renderlo più comprensibile. Tuttavia, è essenziale complementare questi test automatici con valutazioni manuali e test con utenti reali che utilizzano tecnologie assistive.
+
+Il supporto per screen reader e altre tecnologie assistive può essere ottimizzato seguendo le best practices di markup semantico, fornendo descrizioni appropriate per immagini e link, e testando regolarmente con software come NVDA, JAWS o VoiceOver per verificare che il contenuto sia navigabile e comprensibile anche senza riferimenti visivi. Alcune linee guida fondamentali includono:
+
+- Utilizzare attributi `alt` descrittivi per tutte le immagini informative
+- Assicurarsi che i link abbiano testo significativo (evitare "clicca qui" o "leggi di più")
+- Implementare correttamente le etichette dei form con l'elemento `<label>`
+- Verificare che la navigazione da tastiera funzioni correttamente con l'attributo `tabindex`
+- Fornire trascrizioni o sottotitoli per contenuti audio e video
+
+La conformità agli standard WCAG (Web Content Accessibility Guidelines) a livelli A, AA o AAA offre un framework completo per garantire che il testo e altri contenuti web siano accessibili a un pubblico il più ampio possibile.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Precedente: Introduzione HTML](<../2. Introduzione HTML/04_Strumenti_sviluppo_web.md>)
+- [➡️ Successivo: Formattazione del testo](<02_Formattazione_testo.md>)
