@@ -71,5 +71,5 @@ La conformità agli standard WCAG (Web Content Accessibility Guidelines) a livel
 
 ### Navigazione
 - [📑 Indice](<../README.md>)
-- [⬅️ Precedente: Introduzione HTML](<../2. Introduzione HTML/04_Strumenti_sviluppo_web.md>)
-- [➡️ Successivo: Formattazione del testo](<02_Formattazione_testo.md>)
+- [⬅️ I Tag head e body](<../2. Fondamenti di HTML5/06_Tag_head_e_body.md>)
+- [➡️ Elementi inline e block-level](<02_Elementi_inline_block.md>)

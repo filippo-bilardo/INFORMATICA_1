@@ -427,4 +427,4 @@ Le tabelle HTML forniscono un potente strumento per presentare dati strutturati.
 ### Navigazione
 - [📑 Indice](<../README.md>)
 - [⬅️ Inserimento e gestione di immagini](<04_Inserimento_gestione_immagini.md>)
-- [➡️ API HTML5](<../6. API e Funzionalità Avanzate/01_API_HTML5.md>)
+- [➡️ Struttura delle pagine con HTML5](<../4. Struttura e Layout delle Pagine/01_Struttura_pagine_HTML5.md>)
