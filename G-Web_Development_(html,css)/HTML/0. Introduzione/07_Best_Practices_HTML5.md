@@ -95,4 +95,8 @@ Partecipare a **progetti open source** rappresenta un'eccellente opportunità pe
 Infine, la **sperimentazione personale** rimane uno dei modi più efficaci per apprendere nuove tecnologie e tecniche. Creare progetti personali, ricreare interfacce esistenti o partecipare a sfide di codifica come #100DaysOfCode può fornire motivazione e un contesto pratico per applicare nuove conoscenze.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Il processo di standardizzazione di HTML5](<06_Processo_standardizzazione_HTML5.md>)
+- [➡️ HTML5 e il Mobile Web](<08_HTML5_Mobile_Web.md>)

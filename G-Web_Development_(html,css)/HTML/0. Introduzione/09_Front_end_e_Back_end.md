@@ -73,4 +73,8 @@ La distinzione tra front-end e back-end è fondamentale nell'architettura web mo
 Con l'evoluzione continua delle tecnologie web, i confini tra front-end e back-end stanno diventando sempre più sfumati, con approcci come il JavaScript full-stack che permettono agli sviluppatori di lavorare su entrambi i lati utilizzando lo stesso linguaggio. Tuttavia, la comprensione delle responsabilità e delle tecnologie specifiche di ciascuna area rimane cruciale per chiunque voglia eccellere nello sviluppo web.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ HTML5 e il Mobile Web](<08_HTML5_Mobile_Web.md>)
+- [➡️ Siti web statici e dinamici](<10_Siti_web_statici_e_dinamici.md>)

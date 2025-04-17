@@ -344,4 +344,8 @@ Il Web Storage rappresenta un potente strumento per migliorare l'esperienza uten
 Per applicazioni che necessitano di funzionalità più avanzate, come la gestione di grandi quantità di dati strutturati o query complesse, è consigliabile considerare alternative come IndexedDB o soluzioni basate su cloud. Tuttavia, per molti casi d'uso comuni, il Web Storage offre un equilibrio ottimale tra semplicità, performance e funzionalità.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ API HTML5](<01_API_HTML5.md>)
+- [➡️ Offline Web Applications](<03_Offline_Web_Applications.md>)

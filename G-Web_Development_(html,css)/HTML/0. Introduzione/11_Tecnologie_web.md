@@ -270,4 +270,8 @@ HTML, CSS e JavaScript formano il triumvirato fondamentale delle tecnologie web 
 Con l'evoluzione continua del web, queste tecnologie si stanno espandendo e migliorando, offrendo agli sviluppatori strumenti sempre più potenti per creare esperienze web ricche e accessibili. La padronanza di HTML, CSS e JavaScript rimane fondamentale per chiunque voglia intraprendere una carriera nello sviluppo web, costituendo la base su cui si costruiscono competenze più avanzate e specializzate.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Siti web statici e dinamici](<10_Siti_web_statici_e_dinamici.md>)
+- [➡️ I protocolli del WWW e messaggi HTTP](<12_Protocolli_WWW_e_messaggi_HTTP.md>)

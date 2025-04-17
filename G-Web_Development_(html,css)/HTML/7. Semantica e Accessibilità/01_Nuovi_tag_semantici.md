@@ -288,3 +288,11 @@ La conversione da layout basati su div a layout semantici è un processo gradual
 </main>
 
 <aside><!-- Contenuto della sidebar --></aside>
+```
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Performance Optimization](<../6. API e Funzionalità Avanzate/06_Performance_Optimization.md>)
+- [➡️ Best practice per un markup semantico](<02_Best_practice_markup_semantico.md>)

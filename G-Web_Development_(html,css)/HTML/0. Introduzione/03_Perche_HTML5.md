@@ -28,4 +28,8 @@ Il futuro di HTML5 è caratterizzato da una stretta integrazione con altre tecno
 HTML5 non è più visto come una versione statica del linguaggio, ma come uno "standard vivente" in continua evoluzione. Le specifiche HTML5.1 e HTML5.2 hanno già aggiunto nuove funzionalità e perfezionato quelle esistenti, mentre gruppi di lavoro continuano a sviluppare e standardizzare nuove API e funzionalità. Tra le aree di sviluppo più promettenti troviamo WebAssembly per performance quasi native, Web Components per la creazione di elementi personalizzati riutilizzabili, API per realtà virtuale e aumentata, e miglioramenti continui nelle capacità grafiche e multimediali. Questa evoluzione continua garantisce che HTML5 rimanga rilevante e all'avanguardia, adattandosi alle nuove esigenze degli sviluppatori e degli utenti in un panorama tecnologico in rapido cambiamento.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Breve storia del Web e degli standard HTML](<02_Breve_storia_del_Web.md>)
+- [➡️ Le novità di HTML5](<04_Novita_HTML5.md>)

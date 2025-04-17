@@ -50,4 +50,8 @@ Per la collaborazione in tempo reale, strumenti come VS Code Live Share permetto
 L'automazione del workflow è gestita attraverso task runner e build tools che standardizzano processi ripetitivi. Gulp eccelle nell'orchestrazione di task sequenziali come compilazione SASS, minificazione e ottimizzazione immagini. Webpack si è affermato come bundler dominante per applicazioni JavaScript moderne, gestendo dipendenze, ottimizzando asset e abilitando hot module replacement durante lo sviluppo. Vite rappresenta l'evoluzione di questi strumenti, offrendo tempi di avvio istantanei grazie all'utilizzo di ES modules nativi. Completano l'ecosistema i package manager come npm e yarn, che gestiscono dipendenze, script di build e pubblicazione di pacchetti, standardizzando l'installazione di librerie e strumenti e facilitando la condivisione di codice riutilizzabile attraverso registri pubblici e privati.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Le novità di HTML5](<04_Novita_HTML5.md>)
+- [➡️ Il processo di standardizzazione di HTML5](<06_Processo_standardizzazione_HTML5.md>)

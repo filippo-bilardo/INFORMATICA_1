@@ -285,3 +285,10 @@ https://www.deque.com/axe/
 ```
 
 La verifica della compatibilità cross-browser è essenziale per garantire
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Nuovi tag semantici](<01_Nuovi_tag_semantici.md>)
+- [➡️ Introduzione all'accessibilità web](<03_Introduzione_accessibilita_web.md>)

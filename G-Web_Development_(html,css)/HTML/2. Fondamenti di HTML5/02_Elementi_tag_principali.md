@@ -48,4 +48,8 @@ La nidificazione corretta degli elementi è altrettanto cruciale: alcuni element
 Evitare l'uso eccessivo di `<div>` è una best practice che deriva direttamente dall'approccio semantico di HTML5. Sebbene `<div>` rimanga utile come contenitore generico quando nessun altro elemento è appropriato, l'abuso di questo elemento porta a quello che viene chiamato "div soup" - codice difficile da leggere, mantenere e debuggare. Preferire elementi semantici quando possibile non è solo una questione di purismo, ma ha impatti pratici: i browser, i motori di ricerca e le tecnologie assistive possono interpretare meglio il significato e la struttura della pagina, migliorando l'esperienza utente per tutti.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Struttura di base di una pagina HTML5](<01_Struttura_base_HTML5.md>)
+- [➡️ Caratteri speciali e notazione di escape](<03_Caratteri_speciali_escape.md>)

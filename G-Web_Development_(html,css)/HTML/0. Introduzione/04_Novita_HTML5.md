@@ -46,4 +46,8 @@ Un'importante innovazione è rappresentata dagli attributi `async` e `defer` per
 Questi miglioramenti nelle prestazioni e nell'ottimizzazione hanno contribuito significativamente a rendere le applicazioni web moderne più reattive e fluide, riducendo i tempi di caricamento e migliorando l'esperienza utente complessiva. L'attenzione alle performance è diventata un aspetto centrale dello sviluppo web contemporaneo, con HTML5 che fornisce gli strumenti necessari per creare applicazioni web veloci ed efficienti su qualsiasi dispositivo.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Perché HTML5](<03_Perche_HTML5.md>)
+- [➡️ Strumenti per lo sviluppo web](<05_Strumenti_sviluppo_web.md>)

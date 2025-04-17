@@ -218,4 +218,8 @@ L'**evoluzione delle PWA** continua con funzionalità come "Trusted Web Activiti
 La **convergenza tra web e native** rappresenta forse la tendenza più significativa, con framework come React Native for Web e tecnologie come WebAssembly che sfumano i confini tra piattaforme. Questa convergenza promette un futuro in cui gli sviluppatori potranno creare esperienze coerenti e performanti su qualsiasi dispositivo, mantenendo i vantaggi di apertura, accessibilità e reach globale che hanno reso il web la piattaforma più importante e inclusiva mai creata.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Best Practices per lo sviluppo HTML5](<07_Best_Practices_HTML5.md>)
+- [➡️ Front-end e Back-end nello sviluppo web](<09_Front_end_e_Back_end.md>)

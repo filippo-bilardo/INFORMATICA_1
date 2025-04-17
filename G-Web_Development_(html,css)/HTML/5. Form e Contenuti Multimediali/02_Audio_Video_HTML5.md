@@ -277,4 +277,8 @@ Quando si incorporano elementi multimediali nelle pagine web, è importante segu
 L'introduzione degli elementi multimediali nativi in HTML5 ha rappresentato un importante passo avanti per il web, rendendo più accessibile e standardizzata l'incorporazione di contenuti audio e video. Sfruttando appieno le potenzialità di questi elementi, è possibile creare esperienze multimediali ricche e coinvolgenti, mantenendo al contempo l'accessibilità e le performance del sito.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Form HTML](<01_Form_HTML.md>)
+- [➡️ API HTML5](<../6. API e Funzionalità Avanzate/01_API_HTML5.md>)

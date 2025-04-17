@@ -31,4 +31,8 @@ Dopo la standardizzazione ufficiale di HTML5, il Web è entrato in un'era di evo
 L'importanza delle applicazioni web è cresciuta esponenzialmente, con molti servizi che hanno spostato la loro offerta dal desktop al browser. Progressive Web Apps, WebAssembly, e API avanzate come WebGL e Web Components hanno ulteriormente ampliato le capacità delle applicazioni basate su browser, sfumando sempre più il confine tra applicazioni web e native. Il futuro degli standard web continua a evolversi con HTML5.1, HTML5.2 e oltre, con un'attenzione crescente verso performance, sicurezza, accessibilità e supporto per nuove tecnologie come realtà virtuale, realtà aumentata e Internet delle cose, mantenendo il Web una piattaforma universale, aperta e in continua evoluzione.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Breve storia di Internet](<01_Breve_storia_di_Internet.md>)
+- [➡️ Perché HTML5](<03_Perche_HTML5.md>)

@@ -546,3 +546,9 @@ class ColorPicker extends HTMLElement {
     `;
     
     //
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Progressive Web Apps](<04_Progressive_Web_Apps.md>)
+- [➡️ Performance Optimization](<06_Performance_Optimization.md>)

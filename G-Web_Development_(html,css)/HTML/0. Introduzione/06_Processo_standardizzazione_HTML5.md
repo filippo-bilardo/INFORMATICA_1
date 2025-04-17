@@ -52,4 +52,8 @@ Le **nuove aree di standardizzazione** includono tecnologie emergenti come WebAs
 In questo contesto dinamico, il processo di standardizzazione continua a bilanciare l'innovazione con la stabilità, garantendo che il web rimanga una piattaforma aperta, accessibile e potente per la comunicazione e l'applicazione globale.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Strumenti per lo sviluppo web](<05_Strumenti_sviluppo_web.md>)
+- [➡️ Best Practices per lo sviluppo HTML5](<07_Best_Practices_HTML5.md>)

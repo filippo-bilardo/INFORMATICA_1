@@ -166,4 +166,9 @@ La scelta del server web appropriato è altrettanto importante quanto la decisio
 La scelta migliore dipende dalle specifiche esigenze del progetto, dal pubblico target e dalle risorse disponibili. In molti casi, un approccio ibrido o progressivo può rappresentare la soluzione ottimale, permettendo di iniziare con un sito statico e aggiungere gradualmente funzionalità dinamiche secondo necessità.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Front-end e Back-end nello sviluppo web](<09_Front_end_e_Back_end.md>)
+- [➡️ Le tecnologie web: HTML, CSS e JavaScript](<11_Tecnologie_web.md>)
+

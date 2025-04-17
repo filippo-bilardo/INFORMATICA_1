@@ -425,7 +425,8 @@ Implementare una PWA non richiede necessariamente una completa riscrittura dell'
 Con il crescente supporto dei browser e l'adozione da parte di grandi aziende, le PWA stanno diventando sempre più mainstream, offrendo un'alternativa valida alle app native in molti scenari. Seguendo le best practice e le strategie discusse in questo capitolo, è possibile creare applicazioni web che non solo soddisfano le aspettative degli utenti moderni, ma le superano, offrendo esperienze veloci, affidabili e coinvolgenti su qualsiasi piattaforma.
 
 ---
-[Torna all'Indice](README.md)
 
-1. **Push** (invia) le risorse critiche per la visualizzazione iniziale
-2. **Render** (renderizza) il percorso iniziale il più rapidamente poss
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Offline Web Applications](<03_Offline_Web_Applications.md>)
+- [➡️ Web Components](<05_Web_Components.md>)

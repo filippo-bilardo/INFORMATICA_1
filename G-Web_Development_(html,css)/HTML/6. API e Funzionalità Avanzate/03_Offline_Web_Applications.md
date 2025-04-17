@@ -347,19 +347,15 @@ function createConnectivityIndicator() {
   window.addEventListener('offline', updateStatus);
   updateStatus();
 }
-
-## Conclusione
-
-Le applicazioni web offline rappresentano un'evoluzione fondamentale nello sviluppo web, trasformando il web da una piattaforma dipendente dalla connessione a un ambiente capace di offrire esperienze utente continue e affidabili in qualsiasi condizione di rete.
-
-I Service Workers, il cuore delle applicazioni offline, offrono un controllo senza precedenti sulle richieste di rete, permettendo strategie di caching sofisticate e sincronizzazione in background. Combinati con le API di Cache e Storage, consentono di creare applicazioni web che non solo funzionano offline, ma offrono anche prestazioni migliori grazie al caricamento delle risorse dalla cache locale.
-
-Implementare funzionalità offline nelle applicazioni web non è più un lusso ma una necessità in un mondo dove gli utenti si aspettano di poter accedere ai contenuti e utilizzare i servizi in qualsiasi momento e luogo. Seguendo le best practice e le strategie discusse in questo capitolo, è possibile creare applicazioni web robuste che offrono un'esperienza utente eccellente indipendentemente dallo stato della connessione.
-
----
-[Torna all'Indice](README.md)
 ```
 
 ## Conclusione
 
-Le applicazioni web offline rappresentano un importante passo avanti nell'evoluzione del web, avvicinando l'esperienza utente a quella delle applicazioni native. Grazie a tecnologie come Service Workers, Cache API
+Le applicazioni web offline rappresentano un'importante passo avanti nell'evoluzione del web, avvicinando l'esperienza utente a quella delle applicazioni native. Grazie a tecnologie come Service Workers, Cache API, Web App Manifest e IndexedDB, è possibile creare applicazioni web che funzionano anche in assenza di connessione internet, offrendo un'esperienza utente fluida e continua.
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Web Storage](<02_Web_Storage.md>)
+- [➡️ Progressive Web Apps](<04_Progressive_Web_Apps.md>)

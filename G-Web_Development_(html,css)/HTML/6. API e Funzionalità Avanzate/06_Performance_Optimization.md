@@ -297,3 +297,10 @@ Alcuni principi chiave da tenere a mente:
 5. **Automatizza**: integra i test di performance nel processo di sviluppo e deployment
 
 Implementando queste tecniche e mantenendo un focus costante sulle performance, potrai creare applicazioni web veloci, reattive e in grado di offrire un'esperienza utente eccellente su qualsiasi dispositivo e connessione.
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Web Components](<05_Web_Components.md>)
+- [➡️ Nuovi tag semantici](<../7. Semantica e Accessibilità/01_Nuovi_tag_semantici.md>)

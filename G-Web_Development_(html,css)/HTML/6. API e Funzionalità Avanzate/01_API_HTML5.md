@@ -400,4 +400,8 @@ Dalle API di Storage che permettono la persistenza dei dati, alle API di Geoloca
 Padroneggiare queste API è essenziale per qualsiasi sviluppatore web che desideri creare applicazioni all'avanguardia. Sebbene in questo capitolo abbiamo esplorato solo alcune delle API più importanti, il panorama è in continua evoluzione, con nuove interfacce che vengono regolarmente standardizzate per rispondere alle esigenze crescenti delle applicazioni web moderne.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Audio e Video in HTML5](<../5. Form e Contenuti Multimediali/02_Audio_Video_HTML5.md>)
+- [➡️ Web Storage](<02_Web_Storage.md>)
