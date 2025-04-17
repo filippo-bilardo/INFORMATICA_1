@@ -253,4 +253,8 @@ I protocolli web, in particolare HTTP, costituiscono l'infrastruttura di comunic
 Con l'evoluzione continua del web, anche i protocolli si stanno evolvendo per migliorare prestazioni, sicurezza e funzionalità. HTTP/2 e HTTP/3 stanno introducendo ottimizzazioni significative, mentre HTTPS è diventato lo standard de facto per le comunicazioni web sicure. La padronanza di questi protocolli e delle loro caratteristiche rappresenta una competenza essenziale per chiunque lavori nel campo dello sviluppo web e delle tecnologie Internet.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Le tecnologie web: HTML, CSS e JavaScript](<11_Tecnologie_web.md>)
+- [➡️ Editor HTML e IDE](<../1. Ambiente di sviluppo/01_Editor_HTML_e_IDE.md>)

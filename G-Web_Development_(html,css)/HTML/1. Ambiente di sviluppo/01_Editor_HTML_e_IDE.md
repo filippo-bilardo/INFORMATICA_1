@@ -72,4 +72,8 @@ La scelta dell'editor o dell'IDE giusto può migliorare significativamente la pr
 - [Guida a Sublime Text per sviluppatori web](https://www.taniarascia.com/setting-up-sublime-text-3-for-web-development/)
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ I protocolli del WWW e messaggi HTTP](<../0. Introduzione/12_Protocolli_WWW_e_messaggi_HTTP.md>)
+- [➡️ Browser e strumenti di sviluppo integrati](<02_Browser_e_strumenti_sviluppo.md>)

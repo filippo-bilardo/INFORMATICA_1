@@ -42,4 +42,7 @@ Le preoccupazioni per la privacy e la sicurezza sono diventate centrali, special
 Oggi, con oltre 4,5 miliardi di utenti in tutto il mondo, Internet è diventato un'infrastruttura fondamentale per la società umana, influenzando praticamente ogni aspetto della vita moderna, dall'economia all'educazione, dalla politica all'intrattenimento. La sua evoluzione continua, con tecnologie emergenti come il 5G, la realtà virtuale e aumentata, e il quantum computing che promettono di portare nuove trasformazioni nei prossimi decenni.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [➡️ Breve storia del Web e degli standard HTML](<02_Breve_storia_del_Web.md>)
