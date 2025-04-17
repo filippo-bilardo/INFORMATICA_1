@@ -302,4 +302,8 @@ Le immagini sono elementi fondamentali per creare pagine web coinvolgenti e info
 L'ottimizzazione delle immagini per il web non è solo una questione tecnica, ma ha un impatto significativo sull'esperienza utente, sull'accessibilità e sul posizionamento nei motori di ricerca. Implementando le best practice discusse in questo capitolo, è possibile creare siti web che caricano rapidamente, sono accessibili a tutti gli utenti e offrono un'esperienza visiva di alta qualità su qualsiasi dispositivo.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Collegamenti ipertestuali](<03_Collegamenti_ipertestuali.md>)
+- [➡️ Tabelle: struttura e stile](<05_Tabelle_struttura_stile.md>)

@@ -416,24 +416,15 @@ Per creare tabelle efficaci e performanti, è importante seguire alcune best pra
 
 8. **Limitare l'uso di `colspan` e `rowspan`**: questi attributi possono rendere le tabelle più difficili da comprendere e mantenere.
 
+- Specificare `width` e `height` delle celle quando possibile
+
 ## Conclusione
 
-Le tabelle HTML rappresentano uno strumento potente per la presentazione di dati strutturati sul web. Grazie agli elementi semantici introdotti in HTML5, è possibile creare tabelle che non solo presentano i dati in modo chiaro ed efficace, ma sono anche accessibili, responsive e facili da mantenere.
-
-Padroneggiare la struttura delle tabelle e le tecniche di stilizzazione CSS permette di trasformare semplici griglie di dati in potenti strumenti di visualizzazione delle informazioni, migliorando significativamente l'esperienza utente e l'usabilità del sito web.
-
-Ricordate sempre che, sebbene le tabelle siano strumenti potenti per i dati tabulari, non dovrebbero mai essere utilizzate per scopi di layout della pagina, per i quali esistono soluzioni CSS moderne come Flexbox e Grid che offrono maggiore flessibilità e controllo.
+Le tabelle HTML forniscono un potente strumento per presentare dati strutturati. Sebbene il loro uso puramente per scopi di layout sia ormai scoraggiato (in favore di CSS Grid e Flexbox), rimangono essenziali per la presentazione di dati tabulari. Seguendo le best practices e utilizzando tutti gli elementi strutturali forniti da HTML5, è possibile creare tabelle accessibili, semanticamente corrette e visivamente gradevoli.
 
 ---
-[Torna all'Indice](README.md)
 
-Per utilizzare le tabelle in modo efficace:
-
-- **Usare le tabelle solo per dati tabulari**, non per layout di pagina
-- Mantenere le tabelle semplici quando possibile, suddividendo tabelle complesse in più tabelle più piccole
-- Utilizzare markup semantico appropriato (`<thead>`, `<tbody>`, `<th>`, ecc.)
-- Implementare tecniche responsive per garantire la fruibilità su tutti i dispositivi
-
-Per ottimizzare le prestazioni di rendering delle tabelle:
-
-- Specificare `width` e `height` delle celle quando possibile
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Inserimento e gestione di immagini](<04_Inserimento_gestione_immagini.md>)
+- [➡️ API HTML5](<../6. API e Funzionalità Avanzate/01_API_HTML5.md>)

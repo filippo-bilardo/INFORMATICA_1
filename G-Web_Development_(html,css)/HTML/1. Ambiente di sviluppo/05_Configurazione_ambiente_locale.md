@@ -168,4 +168,8 @@ Un ambiente di sviluppo locale ben configurato è la base per un flusso di lavor
 - [Modern Web Development Setup](https://www.smashingmagazine.com/2021/06/web-development-setup/)
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Gestione dei file e organizzazione del progetto](<04_Gestione_file_organizzazione_progetto.md>)
+- [➡️ Utilizzo di server locali per lo sviluppo](<06_Utilizzo_server_locali_sviluppo.md>)

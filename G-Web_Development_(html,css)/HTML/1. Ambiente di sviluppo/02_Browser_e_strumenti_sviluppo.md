@@ -95,7 +95,11 @@ Gli strumenti di sviluppo integrati nei browser moderni sono risorse indispensab
 - [Chrome DevTools Documentation](https://developers.google.com/web/tools/chrome-devtools)
 - [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
 - [Microsoft Edge DevTools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/)
-- [Safari Web Development Tools](https://developer.apple.com/safari/tools/)
+- [Safari Web Development Tools](https://developer.apple.com/safari/tools)
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Editor HTML e IDE](<01_Editor_HTML_e_IDE.md>)
+- [➡️ Validatori e strumenti di debugging](<03_Validatori_e_strumenti_debugging.md>)

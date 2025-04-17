@@ -177,4 +177,8 @@ Gli editor WYSIWYG rappresentano un importante strumento nel panorama dello svil
 - [Webflow University](https://university.webflow.com/) - Tutorial completi su Webflow
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Code Playground per HTML, CSS e JavaScript](<09_Code_playground.md>)
+- [➡️ Utilizzo di GitHub Pages](<11_GitHub_Pages.md>)

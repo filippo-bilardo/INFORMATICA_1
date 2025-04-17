@@ -172,4 +172,8 @@ I code playground rappresentano strumenti preziosi nell'ecosistema dello svilupp
 - [Dev.to Playground Guide](https://dev.to/codingnepal/top-7-code-editors-playground-for-web-developers-2e5h) - Guide all'utilizzo
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Servizi di Hosting per Siti Web](<08_Servizi_hosting.md>)
+- [➡️ Editor WYSIWYG per lo Sviluppo Web](<10_Editor_WYSIWYG.md>)

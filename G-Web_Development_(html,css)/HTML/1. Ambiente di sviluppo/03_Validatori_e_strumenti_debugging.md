@@ -90,5 +90,7 @@ L'utilizzo efficace di validatori e strumenti di debugging è essenziale per lo 
 - [Chrome DevTools Debugging Guide](https://developers.google.com/web/tools/chrome-devtools/javascript)
 - [Cross-browser Testing Basics](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction)
 
----
-[INDICE](README.md) | [Guida successiva](04_Gestione_file_organizzazione_progetto.md)
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Browser e strumenti di sviluppo integrati](<02_Browser_e_strumenti_sviluppo.md>)
+- [➡️ Gestione dei file e organizzazione del progetto](<04_Gestione_file_organizzazione_progetto.md>)

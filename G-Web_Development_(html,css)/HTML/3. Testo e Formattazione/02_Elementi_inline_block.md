@@ -48,4 +48,8 @@ Mantenere la semantica con la presentazione appropriata significa trovare il giu
 La compatibilità cross-browser delle diverse modalità di display varia significativamente. Mentre i valori tradizionali come `block`, `inline` e `inline-block` sono ampiamente supportati in tutti i browser moderni, valori più recenti come `flex` e `grid` potrebbero richiedere prefissi vendor o fallback per browser più datati. È sempre consigliabile testare il layout su diversi browser e dispositivi, e considerare l'uso di strumenti come Autoprefixer o librerie come Modernizr per gestire le differenze di supporto. Per quanto riguarda l'accessibilità e le considerazioni per dispositivi mobili, è importante ricordare che la modalità di display influenza solo la presentazione visiva: gli elementi dovrebbero essere ordinati nel DOM in modo logico e significativo indipendentemente dal loro rendering visivo, garantendo che il contenuto rimanga accessibile anche quando CSS è disabilitato o quando viene utilizzato da tecnologie assistive.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Gestione del testo: paragrafi, titoli e liste](<01_Gestione_testo.md>)
+- [➡️ Collegamenti ipertestuali](<03_Collegamenti_ipertestuali.md>)

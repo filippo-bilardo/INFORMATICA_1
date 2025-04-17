@@ -124,4 +124,8 @@ La scelta del servizio di hosting giusto dipende dalle esigenze specifiche del p
 - [Hostadvice](https://hostadvice.com/) - Recensioni e guide sui provider hosting
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Git e Controllo Versione per Progetti Web](<07_Git_controllo_versione.md>)
+- [➡️ Code Playground per HTML, CSS e JavaScript](<09_Code_playground.md>)

@@ -113,4 +113,8 @@ Git è uno strumento essenziale per qualsiasi sviluppatore web moderno. Padroneg
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) - Guide dettagliate su Git
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Utilizzo di server locali per lo sviluppo](<06_Utilizzo_server_locali_sviluppo.md>)
+- [➡️ Servizi di Hosting per Siti Web](<08_Servizi_hosting.md>)

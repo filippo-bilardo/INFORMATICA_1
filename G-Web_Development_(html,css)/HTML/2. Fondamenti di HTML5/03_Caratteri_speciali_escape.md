@@ -46,4 +46,8 @@ Per la conversione di testo normale in entità HTML e viceversa, esistono vari s
 Oltre alle risorse specifiche per HTML, strumenti come Character Map in Windows, Character Viewer in macOS o vari siti web specializzati permettono di esplorare e copiare caratteri Unicode da inserire nei documenti. Per progetti multilingua, risorse come il sito Unicode.org offrono informazioni dettagliate su standard internazionali, mentre strumenti di localizzazione come i18next o react-intl facilitano la gestione di contenuti in più lingue, inclusa la corretta visualizzazione di caratteri speciali e testi bidirezionali.
 
 ---
-[Torna all'Indice](README.md)
+s
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Elementi e tag principali](<02_Elementi_tag_principali.md>)
+- [➡️ Commenti e buone pratiche di leggibilità del codice](<04_Commenti_buone_pratiche.md>)

@@ -99,4 +99,8 @@ Una buona organizzazione dei file e una struttura di progetto ben pianificata so
 - [Web Project Structure Best Practices](https://www.smashingmagazine.com/2018/01/front-end-development-best-practices-2018/)
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Validatori e strumenti di debugging](<03_Validatori_e_strumenti_debugging.md>)
+- [➡️ Configurazione dell'ambiente locale](<05_Configurazione_ambiente_locale.md>)

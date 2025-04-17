@@ -214,4 +214,8 @@ L'utilizzo di un server locale è un aspetto fondamentale dello sviluppo web mod
 - [Webpack Dev Server Documentation](https://webpack.js.org/configuration/dev-server/)
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Configurazione dell'ambiente locale](<05_Configurazione_ambiente_locale.md>)
+- [➡️ Git e Controllo Versione per Progetti Web](<07_Git_controllo_versione.md>)

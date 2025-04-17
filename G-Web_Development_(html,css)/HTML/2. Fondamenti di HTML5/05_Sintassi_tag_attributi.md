@@ -172,3 +172,10 @@ Comprendere la sintassi dei tag HTML, degli attributi, l'annidamento e i tag vuo
 - [MDN Web Docs - HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [W3C HTML Validator](https://validator.w3.org/)
 - [HTML Living Standard](https://html.spec.whatwg.org/)
+
+---
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Commenti e buone pratiche di leggibilità del codice](<04_Commenti_buone_pratiche.md>)
+- [➡️ I Tag head e body](<06_Tag_head_e_body.md>)

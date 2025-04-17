@@ -185,4 +185,8 @@ GitHub Pages è uno strumento potente e gratuito per la pubblicazione di siti we
 - [GitHub Pages Examples](https://github.com/collections/github-pages-examples)
 
 ---
-[INDICE](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Editor WYSIWYG per lo Sviluppo Web](<10_Editor_WYSIWYG.md>)
+- [➡️ Struttura di base di una pagina HTML5](<../2. Fondamenti di HTML5/01_Struttura_base_HTML5.md>)

@@ -359,4 +359,8 @@ Tracciare i clic sui collegamenti fornisce informazioni preziose sul comportamen
 - Utilizzare i dati per ottimizzare la navigazione del sito
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Elementi inline e block-level](<02_Elementi_inline_block.md>)
+- [➡️ Inserimento e gestione di immagini](<04_Inserimento_gestione_immagini.md>)

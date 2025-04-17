@@ -50,4 +50,8 @@ La documentazione delle convenzioni di progetto dovrebbe evolversi insieme al pr
 L'integrazione con sistemi di controllo versione come Git facilita la gestione di questi standard. Strumenti come git hooks possono essere configurati per eseguire automaticamente linter e formattatori prima di ogni commit, prevenendo l'introduzione di codice non conforme nel repository. File come .editorconfig possono garantire che le impostazioni di base dell'editor (come tipo di indentazione, dimensione delle tabulazioni, fine riga) siano coerenti tra diversi ambienti di sviluppo, riducendo conflitti di merge e differenze stilistiche non intenzionali.
 
 ---
-[Torna all'Indice](README.md)
+
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Caratteri speciali e notazione di escape](<03_Caratteri_speciali_escape.md>)
+- [➡️ Sintassi dei Tag HTML e degli Attributi](<05_Sintassi_tag_attributi.md>)

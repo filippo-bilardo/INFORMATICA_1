@@ -67,4 +67,7 @@ In sintesi:
 
 ---
 
-[<- Indice Argomenti](../README.md)
+### Navigazione
+- [📑 Indice](<../README.md>)
+- [⬅️ Sintassi dei Tag HTML e degli Attributi](<05_Sintassi_tag_attributi.md>)
+- [➡️ Gestione del testo: paragrafi, titoli e liste](<../3. Testo e Formattazione/01_Gestione_testo.md>)
