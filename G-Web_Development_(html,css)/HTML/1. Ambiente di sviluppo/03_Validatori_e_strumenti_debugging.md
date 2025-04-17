@@ -91,4 +91,4 @@ L'utilizzo efficace di validatori e strumenti di debugging è essenziale per lo 
 - [Cross-browser Testing Basics](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction)
 
 ---
-[INDICE](README.md)
+[INDICE](README.md) | [Guida successiva](04_Gestione_file_organizzazione_progetto.md)
