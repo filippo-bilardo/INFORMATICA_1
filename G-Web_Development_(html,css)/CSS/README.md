@@ -8,15 +8,15 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
    - [01. Storia e evoluzione del CSS](<01. Introduzione al CSS/01_Storia_e_evoluzione_del_CSS.md>)
    - [02. Come collegare CSS a HTML](<01. Introduzione al CSS/02_Come_collegare_CSS_a_HTML.md>)
    - [03. Sintassi di base e regole](<01. Introduzione al CSS/03_Sintassi_di_base_e_regole.md>)
-   - 04. Commenti e organizzazione del codice
-   - 05. Strumenti per lavorare con il CSS
+   - [04. Commenti e organizzazione del codice](<01. Introduzione al CSS/04_Commenti_e_organizzazione_del_codice.md>)
+   - [05. Strumenti per lavorare con il CSS](<01. Introduzione al CSS/05_Strumenti_per_lavorare_con_il_CSS.md>)
 
 ### 02. Selettori e Specificità
-   - Selettori di base (elemento, classe, ID)
-   - Selettori avanzati (attributo, pseudo-classi, pseudo-elementi)
-   - Combinatori (discendente, figlio, adiacente)
-   - Calcolo della specificità
-   - Cascata e ereditarietà
+   - [01. Selettori di base (elemento, classe, ID)](<02. Selettori e Specificità/01_Selettori_di_base.md>)
+   - [02. Selettori avanzati (attributo, pseudo-classi, pseudo-elementi)](<02. Selettori e Specificità/02_Selettori_avanzati.md>)
+   - [03. Combinatori (discendente, figlio, adiacente)](<02. Selettori e Specificità/03_Selettori_combinatori.md>)
+   - [04. Calcolo della specificità](<02. Selettori e Specificità/04_Specificità_e_cascata.md>)
+   - [05. Pseudo-classi e pseudo-elementi](<02. Selettori e Specificità/05_Pseudo-classi_e_pseudo-elementi.md>)
 
 ### 03. Il Box Model
    - Concetto di box model
