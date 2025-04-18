@@ -503,3 +503,9 @@ Altre tecniche per gestire i float:
 - [W3Schools: CSS Layout](https://www.w3schools.com/css/css_layout.asp)
 - [Smashing Magazine: Understanding CSS Positioning](https://www.smashingmagazine.com/2009/09/absolute-horizontal-vertical-centering-css/)
 - [CSS-Tricks: Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)
+
+---
+
+- [📑 Indice](../README.md)
+- [⬅️ Dimensionamento degli elementi](<../06. Tabelle, Liste, Colonne e Form/05_Form_e_input.md>)
+- [➡️ Layout tradizionale con float](<02_Layout_tradizionale_con_float.md>)

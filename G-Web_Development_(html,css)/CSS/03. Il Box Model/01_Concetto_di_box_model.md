@@ -134,3 +134,8 @@ Per calcolare la dimensione effettiva di un elemento nel modello standard (conte
 - [W3Schools: CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 - [Box Model Interactive Demo](https://developer.chrome.com/docs/devtools/css/box-model/)
 
+---
+
+- [📑 Indice](../README.md)
+- [⬅️ Pseudo-classi e pseudo-elementi](<../02. Selettori e Specificità/05_Pseudo-classi_e_pseudo-elementi.md>)
+- [➡️ Margin, border, padding e content](02_Margin_e_padding.md)

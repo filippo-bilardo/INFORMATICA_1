@@ -284,3 +284,9 @@ Per ottimizzare l'uso di margin e padding:
 - [W3Schools: CSS Margin](https://www.w3schools.com/css/css_margin.asp)
 - [W3Schools: CSS Padding](https://www.w3schools.com/css/css_padding.asp)
 - [Articolo sul collasso dei margini](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
+
+---
+
+- [📑 Indice](../README.md)
+- [⬅️ Concetto di box model](<01_Concetto_di_box_model.md>)
+- [➡️ Border](03_Border.md)

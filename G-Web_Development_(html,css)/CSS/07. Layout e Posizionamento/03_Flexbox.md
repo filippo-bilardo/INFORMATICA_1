@@ -546,3 +546,9 @@ Flexbox è particolarmente adatto per:
 - [Flexbox Cheatsheet](https://yoksel.github.io/flex-cheatsheet/) - Riferimento visuale per le proprietà Flexbox
 - [What the Flexbox?!](https://flexbox.io/) - Corso video gratuito su Flexbox
 
+---
+
+[📑 Indice](../README.md)
+[⬅️ Concetti di layout](02_Concetto_di_box_model.md)
+➡️ Collasso dei margini](05_Collasso_dei_margini.md)
+[⬅️ Border](03_Border.md)

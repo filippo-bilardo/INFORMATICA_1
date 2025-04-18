@@ -235,7 +235,7 @@ Esistono diverse metodologie per organizzare il codice CSS:
 ---
 
 
-- [📑 Indice](README.md)
+- [📑 Indice](../README.md)
 - [⬅️ Sintassi di base e regole](03_Sintassi_di_base_e_regole.md)
 - [➡️ Strumenti per lavorare con il CSS](05_Strumenti_per_lavorare_con_il_CSS.md)
 

@@ -235,6 +235,6 @@ document.head.appendChild(link);
 
 ---
 
-- [📑 Indice](README.md)
+- [📑 Indice](../README.md)
 - [⬅️ Storia e evoluzione del CSS](<01_Storia_e_evoluzione_del_CSS.md>)
 - [➡️ Sintassi di base e regole](03_Sintassi_di_base_e_regole.md)

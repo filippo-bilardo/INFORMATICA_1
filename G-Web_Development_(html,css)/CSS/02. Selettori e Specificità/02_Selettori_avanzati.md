@@ -652,4 +652,4 @@ li:first-child:hover {
 **Navigazione**
 - [📑 Indice](../README.md)
 - [⬅️ 01. Selettori di base](01_Selettori_di_base.md)
-- [➡️ 03. Combinatori](03_Combinatori.md)
+- [➡️ 03. Selettori_combinatori](03_Selettori_combinatori.md)

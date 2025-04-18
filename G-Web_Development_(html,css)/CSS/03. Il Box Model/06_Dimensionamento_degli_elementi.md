@@ -259,3 +259,9 @@ Combinare diverse unità di misura per creare layout fluidi:
 - [CSS-Tricks: A Complete Guide to CSS Units](https://css-tricks.com/the-lengths-of-css/)
 - [Responsive Design Cheat Sheet](https://www.responsive-design-cheatsheet.com/)
 - [Calc() in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
+
+---
+
+[📑 Indice](../README.md)
+[⬅️ Collasso dei margini](05_Collasso_dei_margini.md)
+[➡️ Concetti di layout](<../04. Layout e Posizionamento/01_Concetti_di_layout.md>)

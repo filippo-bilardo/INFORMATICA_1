@@ -286,3 +286,9 @@ I componenti dell'interfaccia utente come pulsanti, campi di input e card sono p
 - [Paul Irish: Box-sizing: Border-box FTW](https://www.paulirish.com/2012/box-sizing-border-box-ftw/)
 - [W3Schools: CSS Box-sizing](https://www.w3schools.com/css/css3_box-sizing.asp)
 - [Codrops CSS Reference: Box-sizing](https://tympanus.net/codrops/css_reference/box-sizing/)
+
+---
+
+- [📑 Indice](../README.md)
+- [⬅️ Border](03_Border.md)
+- [➡️ Collasso dei margini](05_Collasso_dei_margini.md)

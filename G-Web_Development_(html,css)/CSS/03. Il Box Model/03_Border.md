@@ -365,3 +365,9 @@ I bordi possono essere animati con le transizioni o le animazioni CSS:
 - [CSS-Tricks: Border-radius](https://css-tricks.com/the-shapes-of-css/)
 - [W3Schools: CSS Borders](https://www.w3schools.com/css/css_border.asp)
 - [Codrops CSS Reference: Border](https://tympanus.net/codrops/css_reference/border/)
+
+---
+
+- [📑 Indice](../README.md)
+- [⬅️ Margin e padding](02_Margin_e_padding.md)
+- [➡️ Box sizing](04_Box_sizing.md)

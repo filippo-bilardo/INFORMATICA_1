@@ -47,17 +47,17 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
    - [05. Form e input](<06. Tabelle, Liste, Colonne e Form/05_Form_e_input.md>)
 
 ### 07. Layout e Posizionamento
-   - [01. Concetti di layout](<04. Layout e Posizionamento/01_Concetti_di_layout.md>)
-   - [02. Layout tradizionale con float](<04. Layout e Posizionamento/04_Layout_tradizionale_con_float.md>)
-   - [03. Flexbox: concetti e proprietà](<04. Layout e Posizionamento/02_Flexbox.md>)
-   - [04. CSS Grid: struttura e posizionamento](<04. Layout e Posizionamento/03_CSS_Grid.md>)
-   - [05. Confronto tra i diversi metodi di layout](<04. Layout e Posizionamento/05_Confronto_metodi_layout.md>)
-   - [06. Layout multi-colonna](<04. Layout e Posizionamento/06_Layout_multi-colonna.md>)
-   - [07. Position (static, relative, absolute, fixed, sticky)](<04. Layout e Posizionamento/07_Position.md>)
-   - [08. Z-index e sovrapposizione](<04. Layout e Posizionamento/08_Z-index_e_sovrapposizione.md>)
-   - [09. Overflow e clip](<04. Layout e Posizionamento/09_Overflow_e_clip.md>)
-   - [10. Display e visibility](<04. Layout e Posizionamento/10_Display_e_visibility.md>)
-   - [11. Tecniche di centratura](<04. Layout e Posizionamento/11_Tecniche_di_centratura.md>)
+   - [01. Concetti di layout](<07. Layout e Posizionamento/01_Concetti_di_layout.md>)
+   - [02. Layout tradizionale con float](<07. Layout e Posizionamento/02_Layout_tradizionale_con_float.md>)
+   - [03. Flexbox: concetti e proprietà](<07. Layout e Posizionamento/03_Flexbox.md>)
+   - [04. CSS Grid: struttura e posizionamento](<07. Layout e Posizionamento/04_CSS_Grid.md>)
+   - [05. Confronto tra i diversi metodi di layout](<07. Layout e Posizionamento/05_Confronto_metodi_layout.md>)
+   - [06. Layout multi-colonna](<07. Layout e Posizionamento/06_Layout_multi-colonna.md>)
+   - [07. Position (static, relative, absolute, fixed, sticky)](<07. Layout e Posizionamento/07_Position.md>)
+   - [08. Z-index e sovrapposizione](<07. Layout e Posizionamento/08_Z-index_e_sovrapposizione.md>)
+   - [09. Overflow e clip](<07. Layout e Posizionamento/09_Overflow_e_clip.md>)
+   - [10. Display e visibility](<07. Layout e Posizionamento/10_Display_e_visibility.md>)
+   - [11. Tecniche di centratura](<07. Layout e Posizionamento/11_Tecniche_di_centratura.md>)
 
 ### 08. Transizioni, Trasformazioni e Animazioni
    - [01. Transizioni CSS](<08. Transizioni, Trasformazioni e Animazioni/01_Transizioni_CSS.md>)
@@ -67,11 +67,11 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
    - [05. Interazioni utente avanzate](<08. Transizioni, Trasformazioni e Animazioni/05_Interazioni_utente_avanzate.md>)
 
 ### 09. Responsive Design e Media Queries
-   - [01. Principi del design responsive](<05. Responsive Design/01_Principi_del_responsive_design.md>)
-   - [02. Media queries e breakpoints](<05. Responsive Design/02_Media_queries_e_breakpoints.md>)
-   - [03. Immagini responsive](<05. Responsive Design/03_Immagini_responsive.md>)
-   - [04. Mobile-first vs desktop-first](<05. Responsive Design/04_Mobile-first_vs_desktop-first.md>)
-   - [05. Viewport e unità relative](<05. Responsive Design/05_Viewport_e_unita_relative.md>)
+   - [01. Principi del design responsive](<09. Responsive Design/01_Principi_del_responsive_design.md>)
+   - [02. Media queries e breakpoints](<09. Responsive Design/02_Media_queries_e_breakpoints.md>)
+   - [03. Immagini responsive](<09. Responsive Design/03_Immagini_responsive.md>)
+   - [04. Mobile-first vs desktop-first](<09. Responsive Design/04_Mobile-first_vs_desktop-first.md>)
+   - [05. Viewport e unità relative](<09. Responsive Design/05_Viewport_e_unita_relative.md>)
 
 ### 10. Variabili CSS e Funzioni Avanzate
    - [01. Custom properties (variabili CSS)](<10. Variabili CSS e Funzioni Avanzate/01_Custom_properties.md>)
@@ -121,3 +121,4 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
    - [05. Corsi e tutorial](<15. Risorse e Approfondimenti/05_Corsi_e_tutorial.md>)
    - [06. Tendenze future del CSS](<15. Risorse e Approfondimenti/06_Tendenze_future.md>)
 
+---

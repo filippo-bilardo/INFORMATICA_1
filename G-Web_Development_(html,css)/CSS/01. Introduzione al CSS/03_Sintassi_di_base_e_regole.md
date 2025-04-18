@@ -197,6 +197,6 @@ Le regole @ (at-rules) forniscono istruzioni su come il CSS deve comportarsi. Al
 
 ---
 
-- [📑 Indice](README.md)
+- [📑 Indice](../README.md)
 - [⬅️ Selettori e Specificità](02_Come_collegare_CSS_a_HTML.md)
 - [➡️ Commenti e organizzazione del codice](04_Commenti_e_organizzazione_del_codice.md)

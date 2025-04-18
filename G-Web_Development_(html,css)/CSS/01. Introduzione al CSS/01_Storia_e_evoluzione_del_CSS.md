@@ -216,5 +216,5 @@ h1 {
 
 ---
 
-- [📑 Indice](README.md)
+- [📑 Indice](../README.md)
 - [➡️ Selettori e Specificità](<02_Come_collegare_CSS_a_HTML.md>)

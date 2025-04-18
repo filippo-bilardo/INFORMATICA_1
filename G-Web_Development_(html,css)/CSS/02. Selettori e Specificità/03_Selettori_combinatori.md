@@ -160,6 +160,6 @@ In questo esempio, solo i paragrafi che sono figli diretti di un `<div>` e seguo
 
 ---
 
-- [📑 Indice](../../README.md)
+- [📑 Indice](../README.md)
 - [⬅️ Selettori avanzati](02_Selettori_avanzati.md)
 - [➡️ Specificità e cascata](04_Specificità_e_cascata.md)
