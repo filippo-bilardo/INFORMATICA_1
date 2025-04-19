@@ -21,9 +21,18 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
 ### 03. Il Box Model
    - [01. Concetto di box model](<03. Il Box Model/01_Concetto_di_box_model.md>)
    - [02. Margin, border, padding e content](<03. Il Box Model/02_Margin_e_padding.md>)
-   - [03. Box-sizing e differenze tra content-box e border-box](<03. Il Box Model/04_Box_sizing.md>)
-   - [04. Collasso dei margini](<03. Il Box Model/05_Collasso_dei_margini.md>)
-   - [05. Dimensionamento degli elementi](<03. Il Box Model/06_Dimensionamento_degli_elementi.md>)
+   - [03. Border](<03. Il Box Model/03_Border.md>)
+   - [04. Box-sizing e differenze tra content-box e border-box](<03. Il Box Model/04_Box_sizing.md>)
+   - [05. Collasso dei margini](<03. Il Box Model/05_Collasso_dei_margini.md>)
+   - [06. Dimensionamento degli elementi](<03. Il Box Model/06_Dimensionamento_degli_elementi.md>)
+
+   TODO: Aggiungere
+   - [02. Ombre e effetti di sfumatura](<05. Bordi e ombre/02_Ombre_e_effetti_sfumatura.md>)
+   - [03. Box-shadow](<05. Bordi e ombre/03_Box-shadow.md>)
+   - [04. Border-radius](<05. Bordi e ombre/04_Border-radius.md>)
+   - [05. Box-shadow vs text-shadow](<05. Bordi e ombre/05_Box-shadow_vs_text-shadow.md>)
+   - [06. Forme persolizzate](<05. Bordi e ombre/06_Forme_personalisate.md>)
+   - [07. Clip-path e forme avanzate](<05. Bordi e ombre/07_Clip-path_e_forme_avanzate.md>)
 
 ### 04. Colori, Sfondi e Immagini
    - [01. Sistemi di colore (nomi, hex, RGB, HSL)](<04. Colori, Sfondi e Immagini/01_Sistemi_di_colore.md>)
@@ -31,15 +40,6 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
    - [03. Proprietà per gli sfondi](<04. Colori, Sfondi e Immagini/03_Proprietà_per_gli_sfondi.md>)
    - [04. Gestione delle immagini](<04. Colori, Sfondi e Immagini/04_Gestione_delle_immagini.md>)
    - [05. Gradienti e pattern](<04. Colori, Sfondi e Immagini/05_Gradienti_e_pattern.md>)
-
-### 05. Bordi e ombre
-   - [01. Proprietà per i bordi](<05. Bordi e ombre/01_Proprietà_per_i_bordi.md>)
-   - [02. Ombre e effetti di sfumatura](<05. Bordi e ombre/02_Ombre_e_effetti_sfumatura.md>)
-   - [03. Box-shadow](<05. Bordi e ombre/03_Box-shadow.md>)
-   - [04. Border-radius](<05. Bordi e ombre/04_Border-radius.md>)
-   - [05. Box-shadow vs text-shadow](<05. Bordi e ombre/05_Box-shadow_vs_text-shadow.md>)
-   - [06. Forme persolizzate](<05. Bordi e ombre/06_Forme_personalisate.md>)
-   - [07. Clip-path e forme avanzate](<05. Bordi e ombre/07_Clip-path_e_forme_avanzate.md>)
 
 ### 05. Tipografia e Font
    - [01. Proprietà del testo](<05. Tipografia e Font/01_Proprietà_del_testo.md>)
