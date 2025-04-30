@@ -20,6 +20,8 @@ Per iniziare con GitHub Pages, è necessario creare un repository su GitHub:
 2. Crea un nuovo repository con il nome `username.github.io` (sostituisci "username" con il tuo nome utente GitHub).
 3. Questo sarà il repository principale per il tuo sito GitHub Pages.
 
+Se invece stai facendo un sito per un progetto specifico, puoi chiamarlo ad esempio: `nomeprogetto.github.io`.
+
 ### 2. Clonare il repository in locale
 ```bash
 git clone https://github.com/username/username.github.io.git
@@ -83,6 +85,7 @@ Crea un file `index.html` nella directory principale del repository:
 ```bash
 git add index.html
 git commit -m "Aggiungi pagina iniziale"
+git branch -M main  # Assicurati di essere sul branch main
 git push -u origin main
 ```
 
@@ -93,61 +96,13 @@ git push -u origin main
 4. Clicca su "Save".
 5. Dopo alcuni minuti, il tuo sito sarà disponibile all'indirizzo `https://username.github.io`.
 
-## Utilizzo di temi Jekyll
+Ogni volta che fai modifiche e fai un nuovo push su GitHub, il sito si aggiorna automaticamente.
 
-GitHub Pages supporta nativamente Jekyll, un generatore di siti statici che semplifica la creazione di siti web.
+## Consigli utili
+- Puoi usare GitHub Pages per ospitare blog (con Jekyll), portfolio, app statiche ecc.
+- Se usi framework come React/Vue/Angular, devi generare un build (dist/, build/) e caricare solo quella.
+- GitHub Pages non supporta PHP o backend; è solo per siti statici.
 
-### 1. Creazione di un sito Jekyll
-1. Installa Jekyll (richiede Ruby):
-   ```bash
-   gem install jekyll bundler
-   ```
-
-2. Crea un nuovo sito Jekyll:
-   ```bash
-   jekyll new my-site
-   cd my-site
-   ```
-
-3. Testa il sito localmente:
-   ```bash
-   bundle exec jekyll serve
-   ```
-
-4. Visita `http://localhost:4000` nel browser per vedere il sito.
-
-### 2. Utilizzo di un tema Jekyll su GitHub Pages
-1. Aggiungi il seguente contenuto al file `_config.yml` nel tuo repository:
-   ```yaml
-   theme: minima  # o un altro tema supportato da GitHub Pages
-   ```
-
-2. Puoi scegliere tra vari temi supportati da GitHub Pages, come:
-   - minima
-   - jekyll-theme-cayman
-   - jekyll-theme-minimal
-   - jekyll-theme-slate
-   - jekyll-theme-tactile
-
-## Utilizzo di domini personalizzati
-
-### 1. Configurazione su GitHub
-1. Crea un file chiamato `CNAME` nella directory principale del tuo repository.
-2. Inserisci il tuo dominio personalizzato (es. `www.miodominio.com`) nel file.
-3. Salva e committa il file.
-
-### 2. Configurazione DNS
-1. Accedi al pannello di controllo del tuo provider di dominio.
-2. Crea un record CNAME che punti da `www` a `username.github.io`.
-3. Per l'apex domain (es. `miodominio.com`), crea record A che puntino agli IP di GitHub Pages:
-   ```
-   185.199.108.153
-   185.199.109.153
-   185.199.110.153
-   185.199.111.153
-   ```
-
-4. Attendi che le modifiche DNS si propaghino (può richiedere fino a 24 ore).
 
 ## Best Practices per GitHub Pages
 
