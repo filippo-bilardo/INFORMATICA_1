@@ -26,7 +26,7 @@ Questa guida completa su CSS è pensata per studenti e docenti che desiderano ap
    - [05. Collasso dei margini](<03. Il Box Model/05_Collasso_dei_margini.md>)
    - [06. Dimensionamento degli elementi](<03. Il Box Model/06_Dimensionamento_degli_elementi.md>)
 
-   TODO: Aggiungere
+   Bordi e Ombre
    - [02. Ombre e effetti di sfumatura](<05. Bordi e ombre/02_Ombre_e_effetti_sfumatura.md>)
    - [03. Box-shadow](<05. Bordi e ombre/03_Box-shadow.md>)
    - [04. Border-radius](<05. Bordi e ombre/04_Border-radius.md>)
