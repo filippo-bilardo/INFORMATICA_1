@@ -211,6 +211,8 @@ F.4. Strutture
 - **Domande di autovalutazione**  
 - **Esercizi**: Implementare ricerca binaria, ordinare array di strutture  
 
+Cerca e ordina - Ricerca (ricerca binaria, alberi di ricerca binaria, tabella hash) - Ordina (Ordina per selezione, Ordina per inserimento, Ordina per bolle, Ordina per heap, Ordina per fusione, Ordina per ordinamento rapido)
+
 ---
 
 ### **Capitolo 5: Array Dinamici e Allocazione di Memoria**  
