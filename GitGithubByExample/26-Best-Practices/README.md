@@ -1,4 +1,4 @@
-# 25 - Best Practices
+# 26 - Best Practices
 
 ## 📖 Descrizione
 
@@ -48,5 +48,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 24-Tag-e-Release](../24-Tag-e-Release/README.md)
-- [➡️ 26-Troubleshooting-Comune](../26-Troubleshooting-Comune/README.md)
+- [⬅️ 25-Tag-e-Release](../25-Tag-e-Release/README.md)
+- [➡️ 27-Troubleshooting-Comune](../27-Troubleshooting-Comune/README.md)

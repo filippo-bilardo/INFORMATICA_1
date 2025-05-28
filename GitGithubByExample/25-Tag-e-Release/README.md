@@ -1,4 +1,4 @@
-# 24 - Tag e Release
+# 25 - Tag e Release
 
 ## 📖 Descrizione
 
@@ -47,5 +47,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 23-Rebase-e-Cherry-Pick](../23-Rebase-e-Cherry-Pick/README.md)
-- [➡️ 25-Best-Practices](../25-Best-Practices/README.md)
+- [⬅️ 24-Rebase-e-Cherry-Pick](../24-Rebase-e-Cherry-Pick/README.md)
+- [➡️ 26-Best-Practices](../26-Best-Practices/README.md)

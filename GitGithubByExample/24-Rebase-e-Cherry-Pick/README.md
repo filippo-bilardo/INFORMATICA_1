@@ -1,4 +1,4 @@
-# 23 - Rebase e Cherry-Pick
+# 24 - Rebase e Cherry-Pick
 
 ## 📖 Descrizione
 
@@ -41,11 +41,14 @@ Rebase modifica la cronologia Git. Mai usare su branch condivisi!
 ### Esempi Pratici
 1. [01 - Simple Rebase](./esempi/01-simple-rebase.md)
 2. [02 - Interactive Cleanup](./esempi/02-interactive-cleanup.md)
-3. [03 - Cherry-Pick Scenarios](./esempi/03-cherry-pick-scenarios.md)
 
-### Esercizi di Consolidamento
-1. [01 - History Cleanup](./esercizi/01-history-cleanup.md)
-2. [02 - Advanced Manipulation](./esercizi/02-advanced-manipulation.md)
+### Esercizi Pratici Completi
+1. **🟢 Base** - [01 - Basic Rebase Exercise](./esercizi/01-basic-rebase-exercise.md)
+2. **🟡 Intermedio** - [02 - Interactive Cleanup Exercise](./esercizi/02-interactive-cleanup-exercise.md)
+3. **🟡 Intermedio** - [03 - Cherry-Pick Mastery Exercise](./esercizi/03-cherry-pick-mastery-exercise.md)
+4. **🔴 Avanzato** - [04 - Rebase vs Merge Decision Exercise](./esercizi/04-rebase-vs-merge-decision-exercise.md)
+
+📋 **[Indice Completo Esercizi](./esercizi/README.md)** - Guida dettagliata con percorso di apprendimento
 
 ## 🔄 Navigazione del Corso
 

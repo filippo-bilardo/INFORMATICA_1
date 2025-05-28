@@ -1,0 +1,731 @@
+/**
+ * Componenti UI specializzati per il Task Manager
+ * Stili per task list, modal, notifiche e componenti avanzati
+ * 
+ * @file components.css
+ * @author Git Course Team
+ * @version 1.0.0
+ */
+
+/* ========================================
+   TASK LIST E TASK ITEMS
+======================================== */
+
+.task-list {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.task-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: var(--spacing-md);
+  align-items: center;
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--border-color-light);
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.task-item:last-child {
+  border-bottom: none;
+}
+
+.task-item:hover {
+  background-color: var(--surface-hover);
+}
+
+.task-item.completed {
+  opacity: 0.7;
+}
+
+.task-item.completed .task-title {
+  text-decoration: line-through;
+  color: var(--text-tertiary);
+}
+
+.task-item.overdue {
+  border-left: 4px solid var(--error-color);
+  background-color: var(--error-light);
+}
+
+.task-item.overdue .task-due-date {
+  color: var(--error-color);
+  font-weight: 600;
+}
+
+/* Checkbox personalizzato */
+.task-checkbox {
+  position: relative;
+}
+
+.task-checkbox input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.task-checkbox label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  position: relative;
+}
+
+.task-checkbox label::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 6px;
+  height: 10px;
+  border: solid var(--text-inverse);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.task-checkbox input[type="checkbox"]:checked + label {
+  background: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.task-checkbox input[type="checkbox"]:checked + label::after {
+  opacity: 1;
+}
+
+.task-checkbox input[type="checkbox"]:focus + label {
+  box-shadow: 0 0 0 3px rgb(5 150 105 / 0.1);
+}
+
+/* Contenuto task */
+.task-content {
+  cursor: pointer;
+  flex: 1;
+  min-width: 0;
+}
+
+.task-title {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-xs);
+  line-height: var(--line-height-tight);
+  word-wrap: break-word;
+}
+
+.task-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-sm);
+}
+
+.task-category,
+.task-priority,
+.task-due-date {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Categorie */
+.task-category {
+  background: var(--secondary-light);
+  color: var(--secondary-color);
+}
+
+.category-lavoro {
+  background: var(--primary-light);
+  color: var(--primary-color);
+}
+
+.category-personale {
+  background: var(--success-light);
+  color: var(--success-color);
+}
+
+.category-studio {
+  background: var(--warning-light);
+  color: var(--warning-color);
+}
+
+/* Priorità */
+.priority-alta {
+  background: var(--error-light);
+  color: var(--error-color);
+}
+
+.priority-media {
+  background: var(--warning-light);
+  color: var(--warning-color);
+}
+
+.priority-bassa {
+  background: var(--success-light);
+  color: var(--success-color);
+}
+
+/* Scadenza */
+.task-due-date {
+  background: var(--info-light);
+  color: var(--info-color);
+}
+
+.task-due-date.overdue {
+  background: var(--error-light);
+  color: var(--error-color);
+  animation: pulse 2s infinite;
+}
+
+.task-description {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin-top: var(--spacing-sm);
+  max-height: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+/* Azioni task */
+.task-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.task-item:hover .task-actions {
+  opacity: 1;
+}
+
+.task-actions .btn-icon {
+  padding: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+}
+
+.edit-task {
+  color: var(--info-color);
+}
+
+.edit-task:hover {
+  background: var(--info-light);
+  color: var(--info-color);
+}
+
+.delete-task {
+  color: var(--error-color);
+}
+
+.delete-task:hover {
+  background: var(--error-light);
+  color: var(--error-color);
+}
+
+/* Selezione multipla */
+.task-select {
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.task-item:hover .task-select {
+  opacity: 1;
+}
+
+.task-select-checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* ========================================
+   STATO VUOTO
+======================================== */
+
+.empty-state {
+  text-align: center;
+  padding: var(--spacing-3xl) var(--spacing-xl);
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border: 2px dashed var(--border-color);
+}
+
+.empty-state-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  font-size: var(--font-size-xl);
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.empty-state p {
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-lg);
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========================================
+   MODAL SYSTEM
+======================================== */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+  animation: modalFadeIn var(--transition-base);
+}
+
+.modal-content {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  max-width: 600px;
+  width: 90%;
+  max-height: 90vh;
+  overflow: hidden;
+  animation: modalSlideIn var(--transition-base);
+}
+
+.modal-header {
+  padding: var(--spacing-xl);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-title {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: var(--font-size-xl);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  border-radius: var(--radius-base);
+  transition: all var(--transition-fast);
+}
+
+.modal-close:hover {
+  background: var(--surface-hover);
+  color: var(--text-secondary);
+}
+
+.modal-body {
+  padding: var(--spacing-xl);
+  overflow-y: auto;
+  max-height: calc(90vh - 140px);
+}
+
+.modal-footer {
+  padding: var(--spacing-xl);
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: flex-end;
+}
+
+/* Contenuto specifico del modal */
+.task-details h3 {
+  margin-bottom: var(--spacing-lg);
+  color: var(--text-primary);
+}
+
+.task-details-meta {
+  background: var(--bg-tertiary);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.task-details-meta p {
+  margin-bottom: var(--spacing-sm);
+  font-size: var(--font-size-sm);
+}
+
+.task-details-meta strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.task-description-full {
+  margin-bottom: var(--spacing-lg);
+}
+
+.task-description-full h4 {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-primary);
+}
+
+.task-details-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.confirm-delete {
+  text-align: center;
+}
+
+.confirm-delete p {
+  margin-bottom: var(--spacing-lg);
+}
+
+.confirm-delete .warning {
+  color: var(--warning-color);
+  font-size: var(--font-size-sm);
+  font-style: italic;
+}
+
+.confirm-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ========================================
+   SISTEMA DI NOTIFICHE
+======================================== */
+
+.notifications {
+  position: fixed;
+  top: var(--spacing-xl);
+  right: var(--spacing-xl);
+  z-index: 2000;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  max-width: 400px;
+}
+
+.notification {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: all var(--transition-base);
+  position: relative;
+}
+
+.notification.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.notification.fade-out {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.notification-content {
+  padding: var(--spacing-lg);
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+}
+
+.notification-message {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.notification-close {
+  background: none;
+  border: none;
+  font-size: var(--font-size-lg);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.notification-close:hover {
+  background: var(--surface-hover);
+  color: var(--text-secondary);
+}
+
+/* Tipi di notifica */
+.notification-success {
+  border-left: 4px solid var(--success-color);
+  background: var(--success-light);
+}
+
+.notification-error {
+  border-left: 4px solid var(--error-color);
+  background: var(--error-light);
+}
+
+.notification-warning {
+  border-left: 4px solid var(--warning-color);
+  background: var(--warning-light);
+}
+
+.notification-info {
+  border-left: 4px solid var(--info-color);
+  background: var(--info-light);
+}
+
+/* ========================================
+   AZIONI BULK
+======================================== */
+
+.bulk-actions {
+  background: var(--primary-light);
+  border: 1px solid var(--primary-color);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  display: none;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.bulk-actions-info {
+  flex: 1;
+  font-size: var(--font-size-sm);
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.bulk-actions-buttons {
+  display: flex;
+  gap: var(--spacing-md);
+}
+
+/* ========================================
+   TEMA TOGGLE
+======================================== */
+
+.theme-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-full);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-size: var(--font-size-lg);
+}
+
+.theme-toggle:hover {
+  background: var(--surface-hover);
+  border-color: var(--secondary-color);
+}
+
+/* ========================================
+   ANIMAZIONI
+======================================== */
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalSlideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ========================================
+   ICONE E SIMBOLI
+======================================== */
+
+.icon-edit::before {
+  content: '✏️';
+}
+
+.icon-delete::before {
+  content: '🗑️';
+}
+
+.icon-add::before {
+  content: '➕';
+}
+
+.icon-search::before {
+  content: '🔍';
+}
+
+.icon-filter::before {
+  content: '🔽';
+}
+
+.icon-sort::before {
+  content: '📶';
+}
+
+.icon-export::before {
+  content: '📤';
+}
+
+.icon-import::before {
+  content: '📥';
+}
+
+.icon-check::before {
+  content: '✅';
+}
+
+.icon-close::before {
+  content: '❌';
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+======================================== */
+
+@media (max-width: 768px) {
+  .notifications {
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    left: var(--spacing-md);
+    max-width: none;
+  }
+  
+  .modal-content {
+    width: 95%;
+    max-height: 95vh;
+  }
+  
+  .task-item {
+    grid-template-columns: auto 1fr auto;
+    gap: var(--spacing-sm);
+  }
+  
+  .task-select {
+    display: none;
+  }
+  
+  .task-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+  }
+  
+  .bulk-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-md);
+  }
+  
+  .bulk-actions-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .task-item {
+    padding: var(--spacing-md);
+  }
+  
+  .modal-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    max-height: 100vh;
+  }
+  
+  .modal-body {
+    max-height: calc(100vh - 140px);
+  }
+  
+  .task-details-actions {
+    justify-content: center;
+  }
+  
+  .confirm-actions {
+    flex-direction: column;
+  }
+}
