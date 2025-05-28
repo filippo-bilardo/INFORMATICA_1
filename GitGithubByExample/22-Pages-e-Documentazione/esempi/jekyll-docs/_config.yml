@@ -1,0 +1,134 @@
+title: "Documentazione Progetto"
+description: "Documentazione completa e guide per sviluppatori"
+baseurl: "/my-project-docs"
+url: "https://username.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Kramdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+# Collections per organizzare la documentazione
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+  api:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults per le collections
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+      nav_section: "docs"
+  - scope:
+      path: ""
+      type: "api"
+    values:
+      layout: "api"
+      nav_section: "api"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "tutorial"
+      nav_section: "tutorials"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+# Navigation structure
+nav:
+  - title: "Getting Started"
+    url: "/docs/getting-started/"
+    items:
+      - title: "Installation"
+        url: "/docs/installation/"
+      - title: "Quick Start"
+        url: "/docs/quick-start/"
+      - title: "Configuration"
+        url: "/docs/configuration/"
+  
+  - title: "API Reference"
+    url: "/api/"
+    items:
+      - title: "Authentication"
+        url: "/api/authentication/"
+      - title: "Users"
+        url: "/api/users/"
+      - title: "Projects"
+        url: "/api/projects/"
+  
+  - title: "Tutorials"
+    url: "/tutorials/"
+    items:
+      - title: "First Steps"
+        url: "/tutorials/first-steps/"
+      - title: "Advanced Usage"
+        url: "/tutorials/advanced/"
+
+# Site settings
+author:
+  name: "Il Tuo Nome"
+  email: "tuo@email.com"
+  github: "tuousername"
+
+# Social media
+github_username: tuousername
+twitter_username: tuousername
+
+# Google Analytics
+google_analytics: UA-XXXXXXXXX-X
+
+# Search
+search_enabled: true
+
+# Repository info
+repository: "tuousername/my-project-docs"
+edit_page: true
+
+# Footer links
+footer_links:
+  - title: "GitHub"
+    url: "https://github.com/tuousername/my-project"
+  - title: "Issues"
+    url: "https://github.com/tuousername/my-project/issues"
+  - title: "Discussions"
+    url: "https://github.com/tuousername/my-project/discussions"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json

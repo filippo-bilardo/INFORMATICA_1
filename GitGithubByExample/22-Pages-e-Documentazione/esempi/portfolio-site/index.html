@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Rossi - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio di Mario Rossi - Sviluppatore Web Full Stack">
+    <meta name="keywords" content="sviluppatore, web developer, portfolio, JavaScript, Python, React">
+    <meta name="author" content="Mario Rossi">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mariorossi.github.io/">
+    <meta property="og:title" content="Mario Rossi - Portfolio">
+    <meta property="og:description" content="Portfolio di Mario Rossi - Sviluppatore Web Full Stack">
+    <meta property="og:image" content="https://mariorossi.github.io/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mariorossi.github.io/">
+    <meta property="twitter:title" content="Mario Rossi - Portfolio">
+    <meta property="twitter:description" content="Portfolio di Mario Rossi - Sviluppatore Web Full Stack">
+    <meta property="twitter:image" content="https://mariorossi.github.io/assets/images/og-image.jpg">
+</head>
+<body>
+    <!-- Header con navigazione -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo">MR</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">Chi Sono</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Progetti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Competenze</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contatti</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sezione Hero -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Ciao, sono <span class="text-gradient">Mario Rossi</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Sviluppatore Web Full Stack appassionato di tecnologie moderne
+                </p>
+                <p class="hero-description">
+                    Trasformo idee in esperienze digitali coinvolgenti utilizzando 
+                    le migliori tecnologie web moderne.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">I Miei Progetti</a>
+                    <a href="#contact" class="btn btn-secondary">Contattami</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Mario Rossi" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Chi Sono -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sono uno sviluppatore web con oltre 3 anni di esperienza nella 
+                        creazione di applicazioni web moderne e responsive. La mia passione 
+                        per la tecnologia mi spinge costantemente ad apprendere nuove 
+                        competenze e a rimanere aggiornato sulle ultime tendenze del settore.
+                    </p>
+                    <p>
+                        Mi specializzo nello sviluppo front-end con React e Vue.js, e nel 
+                        back-end con Node.js e Python. Amo creare interfacce utente intuitive 
+                        e performanti che offrono un'esperienza utente eccezionale.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Progetti Completati</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Anni di Esperienza</p>
+                        </div>
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Clienti Soddisfatti</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Competenze -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Competenze</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Deployment</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Netlify</span>
+                        <span class="skill-tag">GitHub Pages</span>
+                        <span class="skill-tag">Jenkins</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Progetti -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">I Miei Progetti</h2>
+            <div class="projects-grid">
+                <!-- Progetto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project1.jpg" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mariorossi/ecommerce" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://ecommerce-demo.netlify.app" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Piattaforma e-commerce completa con carrello, pagamenti Stripe e gestione ordini.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progetto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project2.jpg" alt="Task Manager App">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mariorossi/task-manager" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://task-manager-demo.netlify.app" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Manager App</h3>
+                        <p>Applicazione per la gestione delle attività con drag & drop e notifiche real-time.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">WebSocket</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progetto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/project3.jpg" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <a href="https://github.com/mariorossi/weather-dashboard" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://weather-dashboard-demo.netlify.app" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Dashboard meteo con previsioni dettagliate e grafici interattivi.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">CSS Grid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Contatti -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Mettiamoci in Contatto</h3>
+                    <p>
+                        Sono sempre interessato a nuove opportunità e progetti interessanti. 
+                        Non esitare a contattarmi!
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:mario.rossi@email.com">mario.rossi@email.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/mariorossi" target="_blank">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/mariorossi" target="_blank">GitHub</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+393331234567">+39 333 123 4567</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Oggetto</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Messaggio</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Invia Messaggio</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Mario Rossi. Tutti i diritti riservati.</p>
+                <div class="social-links">
+                    <a href="https://github.com/mariorossi" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/mariorossi" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/mariorossi" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    
+    <!-- JavaScript per navigazione mobile -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

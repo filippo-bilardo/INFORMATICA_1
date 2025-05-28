@@ -40,35 +40,36 @@ Al termine di questo corso sarai in grado di:
 
 ### Modulo 3: Storia e Navigazione
 - [08-Visualizzare-Storia-Commit](./08-Visualizzare-Storia-Commit/)
-- [09-Navigare-tra-Commit](./09-Navigare-tra-Commit/)
-- [10-Annullare-Modifiche](./10-Annullare-Modifiche/)
+- [09-Commit-Avanzati](./09-Commit-Avanzati/)
+- [10-Navigare-tra-Commit](./10-Navigare-tra-Commit/)
+- [11-Annullare-Modifiche](./11-Annullare-Modifiche/)
 
 ### Modulo 4: Branching e Merging
-- [11-Concetti-di-Branching](./11-Concetti-di-Branching/)
-- [12-Creare-e-Gestire-Branch](./12-Creare-e-Gestire-Branch/)
-- [13-Merge-e-Strategie](./13-Merge-e-Strategie/)
-- [14-Risoluzione-Conflitti](./14-Risoluzione-Conflitti/)
+- [12-Concetti-di-Branching](./12-Concetti-di-Branching/)
+- [13-Creare-e-Gestire-Branch](./13-Creare-e-Gestire-Branch/)
+- [14-Merge-e-Strategie](./14-Merge-e-Strategie/)
+- [15-Risoluzione-Conflitti](./15-Risoluzione-Conflitti/)
 
 ### Modulo 5: Repository Remoti e GitHub
-- [15-Introduzione-GitHub](./15-Introduzione-GitHub/)
-- [16-Clone-Push-Pull](./16-Clone-Push-Pull/)
-- [17-Collaborazione-Base](./17-Collaborazione-Base/)
-- [18-Fork-e-Pull-Request](./18-Fork-e-Pull-Request/)
+- [16-Introduzione-GitHub](./16-Introduzione-GitHub/)
+- [17-Clone-Push-Pull](./17-Clone-Push-Pull/)
+- [18-Collaborazione-Base](./18-Collaborazione-Base/)
+- [19-Fork-e-Pull-Request](./19-Fork-e-Pull-Request/)
 
 ### Modulo 6: Funzionalità Avanzate GitHub
-- [19-Issues-e-Project-Management](./19-Issues-e-Project-Management/)
-- [20-GitHub-Actions-Intro](./20-GitHub-Actions-Intro/)
-- [21-Pages-e-Documentazione](./21-Pages-e-Documentazione/)
+- [20-Issues-e-Project-Management](./20-Issues-e-Project-Management/)
+- [21-GitHub-Actions-Intro](./21-GitHub-Actions-Intro/)
+- [22-Pages-e-Documentazione](./22-Pages-e-Documentazione/)
 
 ### Modulo 7: Workflow Avanzati
-- [22-Git-Flow-e-Strategie](./22-Git-Flow-e-Strategie/)
-- [23-Rebase-e-Cherry-Pick](./23-Rebase-e-Cherry-Pick/)
-- [24-Tag-e-Release](./24-Tag-e-Release/)
+- [23-Git-Flow-e-Strategie](./23-Git-Flow-e-Strategie/)
+- [24-Rebase-e-Cherry-Pick](./24-Rebase-e-Cherry-Pick/)
+- [25-Tag-e-Release](./25-Tag-e-Release/)
 
 ### Modulo 8: Best Practices e Troubleshooting
-- [25-Best-Practices](./25-Best-Practices/)
-- [26-Troubleshooting-Comune](./26-Troubleshooting-Comune/)
-- [27-Progetto-Finale](./27-Progetto-Finale/)
+- [26-Best-Practices](./26-Best-Practices/)
+- [27-Troubleshooting-Comune](./27-Troubleshooting-Comune/)
+- [28-Progetto-Finale](./28-Progetto-Finale/)
 
 ## 🔧 Strumenti Consigliati
 

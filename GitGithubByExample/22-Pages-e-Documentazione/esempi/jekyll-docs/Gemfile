@@ -1,0 +1,27 @@
+source "https://rubygems.org"
+
+# GitHub Pages
+gem "github-pages", group: :jekyll_plugins
+
+# Jekyll plugins
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-redirect-from"
+  gem "jekyll-paginate"
+  gem "jekyll-gist"
+  gem "jekyll-github-metadata"
+end
+
+# Windows and JRuby compatibility
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
+end
+
+# Performance booster for watching directories
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# kramdown v2 ships without the gfm parser by default
+gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 4.0"
