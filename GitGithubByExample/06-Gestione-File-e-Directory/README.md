@@ -42,9 +42,9 @@ Al termine avrai padronanza completa della gestione di file e directory in Git, 
 3. [💻 Pulizia Repository](./esempi/03-pulizia-repository.md)
 
 ### Esercizi
-1. [🎯 Organizzazione Progetto Web](./esercizi/01-organizzazione-progetto.md)
-2. [🎯 Refactoring Struttura](./esercizi/02-refactoring-struttura.md)
-3. [🎯 Pulizia e Ottimizzazione](./esercizi/03-pulizia-ottimizzazione.md)
+1. [🎯 Gestione Base dei File](./esercizi/01-esercizio-base.md)
+2. [🎯 Riorganizzazione Avanzata](./esercizi/02-esercizio-intermedio.md)
+3. [🎯 Pulizia e Gestione Avanzata](./esercizi/03-esercizio-avanzato.md)
 
 ## 🎮 Esercitazione Pratica
 
