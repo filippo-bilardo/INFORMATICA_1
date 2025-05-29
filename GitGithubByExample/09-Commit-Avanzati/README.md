@@ -97,6 +97,6 @@ Dopo aver completato questo modulo, procedi con:
 - **Totale**: 5-8 ore
 
 ## Navigazione
-- [← Modulo 07: Git Ignore](../07-Git-Ignore/README.md)
-- [Modulo 09: Branching e Merging →](../09-Branching-e-Merging/README.md)
+- [← Modulo 08: Visualizzare Storia Commit](../08-Visualizzare-Storia-Commit/README.md)
+- [Modulo 10: Navigare tra Commit →](../10-Navigare-tra-Commit/README.md)
 - [🏠 Torna all'Indice](../README.md)

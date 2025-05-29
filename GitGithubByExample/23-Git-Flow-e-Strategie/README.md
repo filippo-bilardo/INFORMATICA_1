@@ -1,4 +1,4 @@
-# 22 - Git Flow e Strategie
+# 23 - Git Flow e Strategie
 
 ## 📖 Descrizione
 

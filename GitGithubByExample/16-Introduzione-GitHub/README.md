@@ -1,4 +1,4 @@
-# 15 - Introduzione GitHub
+# 16 - Introduzione GitHub
 
 ## 📖 Descrizione
 
@@ -159,9 +159,9 @@ git config --global user.email "tua-email@example.com"
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 14-Risoluzione-Conflitti](../14-Risoluzione-Conflitti/README.md)
-- [➡️ 16-Clone-Push-Pull](../16-Clone-Push-Pull/README.md)
+- [⬅️ 15-Risoluzione-Conflitti](../15-Risoluzione-Conflitti/README.md)
+- [➡️ 17-Clone-Push-Pull](../17-Clone-Push-Pull/README.md)
 
 ---
 
-**Prossimo passo**: [16-Clone-Push-Pull](../16-Clone-Push-Pull/README.md) - Sincronizzazione con repository remoti
+**Prossimo passo**: [17-Clone-Push-Pull](../17-Clone-Push-Pull/README.md) - Sincronizzazione con repository remoti

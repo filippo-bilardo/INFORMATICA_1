@@ -1,4 +1,4 @@
-# 19 - Issues e Project Management
+# 20 - Issues e Project Management
 
 ## 📖 Descrizione
 
@@ -47,5 +47,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 18-Fork-e-Pull-Request](../18-Fork-e-Pull-Request/README.md)
-- [➡️ 20-GitHub-Actions-Intro](../20-GitHub-Actions-Intro/README.md)
+- [⬅️ 19-Fork-e-Pull-Request](../19-Fork-e-Pull-Request/README.md)
+- [➡️ 21-GitHub-Actions-Intro](../21-GitHub-Actions-Intro/README.md)
