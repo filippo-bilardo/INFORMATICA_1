@@ -1,4 +1,4 @@
-# 01 - Workflow di Collaborazione con Git e GitHub
+# 02 - Workflow Collaborativo
 
 ## 🎯 Obiettivi del Modulo
 

@@ -1,6 +1,14 @@
-# Guida: Issues e Project Tracking
+# 03 - Issues e Tracking
 
-## Introduzione
+## 🎯 Obiettivi del Modulo
+
+In questa guida imparerai:
+- Come utilizzare GitHub Issues per project tracking
+- Strategie di organizzazione delle issues
+- Tecniche di comunicazione attraverso issues
+- Best practices per il tracciamento del lavoro di team
+
+## 📖 Spiegazione Concettuale
 
 La gestione efficace di issues e progetti è fondamentale per il successo di qualsiasi team di sviluppo. GitHub fornisce strumenti potenti per organizzare, tracciare e coordinare il lavoro del team attraverso issues, project boards e milestone.
 

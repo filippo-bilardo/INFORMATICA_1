@@ -47,5 +47,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 21-Pages-e-Documentazione](../21-Pages-e-Documentazione/README.md)
-- [➡️ 23-Rebase-e-Cherry-Pick](../23-Rebase-e-Cherry-Pick/README.md)
+- [⬅️ 22-Pages-e-Documentazione](../22-Pages-e-Documentazione/README.md)
+- [➡️ 24-Rebase-e-Cherry-Pick](../24-Rebase-e-Cherry-Pick/README.md)

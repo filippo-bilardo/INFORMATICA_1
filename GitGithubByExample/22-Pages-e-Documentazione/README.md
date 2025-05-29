@@ -1,4 +1,4 @@
-# 21 - Pages e Documentazione
+# 22 - Pages e Documentazione
 
 ## 📖 Descrizione
 
@@ -47,5 +47,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 20-GitHub-Actions-Intro](../20-GitHub-Actions-Intro/README.md)
-- [➡️ 22-Git-Flow-e-Strategie](../22-Git-Flow-e-Strategie/README.md)
+- [⬅️ 21-GitHub-Actions-Intro](../21-GitHub-Actions-Intro/README.md)
+- [➡️ 23-Git-Flow-e-Strategie](../23-Git-Flow-e-Strategie/README.md)

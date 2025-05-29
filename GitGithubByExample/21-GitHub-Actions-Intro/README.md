@@ -173,5 +173,5 @@ Dopo aver completato questo modulo:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 19-Issues-e-Project-Management](../19-Issues-e-Project-Management/README.md)
-- [➡️ 21-Pages-e-Documentazione](../21-Pages-e-Documentazione/README.md)
+- [⬅️ 20-Issues-e-Project-Management](../20-Issues-e-Project-Management/README.md)
+- [➡️ 22-Pages-e-Documentazione](../22-Pages-e-Documentazione/README.md)

@@ -53,5 +53,5 @@ Rebase modifica la cronologia Git. Mai usare su branch condivisi!
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 22-Git-Flow-e-Strategie](../22-Git-Flow-e-Strategie/README.md)
-- [➡️ 24-Tag-e-Release](../24-Tag-e-Release/README.md)
+- [⬅️ 23-Git-Flow-e-Strategie](../23-Git-Flow-e-Strategie/README.md)
+- [➡️ 25-Tag-e-Release](../25-Tag-e-Release/README.md)

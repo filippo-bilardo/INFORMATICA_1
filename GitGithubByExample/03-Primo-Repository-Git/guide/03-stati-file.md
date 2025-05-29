@@ -1,290 +1,406 @@
-# 02 - Stati dei File in Git
+# 📊 Stati dei File in Git
 
-## 📖 Spiegazione Concettuale
+## 📋 Introduzione
 
-Git traccia i file attraverso diversi **stati** che rappresentano dove si trova un file nel workflow di Git. Comprendere questi stati è fondamentale per lavorare efficacemente con Git.
+In Git, ogni file nel tuo progetto può trovarsi in uno dei quattro stati principali. Comprendere questi stati è fondamentale per padroneggiare il workflow di Git e sapere sempre cosa sta succedendo nel tuo repository.
 
-### I Tre Stati Principali
+---
 
-1. **Working Directory** (Directory di Lavoro)
-2. **Staging Area** (Area di Staging)
-3. **Repository** (Repository Git)
+## 🔄 I Quattro Stati dei File
 
-E per quanto riguarda i file, Git li classifica in:
-- **Untracked** (Non tracciati)
-- **Tracked** (Tracciati)
-  - **Modified** (Modificati)
-  - **Staged** (In staging)
-  - **Committed** (Committati)
-
-## 🔧 Visualizzazione Stati
-
-### Comando Principale
-```bash
-git status
+```mermaid
+graph LR
+    A[Untracked] -->|git add| B[Staged]
+    B -->|git commit| C[Committed]
+    C -->|modifica| D[Modified]
+    D -->|git add| B
+    B -->|git reset| D
+    D -->|git checkout| C
+    A -->|git clean| E[Deleted]
 ```
 
-### Output Tipico
-```bash
-On branch main
-Your branch is up to date with 'origin/main'.
+### 1. **🔘 Untracked** - Non Tracciato
 
+**Definizione:** File che esistono nella tua directory di lavoro ma non sono ancora tracciati da Git.
+
+```bash
+# Stato iniziale dopo la creazione di un file
+$ echo "Nuovo file" > nuovo-file.txt
+$ git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+    nuovo-file.txt
+
+nothing added to commit but untracked files present
+```
+
+**Caratteristiche:**
+- 🆕 File appena creati
+- 🚫 Non compaiono nella cronologia Git
+- ⚠️ Non vengono inclusi nei commit
+- 🗑️ Possono essere eliminati senza perdere cronologia
+
+### 2. **📋 Staged** - In Area di Staging
+
+**Definizione:** File che sono stati aggiunti all'area di staging e sono pronti per il prossimo commit.
+
+```bash
+# Aggiungere file all'area di staging
+$ git add nuovo-file.txt
+$ git status
+On branch main
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
-        new file:   index.html
-        modified:   style.css
+    new file:   nuovo-file.txt
+```
+
+**Caratteristiche:**
+- ✅ Pronti per il commit
+- 📸 Snapshot del file al momento dell'`add`
+- 🔄 Possono essere modificati ulteriormente
+- ↩️ Possono essere rimossi dallo staging
+
+### 3. **💾 Committed** - Salvato nel Repository
+
+**Definizione:** File che sono stati salvati permanentemente nel database Git.
+
+```bash
+# Committare i file in staging
+$ git commit -m "Aggiunto nuovo file"
+[main a1b2c3d] Aggiunto nuovo file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 nuovo-file.txt
+
+$ git status
+On branch main
+nothing to commit, working tree clean
+```
+
+**Caratteristiche:**
+- 🏦 Salvati nel database Git
+- 📚 Parte della cronologia del progetto
+- 🔒 Sicuri e recuperabili
+- 🎯 Stato "pulito" della working directory
+
+### 4. **✏️ Modified** - Modificato
+
+**Definizione:** File che sono tracciati da Git e sono stati modificati ma non ancora aggiunti all'area di staging.
+
+```bash
+# Modificare un file esistente
+$ echo "Contenuto aggiornato" >> nuovo-file.txt
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+    modified:   nuovo-file.txt
+
+no changes added to commit
+```
+
+**Caratteristiche:**
+- 📝 Differenze rispetto all'ultimo commit
+- ⏳ Modifiche in working directory
+- 🔄 Necessita di `git add` per staging
+- ↩️ Possono essere annullate
+
+---
+
+## 🎯 Workflow Completo degli Stati
+
+### Scenario Pratico Completo
+
+```bash
+# 1. UNTRACKED: Creare un nuovo file
+$ echo "<!DOCTYPE html>" > index.html
+$ git status --porcelain
+?? index.html                    # ?? = Untracked
+
+# 2. STAGED: Aggiungere al tracking
+$ git add index.html
+$ git status --porcelain
+A  index.html                    # A = Added (staged)
+
+# 3. COMMITTED: Salvare nel repository
+$ git commit -m "Add: struttura base HTML"
+$ git status --porcelain
+                                 # Nessun output = tutto pulito
+
+# 4. MODIFIED: Modificare il file
+$ echo "<html><head><title>Test</title></head></html>" > index.html
+$ git status --porcelain
+ M index.html                    # M = Modified
+
+# 5. STAGED AGAIN: Preparare per nuovo commit
+$ git add index.html
+$ git status --porcelain
+M  index.html                    # M (prima colonna) = staged modification
+
+# 6. MODIFIED AGAIN: Ulteriori modifiche
+$ echo "<body>Contenuto</body>" >> index.html
+$ git status --porcelain
+MM index.html                    # MM = staged + modified
+```
+
+---
+
+## 📊 Visualizzazioni dello Stato
+
+### Comando `git status`
+
+#### **Formato Standard**
+```bash
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+    modified:   README.md
+    new file:   src/app.js
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   script.js
+    modified:   index.html
+    deleted:    old-file.txt
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        README.md
+    new-feature.js
+    temp/
 ```
 
-## 🎯 Ciclo di Vita dei File
-
-### 1. **File Untracked** 
+#### **Formato Breve**
 ```bash
-# File appena creato
-echo "Hello World" > nuovo-file.txt
+$ git status --short
+M  README.md        # Staged modification
+A  src/app.js       # Staged new file
+ M index.html       # Modified (not staged)
+ D old-file.txt     # Deleted (not staged)
+?? new-feature.js   # Untracked
+?? temp/            # Untracked directory
+```
+
+#### **Formato Porcelain**
+```bash
+$ git status --porcelain
+M  README.md
+A  src/app.js
+ M index.html
+ D old-file.txt
+?? new-feature.js
+?? temp/
+```
+
+---
+
+## 🎨 Codici di Stato
+
+### Tabella Completa dei Codici
+
+| Codice | Staging | Working Dir | Significato |
+|--------|---------|-------------|-------------|
+| `??` | - | - | Untracked |
+| `A ` | Added | Clean | Nuovo file in staging |
+| `M ` | Modified | Clean | Modificato e in staging |
+| `D ` | Deleted | Clean | Eliminato e in staging |
+| ` M` | Clean | Modified | Modificato ma non in staging |
+| ` D` | Clean | Deleted | Eliminato ma non in staging |
+| `MM` | Modified | Modified | In staging + ulteriori modifiche |
+| `AM` | Added | Modified | Nuovo file + modifiche dopo add |
+| `AD` | Added | Deleted | Nuovo file poi eliminato |
+
+---
+
+## 🛠️ Operazioni per Cambiare Stato
+
+### Transizioni tra Stati
+
+#### **Untracked → Staged**
+```bash
+$ git add file.txt
+$ git add .                    # Tutti i file
+$ git add *.js                 # Pattern matching
+$ git add --all                # Inclusi i file eliminati
+```
+
+#### **Staged → Committed**
+```bash
+$ git commit -m "Messaggio commit"
+$ git commit --amend           # Modifica ultimo commit
+```
+
+#### **Staged → Modified**
+```bash
+$ git restore --staged file.txt    # Git 2.23+
+$ git reset HEAD file.txt          # Versioni precedenti
+```
+
+#### **Modified → Committed (Clean)**
+```bash
+$ git restore file.txt              # Scarta modifiche
+$ git checkout -- file.txt         # Versioni precedenti
+```
+
+#### **Modified → Staged**
+```bash
+$ git add file.txt
+$ git add --update                  # Solo file già tracciati
+```
+
+---
+
+## 🔍 Ispezione Dettagliata
+
+### Differenze tra Stati
+
+#### **Working Directory vs Staging**
+```bash
+$ git diff                         # Modifiche non in staging
+$ git diff --color-words           # Evidenzia parole cambiate
+$ git diff --stat                  # Statistiche sintetiche
+```
+
+#### **Staging vs Last Commit**
+```bash
+$ git diff --staged                # Modifiche in staging
+$ git diff --cached                # Alias di --staged
+```
+
+#### **Working Directory vs Last Commit**
+```bash
+$ git diff HEAD                    # Tutte le modifiche
+$ git diff HEAD~1                  # Confronto con commit precedente
+```
+
+### Cronologia delle Modifiche
+
+```bash
+# File specifico
+$ git log --follow -- file.txt
+$ git log -p file.txt              # Con diff di ogni commit
+
+# Modifiche recenti
+$ git whatchanged --since="2 weeks ago"
+$ git log --stat --since="yesterday"
+```
+
+---
+
+## 🎯 Best Practices
+
+### ✅ Strategie Consigliate
+
+1. **📊 Controlla sempre lo stato**
+```bash
+$ git status --short               # Prima di ogni operazione
+```
+
+2. **📋 Staging incrementale**
+```bash
+$ git add --patch                  # Aggiunge parti specifiche
+$ git add --interactive            # Modalità interattiva
+```
+
+3. **💾 Commit atomici**
+```bash
+# Un concetto per commit
+$ git add feature-auth.js
+$ git commit -m "Add: sistema autenticazione utenti"
+
+$ git add bug-fix.js
+$ git commit -m "Fix: correzione memoria leak in auth"
+```
+
+4. **🔍 Review prima del commit**
+```bash
+$ git diff --staged                # Verifica cosa stai committando
+$ git status                       # Controllo finale
+```
+
+### ❌ Errori Comuni
+
+- **🚫 Commit tutto insieme**: `git add . && git commit -m "varie"`
+- **📝 Messaggi vaghi**: `git commit -m "fix"`
+- **🔄 Dimenticare lo stato**: non controllare `git status`
+- **📋 Staging accidentale**: `git add *` senza controllo
+
+---
+
+## 🔧 Troubleshooting
+
+### Problemi Comuni
+
+#### **File sempre "modified"**
+```bash
+# Problema: fine riga o permessi
+$ git config core.autocrlf false
+$ git config core.filemode false
+$ git add file.txt
+```
+
+#### **File in stato "both modified"**
+```bash
+# Durante un merge conflict
+$ git status
+both modified: conflicted-file.txt
+
+# Risolvi e aggiungi
+$ git add conflicted-file.txt
+```
+
+#### **Staging accidentale**
+```bash
+# Rimuovere dall'area di staging
+$ git restore --staged .
+$ git reset HEAD .
+```
+
+---
+
+## 🎯 Esercizio Pratico
+
+**Pratica completa degli stati:**
+
+```bash
+# Setup
+mkdir stati-git-test && cd stati-git-test
+git init
+
+# 1. UNTRACKED
+echo "Primo file" > file1.txt
+echo "Secondo file" > file2.txt
+git status --porcelain            # ?? file1.txt, ?? file2.txt
+
+# 2. STAGED
+git add file1.txt
+git status --porcelain            # A  file1.txt, ?? file2.txt
+
+# 3. COMMITTED + STAGED
+git commit -m "Add: primo file"
+git add file2.txt
+git status --porcelain            # A  file2.txt
+
+# 4. MODIFIED
+echo "Modifica" >> file1.txt
+git status --porcelain            # A  file2.txt,  M file1.txt
+
+# 5. STAGED + MODIFIED
+git add file1.txt
+echo "Altra modifica" >> file1.txt
+git status --porcelain            # A  file2.txt, MM file1.txt
+
+# 6. Analisi finale
 git status
-# Output: Untracked files: nuovo-file.txt
+git diff                          # Working vs staging
+git diff --staged                 # Staging vs last commit
 ```
 
-### 2. **File Staged**
-```bash
-# Aggiungi all'area di staging
-git add nuovo-file.txt
-git status
-# Output: Changes to be committed: new file: nuovo-file.txt
-```
+---
 
-### 3. **File Committed**
-```bash
-# Commit nella cronologia
-git commit -m "Aggiungi nuovo file"
-git status
-# Output: nothing to commit, working tree clean
-```
+## 🔗 Collegamenti Utili
 
-### 4. **File Modified**
-```bash
-# Modifica file esistente
-echo "Ciao Mondo" >> nuovo-file.txt
-git status
-# Output: Changes not staged for commit: modified: nuovo-file.txt
-```
-
-## 🧐 Dettagli degli Stati
-
-### Untracked Files
-- **Cosa sono**: File che Git non conosce ancora
-- **Come identificarli**: Elencati in "Untracked files"
-- **Prossimo step**: `git add` per iniziare il tracking
-
-### Modified Files
-- **Cosa sono**: File tracciati che sono stati modificati
-- **Come identificarli**: "Changes not staged for commit"
-- **Opzioni**: `git add` per staging o `git restore` per scartare
-
-### Staged Files
-- **Cosa sono**: File pronti per il commit
-- **Come identificarli**: "Changes to be committed"
-- **Opzioni**: `git commit` per salvare o `git restore --staged` per unstage
-
-## 🔍 Comandi per Verificare Stati
-
-### Status Completo
-```bash
-git status
-```
-
-### Status Compatto
-```bash
-git status -s
-# Output:
-# M  file-modificato.txt
-# A  file-aggiunto.txt
-# ?? file-non-tracciato.txt
-```
-
-### Differenze Working Directory
-```bash
-git diff                    # Differenze non staged
-git diff --staged          # Differenze staged
-git diff HEAD              # Tutte le differenze
-```
-
-## 🎯 Casi d'Uso Pratici
-
-### 1. **Preparazione Commit Selettivo**
-```bash
-# Modifica multipli file
-echo "update 1" >> file1.txt
-echo "update 2" >> file2.txt
-echo "update 3" >> file3.txt
-
-# Staged solo alcuni file
-git add file1.txt file2.txt
-git status
-
-# Commit parziale
-git commit -m "Update file1 and file2"
-
-# file3.txt rimane modified ma non committed
-```
-
-### 2. **Controllo Prima del Commit**
-```bash
-# Verifica cosa stai per committare
-git status
-git diff --staged
-
-# Se tutto ok, commit
-git commit -m "Messaggio descrittivo"
-```
-
-### 3. **Ripristino Stati**
-```bash
-# Scarta modifiche non staged
-git restore file-modificato.txt
-
-# Rimuovi da staging area
-git restore --staged file-staged.txt
-
-# Rimuovi file untracked (attenzione!)
-git clean -f file-indesiderato.txt
-```
-
-## ⚠️ Errori Comuni
-
-### 1. **Confondere Modified e Staged**
-```bash
-# ERRORE: Credere che git add sia permanente
-git add file.txt        # File va in staging
-echo "change" >> file.txt   # File diventa modified again!
-git commit             # Commit solo la versione staged, non le nuove modifiche
-```
-
-### 2. **Dimenticare di Verificare Status**
-```bash
-# ERRORE: Commit senza controllare cosa si sta committando
-git add .
-git commit -m "Fix"    # ⚠️ Cosa ho committato esattamente?
-
-# CORRETTO:
-git add .
-git status             # ✅ Verifica prima
-git commit -m "Fix login validation and update styles"
-```
-
-### 3. **Ignorare File Untracked Importanti**
-```bash
-# ERRORE: Dimenticare file importanti
-git add *.js
-git commit -m "Add all JavaScript"
-# ⚠️ config.js rimane untracked e non viene committato!
-```
-
-## ✅ Best Practices
-
-### 1. **Status Frequente**
-```bash
-# Controlla status frequentemente
-git status
-
-# Usa alias per velocità
-git config --global alias.st status
-git st
-```
-
-### 2. **Commit Atomici**
-```bash
-# Un commit = una funzionalità/fix
-git add specific-files.txt
-git commit -m "Fix specific issue"
-
-# Non tutto insieme
-# ❌ git add . && git commit -m "Various changes"
-```
-
-### 3. **Verifica Prima di Committare**
-```bash
-# Routine pre-commit
-git status              # Cosa sto committando?
-git diff --staged      # Come sono le modifiche?
-git commit -m "Clear message"
-```
-
-## 🧪 Quiz di Autovalutazione
-
-1. **Un file modificato ma non aggiunto con `git add` è in che stato?**
-   - A) Staged
-   - B) Committed  
-   - C) Modified
-   - D) Untracked
-
-2. **Cosa mostra `git diff --staged`?**
-   - A) Tutte le modifiche
-   - B) Solo modifiche non staged
-   - C) Solo modifiche staged
-   - D) Cronologia commit
-
-3. **Come rimuovi un file dall'area di staging?**
-   - A) `git remove`
-   - B) `git restore --staged`
-   - C) `git unstage`
-   - D) `git reset`
-
-4. **Uno status "clean" significa:**
-   - A) Nessun file nel progetto
-   - B) Tutti file committed, niente da committare
-   - C) Solo file staged
-   - D) Repository vuoto
-
-**Risposte:** 1-C, 2-C, 3-B, 4-B
-
-## 🏋️ Esercizi Pratici
-
-### Esercizio 1: Ciclo Completo Stati
-```bash
-# 1. Crea file e osserva stati
-echo "Contenuto iniziale" > test.txt
-git status      # Untracked
-
-# 2. Aggiungi e osserva
-git add test.txt
-git status      # Staged
-
-# 3. Commit e osserva
-git commit -m "Add test file"
-git status      # Clean
-
-# 4. Modifica e osserva
-echo "Modifica" >> test.txt
-git status      # Modified
-```
-
-### Esercizio 2: Stati Multipli
-```bash
-# 1. Crea e modifica file diversi
-echo "File A" > a.txt
-echo "File B" > b.txt
-echo "File C" > c.txt
-
-# 2. Diversi stati
-git add a.txt           # a.txt: staged
-echo "update" >> b.txt  # b.txt: untracked
-# c.txt: untracked
-
-git status  # Osserva i diversi stati
-```
-
-## 🔗 Navigazione del Corso
-
-- [📑 Indice](../README.md)
-- [⬅️ 01 - Inizializzazione Repository](./01-inizializzazione-repository.md)
-- [➡️ 03 - Primo Commit](./03-primo-commit.md)
+- **📚 Prossima guida**: [04 - Primo Commit](./04-primo-commit.md)
+- **📖 Guida precedente**: [02 - Anatomia Directory Git](./02-anatomia-directory-git.md)
+- **🎯 Esempi pratici**: [03 - Tracking File Diversi](../esempi/03-tracking-file-diversi.md)
