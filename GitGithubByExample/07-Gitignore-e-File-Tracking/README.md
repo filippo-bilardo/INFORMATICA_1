@@ -27,7 +27,9 @@ Al termine di questo modulo sarai in grado di:
 
 ### Esercizi Hands-on
 1. [**Setup .gitignore Completo**](./esercizi/01-setup-gitignore.md) - Configurazione da zero
-2. [**Pulizia Repository Esistente**](./esercizi/02-pulizia-repository.md) - Rimozione file non necessari
+2. [**Pattern Avanzati**](./esercizi/02-pattern-avanzati.md) - Utilizzo di wildcard e regole complesse
+3. [**Debugging .gitignore**](./esercizi/03-debugging-gitignore.md) - Verifica e risoluzione problemi
+4. [**Pulizia Repository Esistente**](./esercizi/04-pulizia-repository.md) - Rimozione file non necessari
 
 ## 🎓 Competenze Sviluppate
 

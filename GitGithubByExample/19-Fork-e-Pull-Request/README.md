@@ -1,4 +1,4 @@
-# 18 - Fork e Pull Request
+# 19 - Fork e Pull Request
 
 ## 📖 Descrizione
 
@@ -47,5 +47,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 17-Collaborazione-Base](../17-Collaborazione-Base/README.md)
-- [➡️ 19-Issues-e-Project-Management](../19-Issues-e-Project-Management/README.md)
+- [⬅️ 18-Collaborazione-Base](../18-Collaborazione-Base/README.md)
+- [➡️ 20-Issues-e-Project-Management](../20-Issues-e-Project-Management/README.md)

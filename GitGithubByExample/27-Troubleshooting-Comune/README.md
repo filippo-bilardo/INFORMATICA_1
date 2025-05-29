@@ -1,4 +1,4 @@
-# 26 - Troubleshooting Comune
+# 27 - Troubleshooting Comune
 
 ## 📖 Descrizione
 
@@ -69,5 +69,5 @@ git pull --rebase            # Risolvi divergenze
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 25-Best-Practices](../25-Best-Practices/README.md)
-- [➡️ 27-Progetto-Finale](../27-Progetto-Finale/README.md)
+- [⬅️ 26-Best-Practices](../26-Best-Practices/README.md)
+- [➡️ 28-Progetto-Finale](../28-Progetto-Finale/README.md)

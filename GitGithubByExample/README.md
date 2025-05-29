@@ -125,7 +125,3 @@ Sei pronto per iniziare il tuo viaggio nell'apprendimento di Git e GitHub? Inizi
 ---
 
 **Buon apprendimento e happy coding! 🚀**
-
----
-
-*Corso creato con ❤️ per sviluppatori che vogliono padroneggiare Git e GitHub*
