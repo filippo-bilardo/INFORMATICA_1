@@ -109,9 +109,9 @@ Avrai una comprensione concettuale solida del branching che ti preparerà per im
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 10-Annullare-Modifiche](../10-Annullare-Modifiche/README.md)
-- [➡️ 12-Creare-e-Gestire-Branch](../12-Creare-e-Gestire-Branch/README.md)
+- [⬅️ 11-Annullare-Modifiche](../11-Annullare-Modifiche/README.md)
+- [➡️ 13-Creare-e-Gestire-Branch](../13-Creare-e-Gestire-Branch/README.md)
 
 ---
 
-**Prossimo passo**: [12-Creare-e-Gestire-Branch](../12-Creare-e-Gestire-Branch/README.md) - Implementazione pratica del branching
+**Prossimo passo**: [13-Creare-e-Gestire-Branch](../13-Creare-e-Gestire-Branch/README.md) - Implementazione pratica del branching

@@ -144,8 +144,8 @@ Al termine di questo modulo sarai in grado di:
 ## 🔗 Integrazione con Altri Moduli
 
 ### 📚 **Prerequisiti Consigliati**
-- **[17 - Collaborazione Avanzata](../17-Collaborazione-Avanzata/README.md)** - Team workflows
-- **[19 - Issues e Project Management](../19-Issues-e-Project-Management/README.md)** - Project automation
+- **[18 - Collaborazione Base](../18-Collaborazione-Base/README.md)** - Team workflows
+- **[20 - Issues e Project Management](../20-Issues-e-Project-Management/README.md)** - Project automation
 
 ### 🚀 **Moduli Successivi**
 - **[22 - Pages e Documentazione](../22-Pages-e-Documentazione/README.md)** - Documentation automation

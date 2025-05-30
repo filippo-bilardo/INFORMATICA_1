@@ -8,6 +8,21 @@ echo "======================================"
 COURSE_DIR="/home/git-projects/INFORMATICA_1/GitGithubByExample"
 cd "$COURSE_DIR"
 
+#Funzione per verificare se un modulo è completo
+module_is_complete() {
+    local module_dir="$1"
+    local guide_files=$(find "$module_dir/guide" -name "*.md" 2>/dev/null | wc -l)
+    local esempi_files=$(find "$module_dir/esempi" -name "*.md" 2>/dev/null | wc -l)
+    local esercizi_files=$(find "$module_dir/esercizi" -name "*.md" 2>/dev/null | wc -l)
+
+    if [[ $guide_files -ge 4 && $esempi_files -ge 4 && $esercizi_files -ge 4 ]]; then
+        return 0 # Modulo completo
+    else
+        return 1 # Modulo incompleto
+    fi
+}
+
+
 echo ""
 echo "📁 STRUTTURA MODULI E DUPLICAZIONI:"
 echo "-----------------------------------"
@@ -60,7 +75,7 @@ for module_dir in */; do
         total_files=$((guide_files + esempi_files + esercizi_files))
         
         status="❌ INCOMPLETO"
-        if [[ $guide_files -gt 0 && $esempi_files -gt 0 && $esercizi_files -gt 0 ]]; then
+        if [[ $guide_files -gt 3 && $esempi_files -gt 3 && $esercizi_files -gt 3 ]]; then
             status="✅ COMPLETO"
             complete_modules=$((complete_modules + 1))
         else

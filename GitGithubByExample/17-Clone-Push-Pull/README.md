@@ -83,5 +83,5 @@ git pull --rebase                  # Pull con rebase
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 15-Introduzione-GitHub](../15-Introduzione-GitHub/README.md)
-- [➡️ 17-Collaborazione-Base](../17-Collaborazione-Base/README.md)
+- [⬅️ 16-Introduzione-GitHub](../16-Introduzione-GitHub/README.md)
+- [➡️ 18-Collaborazione-Base](../18-Collaborazione-Base/README.md)

@@ -125,9 +125,9 @@ release/v1.2.0
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 11-Concetti-di-Branching](../11-Concetti-di-Branching/README.md)
-- [➡️ 13-Merge-e-Strategie](../13-Merge-e-Strategie/README.md)
+- [⬅️ 12-Concetti-di-Branching](../12-Concetti-di-Branching/README.md)
+- [➡️ 14-Merge-e-Strategie](../14-Merge-e-Strategie/README.md)
 
 ---
 
-**Prossimo passo**: [13-Merge-e-Strategie](../13-Merge-e-Strategie/README.md) - Unire il lavoro dei branch
+**Prossimo passo**: [14-Merge-e-Strategie](../14-Merge-e-Strategie/README.md) - Unire il lavoro dei branch

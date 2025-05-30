@@ -104,9 +104,9 @@ git reset --hard <hash>  # Recupera
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 09-Navigare-tra-Commit](../09-Navigare-tra-Commit/README.md)
-- [➡️ 11-Concetti-di-Branching](../11-Concetti-di-Branching/README.md)
+- [⬅️ 10-Navigare-tra-Commit](../10-Navigare-tra-Commit/README.md)
+- [➡️ 12-Concetti-di-Branching](../12-Concetti-di-Branching/README.md)
 
 ---
 
-**Prossimo passo**: [11-Concetti-di-Branching](../11-Concetti-di-Branching/README.md) - Iniziamo con i branch Git
+**Prossimo passo**: [12-Concetti-di-Branching](../12-Concetti-di-Branching/README.md) - Iniziamo con i branch Git

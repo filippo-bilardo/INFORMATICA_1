@@ -148,9 +148,9 @@ Closes #123
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 12-Creare-e-Gestire-Branch](../12-Creare-e-Gestire-Branch/README.md)
-- [➡️ 14-Risoluzione-Conflitti](../14-Risoluzione-Conflitti/README.md)
+- [⬅️ 13-Creare-e-Gestire-Branch](../13-Creare-e-Gestire-Branch/README.md)
+- [➡️ 15-Risoluzione-Conflitti](../15-Risoluzione-Conflitti/README.md)
 
 ---
 
-**Prossimo passo**: [14-Risoluzione-Conflitti](../14-Risoluzione-Conflitti/README.md) - Gestire conflitti durante il merge
+**Prossimo passo**: [15-Risoluzione-Conflitti](../15-Risoluzione-Conflitti/README.md) - Gestire conflitti durante il merge

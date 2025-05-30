@@ -168,9 +168,9 @@ git merge main  # o rebase
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 13-Merge-e-Strategie](../13-Merge-e-Strategie/README.md)
-- [➡️ 15-Introduzione-GitHub](../15-Introduzione-GitHub/README.md)
+- [⬅️ 14-Merge-e-Strategie](../14-Merge-e-Strategie/README.md)
+- [➡️ 16-Introduzione-GitHub](../16-Introduzione-GitHub/README.md)
 
 ---
 
-**Prossimo passo**: [15-Introduzione-GitHub](../15-Introduzione-GitHub/README.md) - Dal Git locale alla collaborazione online
+**Prossimo passo**: [16-Introduzione-GitHub](../16-Introduzione-GitHub/README.md) - Dal Git locale alla collaborazione online

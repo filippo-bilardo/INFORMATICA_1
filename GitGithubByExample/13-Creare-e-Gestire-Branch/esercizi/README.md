@@ -608,4 +608,4 @@ Al completamento degli esercizi, dovresti essere in grado di:
 
 ---
 
-**Prossimo modulo**: [Merge e Strategie](../../13-Merge-e-Strategie/README.md)
+**Prossimo modulo**: [Merge e Strategie](../../14-Merge-e-Strategie/README.md)

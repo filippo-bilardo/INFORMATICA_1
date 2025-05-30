@@ -83,8 +83,8 @@ Sarai in grado di navigare efficacemente nella cronologia di qualsiasi repositor
 
 - [📑 Indice](../README.md)
 - [⬅️ 07-Gitignore-e-File-Tracking](../07-Gitignore-e-File-Tracking/README.md)
-- [➡️ 09-Navigare-tra-Commit](../09-Navigare-tra-Commit/README.md)
+- [➡️ 10-Navigare-tra-Commit](../10-Navigare-tra-Commit/README.md)
 
 ---
 
-**Prossimo passo**: [09-Navigare-tra-Commit](../09-Navigare-tra-Commit/README.md) - Spostarsi nella cronologia Git
+**Prossimo passo**: [10-Navigare-tra-Commit](../10-Navigare-tra-Commit/README.md) - Spostarsi nella cronologia Git

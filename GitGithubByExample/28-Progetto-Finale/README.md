@@ -182,7 +182,7 @@ Alla fine del progetto, rifletti su:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 26-Troubleshooting-Comune](../26-Troubleshooting-Comune/README.md)
+- [⬅️ 27-Troubleshooting-Comune](../27-Troubleshooting-Comune/README.md)
 - [🎯 Course Completion Certificate](../certificazione/)
 
 ---

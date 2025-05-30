@@ -48,5 +48,5 @@ Al termine di questa esercitazione sarai in grado di:
 ## 🔄 Navigazione del Corso
 
 - [📑 Indice](../README.md)
-- [⬅️ 16-Clone-Push-Pull](../16-Clone-Push-Pull/README.md)
-- [➡️ 18-Fork-e-Pull-Request](../18-Fork-e-Pull-Request/README.md)
+- [⬅️ 17-Clone-Push-Pull](../17-Clone-Push-Pull/README.md)
+- [➡️ 19-Fork-e-Pull-Request](../19-Fork-e-Pull-Request/README.md)

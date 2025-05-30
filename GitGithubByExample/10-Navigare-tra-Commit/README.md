@@ -88,8 +88,8 @@ Sarai in grado di navigare confidentemente nella cronologia Git per debugging, t
 
 - [📑 Indice](../README.md)
 - [⬅️ 08-Visualizzare-Storia-Commit](../08-Visualizzare-Storia-Commit/README.md)
-- [➡️ 10-Annullare-Modifiche](../10-Annullare-Modifiche/README.md)
+- [➡️ 11-Annullare-Modifiche](../11-Annullare-Modifiche/README.md)
 
 ---
 
-**Prossimo passo**: [10-Annullare-Modifiche](../10-Annullare-Modifiche/README.md) - Correggere errori e annullare cambiamenti
+**Prossimo passo**: [11-Annullare-Modifiche](../11-Annullare-Modifiche/README.md) - Correggere errori e annullare cambiamenti
