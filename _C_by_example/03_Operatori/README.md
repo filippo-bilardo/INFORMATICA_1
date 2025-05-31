@@ -1,152 +1,154 @@
-# Esercitazione 3: Operatori in C
+# 📐 Lezione 03: Operatori in C
 
-## Descrizione
+> **🎯 Obiettivo**: Padroneggiare tutti i tipi di operatori del linguaggio C  
+> **⏱️ Tempo stimato**: 2-3 ore  
+> **📊 Difficoltà**: ⭐⭐⭐ Intermedio  
+> **🔗 Prerequisiti**: [Lezione 02 - Variabili e Tipi](../02_Variabili_e_Tipi)
 
-Questa esercitazione introduce i vari tipi di operatori disponibili nel linguaggio C. Imparerai a utilizzare operatori aritmetici, relazionali, logici, di assegnazione, bit a bit e altri operatori speciali. Comprenderai anche le regole di precedenza e associatività che determinano l'ordine di valutazione delle espressioni.
+---
 
-## Obiettivi di apprendimento
+## 🌟 Cosa Imparerai
 
-- Conoscere e utilizzare correttamente i diversi tipi di operatori in C
-- Comprendere la precedenza e l'associatività degli operatori
-- Scrivere espressioni complesse utilizzando vari operatori
-- Evitare errori comuni nell'uso degli operatori
-- Ottimizzare le espressioni per migliorare la leggibilità e l'efficienza
+Al termine di questa lezione sarai in grado di:
 
-## Indice degli argomenti teorici
+- ✅ **Utilizzare correttamente** tutti i tipi di operatori in C
+- ✅ **Comprendere** la precedenza e l'associatività degli operatori  
+- ✅ **Scrivere espressioni complesse** con operatori multipli
+- ✅ **Evitare errori comuni** nell'uso degli operatori
+- ✅ **Ottimizzare il codice** con operatori bit a bit
+- ✅ **Applicare** operatori in situazioni pratiche
 
-1. [Operatori aritmetici](./teoria/01_Operatori_Aritmetici.md)
-   - Addizione, sottrazione, moltiplicazione, divisione
-   - Modulo (resto della divisione)
-   - Incremento e decremento
+---
 
-2. [Operatori relazionali e di uguaglianza](./teoria/02_Operatori_Relazionali.md)
-   - Maggiore, minore, maggiore o uguale, minore o uguale
-   - Uguale a, diverso da
-   - Utilizzo nelle strutture condizionali
+## 📚 Teoria e Concetti
 
-3. [Operatori logici](./teoria/03_Operatori_Logici.md)
-   - AND logico (&&)
-   - OR logico (||)
-   - NOT logico (!)
-   - Short-circuit evaluation
+### 🔗 Link Rapidi
+- 📖 [Teoria Completa](./teoria/) 
+- 💻 [Esempi Pratici](./esempi/)
+- 🏋️ [Esercizi](./esercizi/)
+- 🧠 [Quiz Interattivo](./QUIZ.md)
 
-4. [Operatori di assegnazione](./teoria/04_Operatori_Assegnazione.md)
-   - Assegnazione semplice (=)
-   - Assegnazioni composte (+=, -=, *=, /=, %=, ecc.)
+---
 
-5. [Operatori bit a bit](./teoria/05_Operatori_Bit_a_Bit.md)
-   - AND, OR, XOR, NOT bit a bit
-   - Shift a sinistra e a destra
-   - Applicazioni pratiche
+### 🗂️ Contenuti Teorici
 
-6. [Altri operatori](./teoria/06_Altri_Operatori.md)
-   - Operatore condizionale (ternario)
-   - Operatore virgola
-   - Operatori di dimensione e indirizzo (sizeof, &, *)
+| 📝 Argomento | 🎯 Concetti Chiave | ⏱️ Tempo |
+|---------------|-------------------|----------|
+| **[🧮 Operatori Aritmetici](./teoria/01_Operatori_Aritmetici.md)** | `+` `-` `*` `/` `%` `++` `--` | 25 min |
+| **[⚖️ Operatori Relazionali](./teoria/02_Operatori_Relazionali.md)** | `>` `<` `>=` `<=` `==` `!=` | 20 min |
+| **[🔗 Operatori Logici](./teoria/03_Operatori_Logici.md)** | `&&` `\|\|` `!` Short-circuit | 30 min |
+| **[📝 Operatori di Assegnazione](./teoria/04_Operatori_Assegnazione.md)** | `=` `+=` `-=` `*=` `/=` `%=` | 20 min |
+| **[🔢 Operatori Bit a Bit](./teoria/05_Operatori_Bit_a_Bit.md)** | `&` `\|` `^` `~` `<<` `>>` | 35 min |
+| **[🎭 Altri Operatori](./teoria/06_Altri_Operatori.md)** | `?:` `,` `sizeof` `&` `*` | 25 min |
+| **[📊 Precedenza e Associatività](./teoria/07_Precedenza_Associativita.md)** | Tabelle e regole | 20 min |
 
-7. [Precedenza e associatività](./teoria/07_Precedenza_Associativita.md)
-   - Tabella di precedenza degli operatori
-   - Regole di associatività
-   - Uso delle parentesi per controllare l'ordine di valutazione
+**💡 Totale tempo teoria**: ~3 ore
 
-## Esercitazione pratica
+---
 
-### Esercizio 3.1: Operatori aritmetici
+## 💻 Esempi Pratici
 
-Scrivi un programma che utilizzi tutti gli operatori aritmetici per eseguire calcoli su due numeri inseriti dall'utente.
+| 🔧 Esempio | 📝 Descrizione | 🎯 Operatori |
+|------------|-----------------|--------------|
+| **[calcolatrice_base.c](./esempi/calcolatrice_base.c)** | Calcolatrice con operatori aritmetici | `+` `-` `*` `/` `%` |
+| **[confronti_avanzati.c](./esempi/confronti_avanzati.c)** | Comparazioni e logica | `==` `!=` `&&` `\|\|` |
+| **[manipolazione_bit.c](./esempi/manipolazione_bit.c)** | Operazioni bit a bit | `&` `\|` `^` `<<` `>>` |
 
-```c
-#include <stdio.h>
+🔨 **Compila ed esegui**: `cd esempi && make run`
 
-int main() {
-    int a, b;
-    
-    printf("Inserisci due numeri interi: ");
-    scanf("%d %d", &a, &b);
-    
-    printf("Somma: %d\n", a + b);
-    printf("Differenza: %d\n", a - b);
-    printf("Prodotto: %d\n", a * b);
-    printf("Quoziente: %d\n", a / b);
-    printf("Resto: %d\n", a % b);
-    
-    return 0;
-}
-```
+---
 
-### Esercizio 3.2: Operatori relazionali e logici
+## 🏋️ Esercizi Pratici
 
-Scrivi un programma che verifichi se un numero è compreso in un determinato intervallo utilizzando operatori relazionali e logici.
+| 📋 Esercizio | 💪 Difficoltà | 🎯 Focus |
+|--------------|---------------|----------|
+| **[Esercizio 1](./esercizi/esercizio1.c)** | ⭐⭐ Facile | Operatori aritmetici base |
+| **[Esercizio 2](./esercizi/esercizio2.c)** | ⭐⭐⭐ Medio | Logica e confronti |
+| **[Esercizio 3](./esercizi/esercizio3.c)** | ⭐⭐⭐⭐ Difficile | Operatori bit a bit |
 
-```c
-#include <stdio.h>
+**✅ Soluzioni disponibili**: [./esercizi/soluzioni/](./esercizi/soluzioni/)
 
-int main() {
-    int numero, min, max;
-    
-    printf("Inserisci un numero: ");
-    scanf("%d", &numero);
-    
-    printf("Inserisci l'intervallo (min max): ");
-    scanf("%d %d", &min, &max);
-    
-    if (numero >= min && numero <= max) {
-        printf("%d è compreso nell'intervallo [%d, %d]\n", numero, min, max);
-    } else {
-        printf("%d NON è compreso nell'intervallo [%d, %d]\n", numero, min, max);
-    }
-    
-    return 0;
-}
-```
+🔨 **Testa le soluzioni**: `cd esercizi && make test`
 
-### Esercizio 3.3: Operatori bit a bit
+---
 
-Scrivi un programma che mostri il risultato delle operazioni bit a bit su due numeri.
+## 🧠 Autovalutazione
 
-```c
-#include <stdio.h>
+📝 **[Quiz Interattivo](./QUIZ.md)** - 15 domande sui operatori  
+⏱️ **Tempo**: 20-25 minuti  
+🎯 **Obiettivo**: Punteggio ≥ 80%
 
-int main() {
-    unsigned int a, b;
-    
-    printf("Inserisci due numeri positivi: ");
-    scanf("%u %u", &a, &b);
-    
-    printf("AND bit a bit: %u\n", a & b);
-    printf("OR bit a bit: %u\n", a | b);
-    printf("XOR bit a bit: %u\n", a ^ b);
-    printf("NOT bit a bit di a: %u\n", ~a);
-    printf("Shift a sinistra di a di 2 posizioni: %u\n", a << 2);
-    printf("Shift a destra di a di 2 posizioni: %u\n", a >> 2);
-    
-    return 0;
-}
-```
+---
 
-## Domande di autovalutazione
+## 🎯 Progetti di Consolidamento
 
-1. Qual è la differenza tra gli operatori di incremento prefisso (++i) e postfisso (i++)?
-2. Cosa succede quando si divide un numero intero per zero in C?
-3. Spiega il concetto di "short-circuit evaluation" negli operatori logici.
-4. Perché è importante conoscere la precedenza degli operatori?
-5. In quali situazioni è preferibile utilizzare gli operatori di assegnazione composta?
-6. Come si può utilizzare l'operatore ternario per semplificare il codice?
-7. Quali sono le applicazioni pratiche degli operatori bit a bit?
+### 🔥 Progetto 1: Calcolatrice Scientifica
+- **Obiettivo**: Implementare una calcolatrice con operatori avanzati
+- **Concetti**: Precedenza, parentesi, funzioni matematiche
+- **Difficoltà**: ⭐⭐⭐⭐
 
-## Suggerimenti e best practice
+### 🔥 Progetto 2: Sistema di Permessi (Bit Flags)
+- **Obiettivo**: Gestire permessi utente con operatori bit a bit
+- **Concetti**: Maschere di bit, flag, operazioni logiche
+- **Difficoltà**: ⭐⭐⭐⭐⭐
 
-- Utilizzare le parentesi per rendere esplicito l'ordine di valutazione delle espressioni complesse.
-- Evitare effetti collaterali nelle espressioni, specialmente quando si utilizzano operatori di incremento/decremento.
-- Prestare attenzione alla divisione tra interi, che tronca il risultato verso zero.
-- Utilizzare gli operatori bit a bit solo quando necessario, poiché possono rendere il codice meno leggibile.
-- Ricordare che l'operatore di assegnazione (=) è diverso dall'operatore di uguaglianza (==).
-- Sfruttare la short-circuit evaluation degli operatori logici per ottimizzare il codice.
+---
 
-## Esercizi proposti
+## 📊 Tabella di Precedenza Rapida
 
-1. Scrivi un programma che calcoli il valore assoluto di un numero senza utilizzare funzioni di libreria.
-2. Implementa un programma che verifichi se un numero è pari o dispari utilizzando operatori bit a bit.
-3. Crea un programma che converta un numero da decimale a binario utilizzando operatori bit a bit.
-4. Scrivi un programma che implementi una calcolatrice semplice utilizzando l'operatore switch.
-5. Implementa un programma che verifichi se un anno è bisestile utilizzando operatori logici.
+| 🥇 Livello | 🔧 Operatori | 📖 Descrizione |
+|------------|--------------|-----------------|
+| **1** (più alta) | `()` `[]` `->` `.` | Chiamate, accesso |
+| **2** | `!` `~` `++` `--` `+` `-` `*` `&` | Unari |
+| **3** | `*` `/` `%` | Moltiplicazione, divisione |
+| **4** | `+` `-` | Addizione, sottrazione |
+| **5** | `<<` `>>` | Shift bit a bit |
+| **6** | `<` `<=` `>` `>=` | Relazionali |
+| **7** | `==` `!=` | Uguaglianza |
+| **8** | `&` | AND bit a bit |
+| **9** | `^` | XOR bit a bit |
+| **10** | `\|` | OR bit a bit |
+| **11** | `&&` | AND logico |
+| **12** | `\|\|` | OR logico |
+| **13** | `?:` | Ternario |
+| **14** | `=` `+=` `-=` ... | Assegnazione |
+| **15** (più bassa) | `,` | Virgola |
+
+---
+
+## 💡 Tips e Best Practices
+
+### ✅ Da Fare
+- 🎯 **Usa parentesi** per chiarire la precedenza
+- 🔍 **Attenzione alla divisione** tra interi
+- ⚡ **Sfrutta short-circuit** evaluation
+- 🛡️ **Valida gli input** prima delle operazioni
+
+### ❌ Da Evitare
+- 🚫 **Non confondere** `=` con `==`
+- 🚫 **Evita** side effects complessi
+- 🚫 **Non dividere** per zero
+- 🚫 **Evita** operatori bit su signed int
+
+---
+
+## 🔗 Navigazione
+
+**⬅️ Precedente**: [Lezione 02 - Variabili e Tipi](../02_Variabili_e_Tipi/)  
+**➡️ Successiva**: [Lezione 04 - Strutture di Controllo](../04_Strutture_di_Controllo/)  
+**🏠 Home**: [Indice Corso](../../README.md)
+
+---
+
+## 📈 Prossimi Passi
+
+1. **📖 Studia la teoria** seguendo l'ordine consigliato
+2. **💻 Sperimenta** con gli esempi forniti
+3. **🏋️ Completa** tutti gli esercizi
+4. **🧠 Fai il quiz** per verificare la comprensione
+5. **🔥 Affronta** i progetti di consolidamento
+
+---
+
+> 💪 **Ricorda**: Gli operatori sono il cuore della programmazione!  
+> 🎯 **Focus**: Comprendi la logica prima di memorizzare la sintassi!

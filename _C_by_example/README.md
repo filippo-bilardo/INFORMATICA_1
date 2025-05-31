@@ -192,38 +192,3 @@ Si consiglia di seguire le esercitazioni nell'ordine proposto, poiché ogni lezi
 4. Verificare la comprensione con le domande di autovalutazione
 
 Buono studio e buon divertimento con il linguaggio C!
-
-## 📚 Documentazione Aggiuntiva
-
-Oltre alle lezioni, questo repository include:
-
-- 📋 [**MIGLIORAMENTI_SUGGERITI.md**](./MIGLIORAMENTI_SUGGERITI.md) - Analisi completa e roadmap miglioramenti
-- 📐 [**TEMPLATE_LEZIONI.md**](./TEMPLATE_LEZIONI.md) - Template standardizzato per creare nuove lezioni
-- ✅ [**IMPLEMENTAZIONE_COMPLETATA.md**](./IMPLEMENTAZIONE_COMPLETATA.md) - Riepilogo delle migliorie implementate
-- 🧪 [**TEST_FINALE_VALIDAZIONE.md**](./TEST_FINALE_VALIDAZIONE.md) - Test di funzionalità e validazione
-- 🚀 [**setup.sh**](./setup.sh) - Script automatico per configurazione ambiente
-
-## 🚀 Quick Start
-
-1. **Clone e Setup**:
-   ```bash
-   git clone [repository-url]
-   cd _C_by_example
-   ./setup.sh
-   ```
-
-2. **Prima Lezione**:
-   ```bash
-   cd 01_Introduzione
-   # Leggi README.md per panoramica
-   # Studia file in teoria/
-   # Prova esempi: cd esempi && make run-all
-   # Fai esercizi: cd ../esercizi && make help
-   # Verifica con QUIZ.md
-   ```
-
-3. **Workflow di Studio Consigliato**:
-   - 📖 Teoria (30-45 min)
-   - 💻 Esempi (15-30 min)
-   - ✏️ Esercizi (60-90 min)
-   - 🧠 Quiz (10-15 min)
