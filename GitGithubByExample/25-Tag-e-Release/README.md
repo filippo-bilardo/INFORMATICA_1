@@ -43,6 +43,7 @@ Al termine di questa esercitazione sarai in grado di:
 ### Esercizi di Consolidamento
 1. [01 - Release Workflow](./esercizi/01-release-workflow.md)
 2. [02 - Version Management](./esercizi/02-version-management.md)
+3. [03 - Enterprise Release Orchestration](./esercizi/03-enterprise-release-orchestration.md)
 
 ## 🔄 Navigazione del Corso
 

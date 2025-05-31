@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Area di Staging - Workflow Dettagliato</text>
+  
+  <!-- Working Directory -->
+  <rect x="30" y="80" width="200" height="150" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="130" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Working Directory</text>
+  <text x="130" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">file1.txt (modificato)</text>
+  <text x="130" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">file2.txt (nuovo)</text>
+  <text x="130" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">file3.txt (eliminato)</text>
+  <text x="130" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Untracked/Modified</text>
+  
+  <!-- Staging Area -->
+  <rect x="300" y="80" width="200" height="150" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Staging Area</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">file1.txt</text>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">file2.txt</text>
+  <text x="400" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Pronti per commit</text>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">git add</text>
+  
+  <!-- Repository -->
+  <rect x="570" y="80" width="200" height="150" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+  <text x="670" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Repository</text>
+  <text x="670" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Commit: abc123</text>
+  <text x="670" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Commit: def456</text>
+  <text x="670" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Commit: ghi789</text>
+  <text x="670" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">git commit</text>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- Arrow 1: Working to Staging -->
+  <line x1="230" y1="140" x2="300" y2="140" stroke="#34495e" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="265" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">git add</text>
+  
+  <!-- Arrow 2: Staging to Repository -->
+  <line x1="500" y1="140" x2="570" y2="140" stroke="#34495e" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="535" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">git commit</text>
+  
+  <!-- Commands section -->
+  <rect x="30" y="280" width="740" height="180" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="40" y="305" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">Comandi per l'Area di Staging:</text>
+  
+  <text x="40" y="330" font-family="monospace" font-size="14" fill="#34495e">• git add &lt;file&gt; - Aggiunge un file specifico al staging</text>
+  <text x="40" y="350" font-family="monospace" font-size="14" fill="#34495e">• git add . - Aggiunge tutti i file modificati</text>
+  <text x="40" y="370" font-family="monospace" font-size="14" fill="#34495e">• git add -A - Aggiunge tutti i file (inclusi eliminati)</text>
+  <text x="40" y="390" font-family="monospace" font-size="14" fill="#34495e">• git reset &lt;file&gt; - Rimuove file dal staging</text>
+  <text x="40" y="410" font-family="monospace" font-size="14" fill="#34495e">• git reset - Rimuove tutti i file dal staging</text>
+  <text x="40" y="430" font-family="monospace" font-size="14" fill="#34495e">• git status - Mostra lo stato di tutti i file</text>
+  <text x="40" y="450" font-family="monospace" font-size="14" fill="#34495e">• git diff --staged - Mostra differenze nel staging</text>
+</svg>

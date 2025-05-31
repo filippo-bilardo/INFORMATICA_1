@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="650" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="650" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Branch Management - Creazione e Gestione</text>
+  
+  <!-- Repository visualization -->
+  <rect x="50" y="60" width="800" height="200" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  
+  <!-- Main branch -->
+  <line x1="100" y1="120" x2="750" y2="120" stroke="#3498db" stroke-width="6"/>
+  <text x="60" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db">main</text>
+  
+  <!-- Feature branches -->
+  <line x1="200" y1="120" x2="300" y2="180" stroke="#e74c3c" stroke-width="4"/>
+  <text x="220" y="200" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">feature/auth</text>
+  
+  <line x1="350" y1="120" x2="450" y2="80" stroke="#27ae60" stroke-width="4"/>
+  <text x="380" y="70" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">feature/ui</text>
+  
+  <line x1="500" y1="120" x2="600" y2="180" stroke="#f39c12" stroke-width="4"/>
+  <text x="520" y="200" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">hotfix/bug</text>
+  
+  <!-- Branch commits -->
+  <circle cx="150" cy="120" r="6" fill="#2c3e50"/>
+  <circle cx="200" cy="120" r="6" fill="#2c3e50"/>
+  <circle cx="250" cy="150" r="6" fill="#2c3e50"/>
+  <circle cx="300" cy="180" r="6" fill="#2c3e50"/>
+  
+  <circle cx="350" cy="120" r="6" fill="#2c3e50"/>
+  <circle cx="400" cy="100" r="6" fill="#2c3e50"/>
+  <circle cx="450" cy="80" r="6" fill="#2c3e50"/>
+  
+  <circle cx="500" cy="120" r="6" fill="#2c3e50"/>
+  <circle cx="550" cy="150" r="6" fill="#2c3e50"/>
+  <circle cx="600" cy="180" r="6" fill="#2c3e50"/>
+  
+  <circle cx="700" cy="120" r="8" fill="#27ae60"/>
+  <text x="700" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">HEAD</text>
+  
+  <!-- Commands section -->
+  <rect x="50" y="290" width="800" height="320" fill="#2c3e50" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="60" y="320" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ecf0f1">Gestione Branch - Comandi Essenziali</text>
+  
+  <!-- Left column -->
+  <text x="60" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">Creazione e Navigazione:</text>
+  
+  <text x="70" y="380" font-family="monospace" font-size="13" fill="#e74c3c">git branch</text>
+  <text x="70" y="400" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Lista tutti i branch</text>
+  
+  <text x="70" y="430" font-family="monospace" font-size="13" fill="#e74c3c">git branch feature/new-ui</text>
+  <text x="70" y="450" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Crea nuovo branch</text>
+  
+  <text x="70" y="480" font-family="monospace" font-size="13" fill="#e74c3c">git switch feature/new-ui</text>
+  <text x="70" y="500" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Passa al branch</text>
+  
+  <text x="70" y="530" font-family="monospace" font-size="13" fill="#e74c3c">git switch -c feature/auth</text>
+  <text x="70" y="550" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Crea e passa al branch</text>
+  
+  <!-- Right column -->
+  <text x="460" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">Pulizia e Manutenzione:</text>
+  
+  <text x="470" y="380" font-family="monospace" font-size="13" fill="#e74c3c">git branch -d feature/old</text>
+  <text x="470" y="400" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Elimina branch (sicuro)</text>
+  
+  <text x="470" y="430" font-family="monospace" font-size="13" fill="#e74c3c">git branch -D feature/broken</text>
+  <text x="470" y="450" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Forza eliminazione</text>
+  
+  <text x="470" y="480" font-family="monospace" font-size="13" fill="#e74c3c">git branch -m old-name new-name</text>
+  <text x="470" y="500" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Rinomina branch</text>
+  
+  <text x="470" y="530" font-family="monospace" font-size="13" fill="#e74c3c">git branch -r</text>
+  <text x="470" y="550" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Lista branch remoti</text>
+  
+  <!-- Best practices -->
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">💡 Best Practices: feature/nome, hotfix/descrizione, release/v1.0</text>
+</svg>

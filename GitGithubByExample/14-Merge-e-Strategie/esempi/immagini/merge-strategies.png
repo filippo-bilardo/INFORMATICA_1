@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Merge Strategies - Strategie di Unione</text>
+  
+  <!-- Fast-Forward Merge -->
+  <text x="50" y="70" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">1. Fast-Forward Merge</text>
+  <rect x="50" y="80" width="400" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  
+  <!-- Before FF -->
+  <text x="60" y="100" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Prima:</text>
+  <line x1="80" y1="110" x2="200" y2="110" stroke="#3498db" stroke-width="4"/>
+  <circle cx="120" cy="110" r="5" fill="#2c3e50"/>
+  <circle cx="160" cy="110" r="5" fill="#2c3e50"/>
+  <text x="60" y="125" font-family="Arial, sans-serif" font-size="10" fill="#3498db">main</text>
+  
+  <line x1="160" y1="110" x2="240" y2="140" stroke="#e74c3c" stroke-width="3"/>
+  <circle cx="200" cy="125" r="4" fill="#2c3e50"/>
+  <circle cx="240" cy="140" r="4" fill="#2c3e50"/>
+  <text x="210" y="155" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">feature</text>
+  
+  <!-- After FF -->
+  <text x="280" y="100" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Dopo:</text>
+  <line x1="300" y1="110" x2="420" y2="110" stroke="#3498db" stroke-width="4"/>
+  <circle cx="320" cy="110" r="5" fill="#2c3e50"/>
+  <circle cx="360" cy="110" r="5" fill="#2c3e50"/>
+  <circle cx="390" cy="110" r="5" fill="#2c3e50"/>
+  <circle cx="420" cy="110" r="6" fill="#27ae60"/>
+  <text x="280" y="125" font-family="Arial, sans-serif" font-size="10" fill="#3498db">main</text>
+  <text x="420" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">HEAD</text>
+  
+  <!-- 3-Way Merge -->
+  <text x="50" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#9b59b6">2. 3-Way Merge (Recursive)</text>
+  <rect x="50" y="240" width="400" height="140" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  
+  <!-- Before 3-way -->
+  <text x="60" y="260" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Prima:</text>
+  <line x1="80" y1="270" x2="180" y2="270" stroke="#3498db" stroke-width="4"/>
+  <circle cx="120" cy="270" r="5" fill="#2c3e50"/>
+  <circle cx="160" cy="270" r="5" fill="#2c3e50"/>
+  <circle cx="200" cy="270" r="5" fill="#2c3e50"/>
+  <text x="60" y="285" font-family="Arial, sans-serif" font-size="10" fill="#3498db">main</text>
+  
+  <line x1="160" y1="270" x2="240" y2="310" stroke="#e74c3c" stroke-width="3"/>
+  <circle cx="200" cy="290" r="4" fill="#2c3e50"/>
+  <circle cx="240" cy="310" r="4" fill="#2c3e50"/>
+  <text x="210" y="325" font-family="Arial, sans-serif" font-size="10" fill="#e74c3c">feature</text>
+  
+  <!-- After 3-way -->
+  <text x="280" y="260" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Dopo:</text>
+  <line x1="300" y1="270" x2="400" y2="270" stroke="#3498db" stroke-width="4"/>
+  <line x1="340" y1="270" x2="380" y2="310" stroke="#e74c3c" stroke-width="3"/>
+  <line x1="380" y1="310" x2="420" y2="270" stroke="#e74c3c" stroke-width="3"/>
+  
+  <circle cx="320" cy="270" r="5" fill="#2c3e50"/>
+  <circle cx="340" cy="270" r="5" fill="#2c3e50"/>
+  <circle cx="360" cy="270" r="5" fill="#2c3e50"/>
+  <circle cx="380" cy="310" r="4" fill="#2c3e50"/>
+  <circle cx="400" cy="270" r="5" fill="#2c3e50"/>
+  <circle cx="420" cy="270" r="8" fill="#f39c12"/>
+  <text x="420" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">Merge</text>
+  <text x="420" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">HEAD</text>
+  
+  <!-- Squash Merge -->
+  <text x="50" y="410" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e67e22">3. Squash Merge</text>
+  <rect x="50" y="420" width="400" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="3"/>
+  
+  <text x="60" y="440" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Tutti i commit del branch diventano uno solo</text>
+  <line x1="80" y1="460" x2="180" y2="460" stroke="#3498db" stroke-width="4"/>
+  <circle cx="120" cy="460" r="5" fill="#2c3e50"/>
+  <circle cx="160" cy="460" r="5" fill="#2c3e50"/>
+  <circle cx="200" cy="460" r="8" fill="#e67e22"/>
+  <text x="200" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e67e22">Squash</text>
+  
+  <text x="250" y="470" font-family="monospace" font-size="11" fill="#2c3e50">git merge --squash feature</text>
+  <text x="250" y="490" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Cronologia lineare e pulita</text>
+  
+  <!-- Commands section -->
+  <rect x="500" y="80" width="350" height="460" fill="#2c3e50" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="510" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ecf0f1">Comandi Merge</text>
+  
+  <text x="510" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db">Fast-Forward:</text>
+  <text x="520" y="160" font-family="monospace" font-size="12" fill="#ecf0f1">git merge feature</text>
+  <text x="520" y="180" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Automatico se possibile</text>
+  
+  <text x="510" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9b59b6">3-Way Merge:</text>
+  <text x="520" y="230" font-family="monospace" font-size="12" fill="#ecf0f1">git merge --no-ff feature</text>
+  <text x="520" y="250" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Forza creazione merge commit</text>
+  
+  <text x="510" y="280" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e67e22">Squash Merge:</text>
+  <text x="520" y="300" font-family="monospace" font-size="12" fill="#ecf0f1">git merge --squash feature</text>
+  <text x="520" y="320" font-family="monospace" font-size="12" fill="#ecf0f1">git commit</text>
+  <text x="520" y="340" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Unisce tutto in un commit</text>
+  
+  <text x="510" y="370" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">Controllo Merge:</text>
+  <text x="520" y="390" font-family="monospace" font-size="12" fill="#ecf0f1">git merge --abort</text>
+  <text x="520" y="410" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Annulla merge in corso</text>
+  
+  <text x="520" y="430" font-family="monospace" font-size="12" fill="#ecf0f1">git merge-base main feature</text>
+  <text x="520" y="450" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Trova commit base comune</text>
+  
+  <text x="510" y="480" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">Best Practice:</text>
+  <text x="520" y="500" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">• FF per hotfix veloci</text>
+  <text x="520" y="520" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">• 3-way per feature importanti</text>
+  <text x="520" y="540" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">• Squash per cronologia pulita</text>
+  
+  <!-- Strategy comparison -->
+  <rect x="50" y="570" width="800" height="100" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Quando usare ciascuna strategia:</text>
+  <text x="60" y="610" font-family="Arial, sans-serif" font-size="12" fill="#3498db">🔷 Fast-Forward: Feature semplici, hotfix, aggiornamenti lineari</text>
+  <text x="60" y="630" font-family="Arial, sans-serif" font-size="12" fill="#9b59b6">🔷 3-Way: Feature collaborative, mantenere storia dei branch</text>
+  <text x="60" y="650" font-family="Arial, sans-serif" font-size="12" fill="#e67e22">🔷 Squash: Pulizia cronologia, commit intermedi non importanti</text>
+</svg>

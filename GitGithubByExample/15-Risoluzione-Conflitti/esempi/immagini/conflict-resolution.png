@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Risoluzione Conflitti - Conflict Resolution</text>
+  
+  <!-- Conflict scenario -->
+  <rect x="50" y="60" width="800" height="200" fill="#ffe6e6" stroke="#e74c3c" stroke-width="2" rx="5"/>
+  <text x="60" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">❌ Scenario di Conflitto</text>
+  
+  <!-- Branch visualization -->
+  <line x1="100" y1="120" x2="400" y2="120" stroke="#3498db" stroke-width="4"/>
+  <text x="70" y="125" font-family="Arial, sans-serif" font-size="12" fill="#3498db">main</text>
+  
+  <line x1="250" y1="120" x2="350" y2="170" stroke="#e74c3c" stroke-width="4"/>
+  <text x="330" y="190" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">feature</text>
+  
+  <!-- Conflicting commits -->
+  <circle cx="200" cy="120" r="6" fill="#2c3e50"/>
+  <circle cx="300" cy="120" r="6" fill="#f39c12"/>
+  <text x="300" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Edit A</text>
+  
+  <circle cx="350" cy="170" r="6" fill="#f39c12"/>
+  <text x="350" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">Edit A</text>
+  
+  <!-- Conflict marker -->
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">⚡ CONFLITTO!</text>
+  <text x="450" y="160" font-family="Arial, sans-serif" font-size="12" fill="#c0392b">Stesso file modificato</text>
+  <text x="450" y="180" font-family="Arial, sans-serif" font-size="12" fill="#c0392b">in entrambi i branch</text>
+  
+  <!-- File content with conflict markers -->
+  <rect x="50" y="290" width="800" height="180" fill="#2c3e50" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="60" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ecf0f1">Contenuto file con conflitto:</text>
+  
+  <text x="60" y="340" font-family="monospace" font-size="12" fill="#bdc3c7">function login(username, password) {</text>
+  <text x="60" y="360" font-family="monospace" font-size="12" fill="#e74c3c">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</text>
+  <text x="60" y="380" font-family="monospace" font-size="12" fill="#3498db">    return authenticateUser(username, password);</text>
+  <text x="60" y="400" font-family="monospace" font-size="12" fill="#f39c12">=======</text>
+  <text x="60" y="420" font-family="monospace" font-size="12" fill="#e74c3c">    return validateAndAuth(username, password);</text>
+  <text x="60" y="440" font-family="monospace" font-size="12" fill="#e74c3c">&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature/new-auth</text>
+  <text x="60" y="460" font-family="monospace" font-size="12" fill="#bdc3c7">}</text>
+  
+  <!-- Resolution process -->
+  <rect x="50" y="500" width="400" height="170" fill="#e8f5e8" stroke="#27ae60" stroke-width="2" rx="5"/>
+  <text x="60" y="525" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">✅ Processo di Risoluzione</text>
+  
+  <text x="60" y="550" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">1. Identifica i conflitti</text>
+  <text x="70" y="570" font-family="monospace" font-size="11" fill="#7f8c8d">git status</text>
+  
+  <text x="60" y="590" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">2. Apri il file e scegli</text>
+  <text x="70" y="610" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">• Mantieni HEAD</text>
+  <text x="70" y="625" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">• Mantieni feature</text>
+  <text x="70" y="640" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">• Combina entrambi</text>
+  
+  <text x="60" y="660" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">3. Rimuovi marker e salva</text>
+  
+  <!-- Commands -->
+  <rect x="470" y="500" width="380" height="170" fill="#2c3e50" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="480" y="525" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ecf0f1">Comandi Risoluzione</text>
+  
+  <text x="480" y="550" font-family="monospace" font-size="12" fill="#e74c3c">git status</text>
+  <text x="480" y="570" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Mostra file in conflitto</text>
+  
+  <text x="480" y="590" font-family="monospace" font-size="12" fill="#e74c3c">git add &lt;file&gt;</text>
+  <text x="480" y="610" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Marca come risolto</text>
+  
+  <text x="480" y="630" font-family="monospace" font-size="12" fill="#e74c3c">git commit</text>
+  <text x="480" y="650" font-family="Arial, sans-serif" font-size="10" fill="#bdc3c7">Completa il merge</text>
+  
+  <!-- VS Code integration note -->
+  <rect x="480" y="590" width="350" height="50" fill="#007acc" stroke="#005999" stroke-width="1" rx="3"/>
+  <text x="490" y="610" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">💡 VS Code: Click su "Accept Current" </text>
+  <text x="490" y="625" font-family="Arial, sans-serif" font-size="11" fill="#cce7ff">o "Accept Incoming" per risoluzione rapida</text>
+</svg>

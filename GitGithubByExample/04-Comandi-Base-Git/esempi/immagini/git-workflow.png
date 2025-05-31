@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Git Workflow - Comandi Base</text>
+  
+  <!-- Working Directory -->
+  <rect x="50" y="80" width="180" height="100" fill="#e74c3c" stroke="#c0392b" stroke-width="2" rx="5"/>
+  <text x="140" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Working Directory</text>
+  <text x="140" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">File modificati</text>
+  <text x="140" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">git status, git diff</text>
+  
+  <!-- Staging Area -->
+  <rect x="310" y="80" width="180" height="100" fill="#f39c12" stroke="#e67e22" stroke-width="2" rx="5"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Staging Area</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">File pronti</text>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">git add</text>
+  
+  <!-- Repository -->
+  <rect x="570" y="80" width="180" height="100" fill="#27ae60" stroke="#229954" stroke-width="2" rx="5"/>
+  <text x="660" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Repository</text>
+  <text x="660" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Commit salvati</text>
+  <text x="660" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">git commit</text>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- Arrow 1: Working to Staging -->
+  <line x1="230" y1="130" x2="310" y2="130" stroke="#34495e" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="270" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">git add</text>
+  
+  <!-- Arrow 2: Staging to Repository -->
+  <line x1="490" y1="130" x2="570" y2="130" stroke="#34495e" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="530" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#34495e">git commit</text>
+  
+  <!-- Commands box -->
+  <rect x="50" y="250" width="700" height="120" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="60" y="275" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">Comandi principali:</text>
+  <text x="60" y="300" font-family="monospace" font-size="14" fill="#34495e">• git status - Mostra lo stato dei file</text>
+  <text x="60" y="320" font-family="monospace" font-size="14" fill="#34495e">• git add &lt;file&gt; - Aggiunge file al staging</text>
+  <text x="60" y="340" font-family="monospace" font-size="14" fill="#34495e">• git commit -m "messaggio" - Crea un commit</text>
+  <text x="60" y="360" font-family="monospace" font-size="14" fill="#34495e">• git log - Visualizza la cronologia</text>
+</svg>

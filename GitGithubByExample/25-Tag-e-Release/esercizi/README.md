@@ -8,6 +8,9 @@ Questa sezione contiene esercizi pratici per imparare la gestione di tag, versio
 - **[01 - Release Workflow](./01-release-workflow.md)** - Workflow completo di release
 - **[02 - Version Management](./02-version-management.md)** - Gestione avanzata delle versioni
 
+### Esercizi Avanzati
+- **[03 - Enterprise Release Orchestration](./03-enterprise-release-orchestration.md)** - Orchestrazione enterprise multi-repository
+
 ## 🎯 Obiettivi di Apprendimento
 
 Al termine di questi esercizi sarai in grado di:

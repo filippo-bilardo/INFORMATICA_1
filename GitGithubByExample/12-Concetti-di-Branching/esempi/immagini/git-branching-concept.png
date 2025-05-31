@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Git Branching - Concetti Fondamentali</text>
+  
+  <!-- Main branch -->
+  <line x1="100" y1="120" x2="800" y2="120" stroke="#3498db" stroke-width="6"/>
+  <text x="50" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3498db">main</text>
+  
+  <!-- Main branch commits -->
+  <circle cx="200" cy="120" r="8" fill="#2c3e50"/>
+  <text x="200" y="105" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">A</text>
+  
+  <circle cx="300" cy="120" r="8" fill="#2c3e50"/>
+  <text x="300" y="105" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">B</text>
+  
+  <circle cx="400" cy="120" r="8" fill="#2c3e50"/>
+  <text x="400" y="105" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">C</text>
+  
+  <circle cx="700" cy="120" r="8" fill="#2c3e50"/>
+  <text x="700" y="105" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">G</text>
+  
+  <circle cx="800" cy="120" r="10" fill="#27ae60"/>
+  <text x="800" y="105" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">H</text>
+  <text x="800" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">HEAD</text>
+  
+  <!-- Feature branch -->
+  <line x1="400" y1="120" x2="500" y2="200" stroke="#e74c3c" stroke-width="4"/>
+  <line x1="500" y1="200" x2="600" y2="200" stroke="#e74c3c" stroke-width="4"/>
+  <line x1="600" y1="200" x2="700" y2="120" stroke="#e74c3c" stroke-width="4"/>
+  
+  <text x="520" y="220" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">feature/login</text>
+  
+  <!-- Feature branch commits -->
+  <circle cx="500" cy="200" r="8" fill="#2c3e50"/>
+  <text x="500" y="185" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">D</text>
+  
+  <circle cx="600" cy="200" r="8" fill="#2c3e50"/>
+  <text x="600" y="185" text-anchor="middle" font-family="monospace" font-size="10" fill="#2c3e50">E</text>
+  
+  <!-- Merge point -->
+  <circle cx="700" cy="120" r="10" fill="#f39c12"/>
+  <text x="720" y="90" font-family="Arial, sans-serif" font-size="12" fill="#f39c12">Merge</text>
+  
+  <!-- Branch creation arrow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  <line x1="410" y1="130" x2="490" y2="190" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  <text x="430" y="170" font-family="Arial, sans-serif" font-size="11" fill="#34495e">branch</text>
+  
+  <!-- Merge arrow -->
+  <line x1="610" y1="190" x2="690" y2="130" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  <text x="640" y="170" font-family="Arial, sans-serif" font-size="11" fill="#34495e">merge</text>
+  
+  <!-- Explanation box -->
+  <rect x="50" y="280" width="800" height="380" fill="#2c3e50" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="60" y="310" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ecf0f1">Perché usare i Branch?</text>
+  
+  <!-- Benefits -->
+  <text x="60" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">✓ Sviluppo Parallelo</text>
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Lavora su feature diverse contemporaneamente</text>
+  
+  <text x="60" y="400" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">✓ Isolamento</text>
+  <text x="70" y="420" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Le modifiche non interferiscono con il codice principale</text>
+  
+  <text x="60" y="450" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">✓ Sperimentazione</text>
+  <text x="70" y="470" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Prova nuove idee senza rischi</text>
+  
+  <text x="60" y="500" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">✓ Collaborazione</text>
+  <text x="70" y="520" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Ogni sviluppatore può lavorare sul proprio branch</text>
+  
+  <!-- Commands -->
+  <text x="450" y="350" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">Comandi base:</text>
+  
+  <text x="460" y="380" font-family="monospace" font-size="13" fill="#ecf0f1">git branch feature/login</text>
+  <text x="460" y="400" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Crea un nuovo branch</text>
+  
+  <text x="460" y="430" font-family="monospace" font-size="13" fill="#ecf0f1">git switch feature/login</text>
+  <text x="460" y="450" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Passa al branch</text>
+  
+  <text x="460" y="480" font-family="monospace" font-size="13" fill="#ecf0f1">git switch -c feature/new</text>
+  <text x="460" y="500" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Crea e passa al branch</text>
+  
+  <text x="460" y="530" font-family="monospace" font-size="13" fill="#ecf0f1">git merge feature/login</text>
+  <text x="460" y="550" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Unisce il branch al main</text>
+  
+  <text x="460" y="580" font-family="monospace" font-size="13" fill="#ecf0f1">git branch -d feature/login</text>
+  <text x="460" y="600" font-family="Arial, sans-serif" font-size="11" fill="#bdc3c7">Elimina il branch</text>
+  
+  <!-- Timeline labels -->
+  <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Initial</text>
+  <text x="300" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Setup</text>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Base</text>
+  <text x="800" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Final</text>
+  
+  <text x="500" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Add auth</text>
+  <text x="600" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Fix bugs</text>
+</svg>

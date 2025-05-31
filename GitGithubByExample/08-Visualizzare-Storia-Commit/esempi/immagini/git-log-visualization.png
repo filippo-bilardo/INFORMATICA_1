@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Git Log - Visualizzazione Storia Commit</text>
+  
+  <!-- Commit Timeline -->
+  <line x1="100" y1="100" x2="800" y2="100" stroke="#3498db" stroke-width="4"/>
+  
+  <!-- Commits -->
+  <circle cx="150" cy="100" r="8" fill="#e74c3c"/>
+  <text x="150" y="80" text-anchor="middle" font-family="monospace" font-size="11" fill="#2c3e50">abc123</text>
+  <text x="150" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Initial commit</text>
+  
+  <circle cx="300" cy="100" r="8" fill="#e74c3c"/>
+  <text x="300" y="80" text-anchor="middle" font-family="monospace" font-size="11" fill="#2c3e50">def456</text>
+  <text x="300" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Add README</text>
+  
+  <circle cx="450" cy="100" r="8" fill="#e74c3c"/>
+  <text x="450" y="80" text-anchor="middle" font-family="monospace" font-size="11" fill="#2c3e50">ghi789</text>
+  <text x="450" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Fix bug in login</text>
+  
+  <circle cx="600" cy="100" r="8" fill="#e74c3c"/>
+  <text x="600" y="80" text-anchor="middle" font-family="monospace" font-size="11" fill="#2c3e50">jkl012</text>
+  <text x="600" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Add new feature</text>
+  
+  <circle cx="750" cy="100" r="10" fill="#27ae60"/>
+  <text x="750" y="80" text-anchor="middle" font-family="monospace" font-size="11" fill="#2c3e50">HEAD</text>
+  <text x="750" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Latest commit</text>
+  
+  <!-- Command examples -->
+  <rect x="50" y="200" width="800" height="350" fill="#2c3e50" stroke="#34495e" stroke-width="2" rx="5"/>
+  <text x="60" y="230" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ecf0f1">Comandi git log più utili:</text>
+  
+  <text x="60" y="260" font-family="monospace" font-size="14" fill="#e74c3c">$ git log</text>
+  <text x="60" y="280" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Mostra la cronologia completa dei commit</text>
+  
+  <text x="60" y="310" font-family="monospace" font-size="14" fill="#e74c3c">$ git log --oneline</text>
+  <text x="60" y="330" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Una riga per commit con hash breve</text>
+  
+  <text x="60" y="360" font-family="monospace" font-size="14" fill="#e74c3c">$ git log --graph --oneline</text>
+  <text x="60" y="380" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Visualizza il grafico dei branch</text>
+  
+  <text x="60" y="410" font-family="monospace" font-size="14" fill="#e74c3c">$ git log --since="2 weeks ago"</text>
+  <text x="60" y="430" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Commit delle ultime 2 settimane</text>
+  
+  <text x="60" y="460" font-family="monospace" font-size="14" fill="#e74c3c">$ git log --author="Nome Autore"</text>
+  <text x="60" y="480" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Commit di un autore specifico</text>
+  
+  <text x="60" y="510" font-family="monospace" font-size="14" fill="#e74c3c">$ git log --grep="bug"</text>
+  <text x="60" y="530" font-family="Arial, sans-serif" font-size="12" fill="#bdc3c7">Cerca nei messaggi di commit</text>
+</svg>
