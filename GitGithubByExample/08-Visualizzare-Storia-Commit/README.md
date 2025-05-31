@@ -52,6 +52,7 @@ Sarai in grado di navigare efficacemente nella cronologia di qualsiasi repositor
 1. [01 - Esplorazione Repository](./esercizi/01-esplorazione-repository.md)
 2. [02 - Detective Git](./esercizi/02-detective-git.md)
 3. [03 - Personalizzazione Log](./esercizi/03-personalizzazione-log.md)
+4. [04 - Investigazione Forense](./esercizi/04-forensic-investigation.md) ⭐⭐⭐⭐⭐
 
 ## 🚀 Come Procedere
 

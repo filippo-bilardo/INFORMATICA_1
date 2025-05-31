@@ -51,6 +51,7 @@ Sarai in grado di navigare confidentemente nella cronologia Git per debugging, t
 1. [01 - Viaggio nel Tempo](./esercizi/01-viaggio-nel-tempo.md)
 2. [02 - Detective Bug](./esercizi/02-detective-bug.md)
 3. [03 - Gestione Sicura](./esercizi/03-gestione-sicura.md)
+4. [04 - Time Travel Mastery Forensics](./esercizi/04-time-travel-mastery-forensics.md)
 
 ## 🚀 Come Procedere
 

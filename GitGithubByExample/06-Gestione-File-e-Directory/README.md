@@ -40,6 +40,8 @@ Al termine avrai padronanza completa della gestione di file e directory in Git, 
 1. [💻 Aggiunta e Rimozione File](./esempi/01-aggiunta-rimozione.md)
 2. [💻 Rinominazione e Spostamento](./esempi/02-rinominazione-spostamento.md)
 3. [💻 Pulizia Repository](./esempi/03-pulizia-repository.md)
+4. [💻 Workflow Ristrutturazione Progetto](./esempi/04-workflow-ristrutturazione.md)
+5. [💻 Gestione File Grandi e Performance](./esempi/05-file-grandi-performance.md)
 
 ### Esercizi
 1. [🎯 Gestione Base dei File](./esercizi/01-esercizio-base.md)

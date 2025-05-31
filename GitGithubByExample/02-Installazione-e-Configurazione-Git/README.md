@@ -43,10 +43,13 @@ Al termine avrai Git installato e configurato correttamente, pronto per iniziare
 1. [01 - Setup Completo Windows](./esempi/01-setup-windows.md)
 2. [02 - Setup Completo macOS](./esempi/02-setup-macos.md)
 3. [03 - Setup Completo Linux](./esempi/03-setup-linux.md)
+4. [04 - Setup Enterprise e Professionale](./esempi/04-setup-enterprise-professionale.md) ⭐⭐⭐⭐
 
 ### Esercizi di Consolidamento
 1. [01 - Verifica Installazione](./esercizi/01-verifica-installazione.md)
 2. [02 - Configurazione Personalizzata](./esercizi/02-configurazione-personalizzata.md)
+3. [03 - Setup Ambiente Sviluppo](./esercizi/03-setup-ambiente-sviluppo.md)
+4. [04 - Troubleshooting e Ottimizzazione](./esercizi/04-troubleshooting-configurazione.md)
 
 ## 🚀 Come Procedere
 

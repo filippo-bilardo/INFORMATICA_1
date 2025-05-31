@@ -49,6 +49,7 @@ Padroneggerai la sincronizzazione tra repository locali e remoti, base essenzial
 ### Esercizi di Consolidamento
 1. [01 - Repository Sync](./esercizi/01-repository-sync.md)
 2. [02 - Collaboration Basics](./esercizi/02-collaboration-basics.md)
+3. [03 - Advanced Workflow Scenarios](./esercizi/03-advanced-workflow-scenarios.md)
 
 ## 🚀 Come Procedere
 

@@ -53,6 +53,7 @@ Avrai padronanza dei comandi Git essenziali e saprai gestire efficacemente il wo
 1. [01 - Workflow Base](./esercizi/01-workflow-base.md)
 2. [02 - Creazione Portfolio](./esercizi/02-creazione-portfolio.md)
 3. [03 - Challenge Comandi](./esercizi/03-challenge-comandi.md)
+4. [04 - Git Master Challenge](./esercizi/04-git-master-challenge.md)
 
 ## 🚀 Come Procedere
 

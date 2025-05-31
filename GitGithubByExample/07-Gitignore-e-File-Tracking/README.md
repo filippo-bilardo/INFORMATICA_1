@@ -24,6 +24,8 @@ Al termine di questo modulo sarai in grado di:
 1. [**Configurazione Progetto Web**](./esempi/01-progetto-web.md) - .gitignore per progetti frontend
 2. [**Progetto Node.js**](./esempi/02-progetto-nodejs.md) - Configurazione per applicazioni Node
 3. [**Gitignore Globale**](./esempi/03-gitignore-globale.md) - Configurazione sistema-wide
+4. [**Progetto Enterprise Multi-Stack**](./esempi/04-progetto-enterprise.md) - Configurazione enterprise avanzata
+5. [**Tracking Avanzato con Automazione**](./esempi/05-tracking-avanzato-automazione.md) - Sistema intelligente di tracking
 
 ### Esercizi Hands-on
 1. [**Setup .gitignore Completo**](./esercizi/01-setup-gitignore.md) - Configurazione da zero

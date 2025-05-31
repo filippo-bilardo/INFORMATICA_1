@@ -50,11 +50,13 @@ h7i8j9k Initial commit: struttura base progetto
 1. [01 - Progetto Sito Web](./esempi/01-progetto-sito-web.md)
 2. [02 - Repository Documentazione](./esempi/02-repository-documentazione.md)
 3. [03 - Tracking File Diversi](./esempi/03-tracking-file-diversi.md)
+4. [04 - Repository Collaborativo Multi-Developer](./esempi/04-repository-collaborativo-multi-developer.md) ⭐⭐⭐⭐⭐
 
 ### Esercizi di Consolidamento
 1. [01 - Crea il Tuo Primo Repo](./esercizi/01-primo-repo.md)
 2. [02 - Gestione Stati File](./esercizi/02-gestione-stati-file.md)
 3. [03 - Commit Message Best Practices](./esercizi/03-commit-messages.md)
+4. [04 - Laboratorio Repository Completo](./esercizi/04-laboratorio-repository.md)
 
 ## 🚀 Quick Start - I Tuoi Primi Comandi
 

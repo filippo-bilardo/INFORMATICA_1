@@ -53,6 +53,7 @@ Avrai confidenza nel correggere errori e annullare modifiche senza paura di perd
 1. [01 - Simulazione Errori](./esercizi/01-simulazione-errori.md)
 2. [02 - Recupero Dati](./esercizi/02-recupero-dati.md)
 3. [03 - Emergency Response](./esercizi/03-emergency-response.md)
+4. [04 - Undo Operations Mastery](./esercizi/04-undo-operations-mastery.md)
 
 ## 🚀 Come Procedere
 

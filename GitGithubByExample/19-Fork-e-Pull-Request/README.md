@@ -43,6 +43,7 @@ Al termine di questa esercitazione sarai in grado di:
 ### Esercizi di Consolidamento
 1. [01 - Open Source Contribution](./esercizi/01-opensource-contribution.md)
 2. [02 - PR Management](./esercizi/02-pr-management.md)
+3. [03 - Advanced Fork Mastery](./esercizi/03-advanced-fork-mastery.md)
 
 ## 🔄 Navigazione del Corso
 

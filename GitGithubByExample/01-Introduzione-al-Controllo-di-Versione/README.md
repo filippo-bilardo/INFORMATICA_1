@@ -43,6 +43,8 @@ Al termine avrai una comprensione solida dei concetti teorici che stanno alla ba
 ### Esercizi di Consolidamento
 1. [01 - Quiz Controllo Versione](./esercizi/01-quiz-controllo-versione.md)
 2. [02 - Analisi Scenario](./esercizi/02-analisi-scenario.md)
+3. [03 - Analisi Vantaggi VCS](./esercizi/03-vantaggi-vcs.md)
+4. [04 - Progetto Pratico](./esercizi/04-progetto-pratico.md)
 
 ## 🚀 Come Procedere
 

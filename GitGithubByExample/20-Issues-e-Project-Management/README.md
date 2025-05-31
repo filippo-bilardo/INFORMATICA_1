@@ -43,6 +43,7 @@ Al termine di questa esercitazione sarai in grado di:
 ### Esercizi di Consolidamento
 1. [01 - Project Setup](./esercizi/01-project-setup.md)
 2. [02 - Team Management](./esercizi/02-team-management.md)
+3. [03 - Advanced Project Automation](./esercizi/03-advanced-project-automation.md)
 
 ## 🔄 Navigazione del Corso
 
