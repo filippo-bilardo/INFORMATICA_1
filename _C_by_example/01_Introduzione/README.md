@@ -1,16 +1,26 @@
-# Esercitazione 1: Introduzione al linguaggio C
+# Lezione 01: Introduzione al linguaggio C
 
-## Descrizione
+## 🎯 Obiettivi di Apprendimento
 
-Questa prima esercitazione introduce il linguaggio C, la sua storia, le sue caratteristiche principali e l'ambiente di sviluppo necessario per iniziare a programmare. Imparerai a scrivere, compilare ed eseguire il tuo primo programma "Hello, World!" e comprenderai la struttura base di un programma C.
+Al termine di questa lezione sarai in grado di:
+- [x] Conoscere la storia e l'evoluzione del linguaggio C
+- [x] Comprendere le caratteristiche fondamentali del C
+- [x] Configurare un ambiente di sviluppo C
+- [x] Scrivere, compilare ed eseguire il tuo primo programma
+- [x] Comprendere la struttura base di un programma C
 
-## Obiettivi di apprendimento
+## 📚 Prerequisiti
 
-- Conoscere la storia e l'evoluzione del linguaggio C
-- Comprendere le caratteristiche fondamentali del C
-- Configurare un ambiente di sviluppo C
-- Scrivere, compilare ed eseguire un primo programma
-- Comprendere la struttura base di un programma C
+- Conoscenze di base di informatica
+- Familiarità con l'uso del computer e del terminale
+- Nessuna esperienza di programmazione richiesta
+
+## ⏱️ Tempo Stimato
+
+- **Teoria:** 45 minuti
+- **Esempi:** 30 minuti
+- **Esercizi:** 60 minuti
+- **Totale:** ~2.5 ore
 
 ## Indice degli argomenti teorici
 
@@ -34,11 +44,21 @@ Questa prima esercitazione introduce il linguaggio C, la sua storia, le sue cara
    - Il programma "Hello, World!"
    - Processo di compilazione ed esecuzione
 
-## Esercitazione pratica
+## 💻 Esempi di Codice
+
+I file di esempio si trovano nella cartella `esempi/`. Per compilarli:
+
+```bash
+cd esempi/
+make all
+```
+
+## 🔧 Esercizi Pratici
 
 ### Esercizio 1.1: Hello, World!
+**Difficoltà:** 🟢 Principiante
 
-Scrivi un programma che stampi a schermo la frase "Hello, World!".
+**Descrizione:** Scrivi un programma che stampi a schermo la frase "Hello, World!".
 
 ```c
 #include <stdio.h>
@@ -50,19 +70,59 @@ int main() {
 ```
 
 ### Esercizio 1.2: Informazioni personali
+**Difficoltà:** 🟢 Principiante
 
-Modifica il programma precedente per stampare il tuo nome, la tua età e il tuo corso di studi su righe separate.
+**Descrizione:** Modifica il programma precedente per stampare il tuo nome, la tua età e il tuo corso di studi su righe separate.
 
 ### Esercizio 1.3: ASCII Art
+**Difficoltà:** 🟡 Intermedio
 
-Crea un programma che stampi un disegno semplice (come una faccia sorridente o una casa) utilizzando caratteri ASCII.
+**Descrizione:** Crea un programma che stampi un disegno semplice (come una faccia sorridente o una casa) utilizzando caratteri ASCII.
 
-## Risorse aggiuntive
+## ❓ Quiz di Autovalutazione
 
+1. **Chi ha sviluppato il linguaggio C?**
+   - [ ] Ken Thompson
+   - [x] Dennis Ritchie
+   - [ ] Brian Kernighan
+   - [ ] Linus Torvalds
+
+2. **Quale di questi NON è un compilatore C?**
+   - [ ] GCC
+   - [ ] Clang
+   - [x] Python
+   - [ ] MSVC
+
+3. **Qual è l'estensione standard per i file sorgente C?**
+   - [x] .c
+   - [ ] .cpp
+   - [ ] .cc
+   - [ ] .h
+
+## 🔗 Collegamenti
+
+**Lezioni Successive:**
+- [Lezione 02: Variabili e Tipi](../02_Variabili_e_Tipi/)
+
+**Risorse Esterne:**
 - [Standard C17 (ISO/IEC 9899:2018)](https://www.iso.org/standard/74528.html)
 - [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language) di Brian Kernighan e Dennis Ritchie
 - [Learn C Programming](https://www.programiz.com/c-programming) su Programiz
 
+## 📝 Note Aggiuntive
+
+- Se hai problemi con la configurazione dell'ambiente, consulta la [guida dettagliata](./teoria/03_Ambiente_di_Sviluppo.md)
+- Per chi viene da altri linguaggi: il C è più "vicino al metallo" rispetto a linguaggi di alto livello
+- Consiglio: inizia sempre con programmi semplici e aumenta gradualmente la complessità
+
+## ✅ Checklist di Completamento
+
+- [ ] Ho letto tutto il materiale teorico
+- [ ] Ho configurato l'ambiente di sviluppo
+- [ ] Ho compilato ed eseguito il primo programma
+- [ ] Ho completato tutti gli esercizi
+- [ ] Ho superato il quiz di autovalutazione
+
 ---
 
-[Indice del corso](../README.md) | [Prossima esercitazione](../02_Variabili_e_Tipi/README.md)
+[⬅️ Indice del corso](../README.md) | [➡️ Prossima lezione](../02_Variabili_e_Tipi/README.md)
