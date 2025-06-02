@@ -58,4 +58,4 @@ help:
 	@echo "💡 Esempi di utilizzo:"
 	@echo "  make hello_world         # Compila hello_world.c"
 	@echo "  make run-hello_world     # Compila ed esegue hello_world"
-	@echo "  make run-all            # Esegue tutti gli esempi"
+	@echo "  make run-all             # Esegue tutti gli esempi"
