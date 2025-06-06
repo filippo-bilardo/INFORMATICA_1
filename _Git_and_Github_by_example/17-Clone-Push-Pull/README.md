@@ -16,6 +16,9 @@ Al termine di questa esercitazione sarai in grado di:
 - ✅ Risolvere conflitti durante pull
 - ✅ Utilizzare `git push --set-upstream`
 - ✅ Comprendere origin e upstream
+- ✅ Implementare Git Submodules per progetti modulari
+- ✅ Utilizzare Git Subtree per integrare repository esterni
+- ✅ Scegliere tra submodules e subtree in base al caso d'uso
 
 ## 📋 Prerequisiti
 
@@ -25,7 +28,7 @@ Al termine di questa esercitazione sarai in grado di:
 
 ## ⏱️ Durata Stimata
 
-**90-120 minuti** (pratica con repository remoti)
+**120-180 minuti** (pratica con repository remoti, submoduli e subtree)
 
 ## 🎯 Risultato Finale
 
@@ -39,11 +42,20 @@ Padroneggerai la sincronizzazione tra repository locali e remoti, base essenzial
 3. [03 - Git Push](./guide/03-git-push.md)
 4. [04 - Git Pull vs Fetch](./guide/04-pull-vs-fetch.md)
 5. [05 - Branch Tracking](./guide/05-branch-tracking.md)
+6. [06 - Git Submodules](./guide/06-git-submodules.md)
+7. [07 - Git Subtree](./guide/07-git-subtree.md)
 
 ### Esempi Pratici
 1. [01 - Clone e Setup](./esempi/01-clone-setup.md)
 2. [02 - Push Workflow](./esempi/02-push-workflow.md)
 3. [03 - Pull e Sync](./esempi/03-pull-sync.md)
+4. [04 - Remote Management](./esempi/04-remote-management.md)
+5. [05 - Submodules Example](./esempi/05-submodules-example.md)
+6. [06 - Subtree Example](./esempi/06-subtree-example.md)
+
+### Strumenti di Supporto
+- [📋 Script di Setup Automatico](./esempi/setup-examples.sh)
+- [👨‍🏫 Guida per l'Istruttore](./esempi/instructor-guide.md)
 4. [04 - Remote Management](./esempi/04-remote-management.md)
 
 ### Esercizi di Consolidamento

@@ -210,7 +210,9 @@ git submodule add https://github.com/company/ui-components.git modules/ui
 git submodule update --remote --recursive
 ```
 
-### 3. Repository Monorepo
+> 📖 **Approfondimento**: Per una guida completa sui submoduli, consulta [06 - Git Submodules](./06-git-submodules.md)
+
+### 3. Repository Monorepo con Subtree
 ```bash
 # Setup per monorepo con team separati
 git remote add origin https://github.com/company/monorepo.git
@@ -221,6 +223,8 @@ git remote add backend-team https://github.com/company/backend-only.git
 git subtree push --prefix=frontend frontend-team main
 git subtree push --prefix=backend backend-team main
 ```
+
+> 📖 **Approfondimento**: Per una guida completa sui subtree, consulta [07 - Git Subtree](./07-git-subtree.md)
 
 ## ⚠️ Errori Comuni e Soluzioni
 
