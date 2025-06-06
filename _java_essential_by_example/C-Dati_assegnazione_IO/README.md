@@ -42,12 +42,22 @@ Al termine di questo modulo, sarai in grado di:
 - **[FormattazioneOutput.java](esempi/FormattazioneOutput.java)** - Tecniche di formattazione avanzate
 
 ### **Esercizi** ✏️
-- **[Esercizi Progressivi](esercizi/README.md)** - Da variabili semplici a programmi complessi
-- **[Soluzioni Complete](esercizi/soluzioni/)** - Soluzioni commentate passo-passo
+1. **[Esercizio 1 - Calcolatrice Scientifica](esercizi/Esercizio01_CalcolatriceScientifica.java)** 
+   - Dimostra tutti i tipi di dati primitivi e operatori
+   - [➡️ Soluzione](esercizi/soluzioni/Esercizio01_CalcolatriceScientifica_Soluzione.java)
+
+2. **[Esercizio 2 - Sistema Gestione Magazzino](esercizi/Esercizio02_GestioneMagazzino.java)**
+   - Input/Output avanzato, formattazione, validazione
+   - [➡️ Soluzione](esercizi/soluzioni/Esercizio02_GestioneMagazzino_Soluzione.java)
 
 ### **Quiz** 📝
-- **[Quiz Modulo C](quiz/quiz-modulo-c.md)** - 15 domande su dati e I/O
-- **[Soluzioni Quiz](quiz/soluzioni-quiz-c.md)** - Risposte dettagliate
+- **[Quiz Modulo C](quiz/Quiz_ModuloC.md)** - 20 domande su dati, operatori e I/O
+- Include: tipi primitivi, operatori, casting, Scanner, formattazione
+
+### **Progetto Finale** 🚀
+- **[Sistema Gestione Budget Personale](progetti/ProgettoGestioneBudget.java)**
+- Progetto completo che integra tutti i concetti del modulo
+- Tempo stimato: 4-6 ore | Valutazione: 40 punti totali
 
 ### **Progetti** 🎯
 - **[Progetto: Calcolatrice Scientifica](progetti/calcolatrice-scientifica/)** - App completa con GUI testuale

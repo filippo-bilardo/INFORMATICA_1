@@ -33,22 +33,20 @@ Al termine di questo modulo, sarai in grado di:
 5. **[Strategie Algoritmiche](teoria/05-strategie-algoritmi.md)** - Divide et impera, greedy, bruteforce
 
 ### **Esempi Pratici** 💻
-- **[RicercaNumero.java](esempi/RicercaNumero.java)** - Algoritmi di ricerca lineare e binaria
-- **[OrdinamentoBase.java](esempi/OrdinamentoBase.java)** - Bubble sort e selection sort
-- **[CalcolatoreComplexo.java](esempi/CalcolatoreComplexo.java)** - Problemi matematici complessi
-- **[AnalizzatoreTesto.java](esempi/AnalizzatoreTesto.java)** - Algoritmi su stringhe
-- **[GeneratoreSequenze.java](esempi/GeneratoreSequenze.java)** - Fibonacci, fattoriali, primi
+- **[AlgoritmiRicerca.java](esempi/AlgoritmiRicerca.java)** - Algoritmi di ricerca lineare e binaria
+- **[AlgoritmiOrdinamento.java](esempi/AlgoritmiOrdinamento.java)** - Bubble sort, selection sort, insertion sort
+- **[AnalisiComplessita.java](esempi/AnalisiComplessita.java)** - Confronto prestazioni algoritmi
 
 ### **Esercizi** ✏️
-- **[Esercizi Algoritmi](esercizi/README.md)** - Problemi progressivi di crescente difficoltà
+- **[Esercizio 1: Secondo Massimo](esercizi/Esercizio01_SecondoMassimo.java)** - Problem solving metodico
+- **[Esercizio 2: Algoritmi Ordinamento](esercizi/Esercizio02_AlgoritmiOrdinamento.java)** - Implementazione e confronto algoritmi
 - **[Soluzioni Complete](esercizi/soluzioni/)** - Soluzioni commentate step-by-step
 
 ### **Quiz** 📝
-- **[Quiz Modulo B](quiz/quiz-modulo-b.md)** - 12 domande su algoritmi e problem solving
-- **[Soluzioni Quiz](quiz/soluzioni-quiz-b.md)** - Risposte con spiegazioni dettagliate
+- **[Quiz Modulo B](quiz/Quiz_ModuloB.md)** - 20 domande su algoritmi e problem solving
 
 ### **Progetti** 🎯
-- **[Progetto: Gioco Indovina Numero](progetti/gioco-indovina-numero/)** - Algoritmi interattivi
+- **[Progetto: Sistema Gestione Studenti](progetti/ProgettoGestioneStudenti.java)** - Applicazione completa con algoritmi
 - **[Progetto: Analizzatore Password](progetti/analizzatore-password/)** - Validazione e sicurezza
 
 ---
