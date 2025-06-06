@@ -7,6 +7,20 @@
 
 ---
 
+## 📑 **Indice del Corso**
+
+1. [Introduzione e Guida al Libro](#descrizione-del-libro)
+2. [A - Ambiente di Sviluppo](A-Ambiente_di_sviluppo/README.md)
+3. [B - Problemi ed Algoritmi](B-Problemi_ed_algoritmi/README.md)
+4. [C - Dati, Assegnazione e I/O](C-Dati_assegnazione_IO/README.md)
+5. [D - Istruzioni Decisionali e Iterative](D-Istruzioni_decisionali_iterative/README.md)
+6. [E - Funzioni e Metodi](E-Funzioni_e_metodi/README.md)
+7. [F - Strutture Dati](F-Strutture_dati/README.md)
+8. [Appendici e Risorse](appendici/README.md)
+9. [FAQ](FAQ.md) | [Troubleshooting](troubleshooting.md) | [Glossario](glossario.md)
+
+---
+
 ## 📖 **Descrizione del Libro**
 
 *"Java Essential by Example"* è una guida introduttiva completa al linguaggio Java, progettata per accompagnare studenti principianti e programmatori che vogliono apprendere Java attraverso un approccio graduale e pratico. Il libro combina teoria solida, esempi concreti, esercitazioni progressive e quiz di autovalutazione.
@@ -41,53 +55,28 @@ Al termine di questo corso, lo studente sarà in grado di:
 
 ---
 
-## 📚 **Struttura del Libro**
+## 📚 **Struttura del Libro e Moduli**
 
 Il libro è organizzato in **6 moduli principali**, ciascuno con teoria, esempi pratici, esercizi e quiz:
 
-### **A - Ambiente di Sviluppo** ⚡
-*Tempo stimato: 2-3 ore*
-- Installazione e configurazione Java
-- IDE e strumenti di sviluppo
-- Primo programma Java
-- **[➡️ Vai al Modulo A](A-Ambiente_di_sviluppo/README.md)**
+1. **[A - Ambiente di Sviluppo](A-Ambiente_di_sviluppo/README.md)**  
+   *Installazione Java, IDE, primo programma, uso di Git*
+2. **[B - Problemi ed Algoritmi](B-Problemi_ed_algoritmi/README.md)**  
+   *Analisi problemi, flowchart, algoritmi base, complessità*
+3. **[C - Dati, Assegnazione e I/O](C-Dati_assegnazione_IO/README.md)**  
+   *Tipi di dati, variabili, operatori, input/output*
+4. **[D - Istruzioni Decisionali e Iterative](D-Istruzioni_decisionali_iterative/README.md)**  
+   *If, switch, cicli, controllo del flusso*
+5. **[E - Funzioni e Metodi](E-Funzioni_e_metodi/README.md)**  
+   *Definizione, parametri, ricorsione, scope*
+6. **[F - Strutture Dati](F-Strutture_dati/README.md)**  
+   *Array, collezioni, stringhe, manipolazione testo*
 
-### **B - Problemi ed Algoritmi** 🧩
-*Tempo stimato: 4-5 ore*
-- Analisi e risoluzione di problemi
-- Algoritmi fondamentali
-- Complessità computazionale
-- **[➡️ Vai al Modulo B](B-Problemi_ed_algoritmi/README.md)**
-
-### **C - Dati, Assegnazione e I/O** 📊
-*Tempo stimato: 6-8 ore*
-- Tipi di dati primitivi e oggetti
-- Variabili e costanti
-- Operatori e espressioni
-- Input/Output con Scanner e System.out
-- **[➡️ Vai al Modulo C](C-Dati_assegnazione_IO/README.md)**
-
-### **D - Istruzioni Decisionali e Iterative** 🔄
-*Tempo stimato: 8-10 ore*
-- Strutture condizionali (if, switch)
-- Cicli (for, while, do-while)
-- Controllo del flusso (break, continue)
-- **[➡️ Vai al Modulo D](D-Istruzioni_decisionali_iterative/README.md)**
-
-### **E - Funzioni e Metodi** ⚙️
-*Tempo stimato: 10-12 ore*
-- Definizione e chiamata di metodi
-- Parametri e valori di ritorno
-- Overloading e ricorsione
-- Scope e visibilità
-- **[➡️ Vai al Modulo E](E-Funzioni_e_metodi/README.md)**
-
-### **F - Strutture Dati** 🗂️
-*Tempo stimato: 12-15 ore*
-- Array monodimensionali e multidimensionali
-- Collezioni (List, Set, Map)
-- Stringhe e manipolazione testo
-- **[➡️ Vai al Modulo F](F-Strutture_dati/README.md)**
+**Appendici e Risorse:**
+- [📚 Appendici](appendici/README.md)
+- [❓ FAQ](FAQ.md)
+- [🔧 Troubleshooting](troubleshooting.md)
+- [📖 Glossario](glossario.md)
 
 ---
 
@@ -98,101 +87,111 @@ Ogni modulo contiene:
 ```
 Modulo/
 ├── README.md              # Introduzione e navigazione
-├── teoria/               # Guide teoriche dettagliate
-│   ├── 01-concetto1.md
-│   ├── 02-concetto2.md
-│   └── ...
-├── esempi/               # Codice Java commentato
-│   ├── Esempio01.java
-│   ├── Esempio02.java
-│   └── ...
-├── esercizi/             # Esercizi pratici + soluzioni
+├── teoria/                # Guide teoriche dettagliate (01-xx.md)
+├── esempi/                # Codice Java commentato (Esempio01.java, ...)
+├── esercizi/              # Esercizi pratici + soluzioni
 │   ├── README.md
 │   ├── Esercizio01.java
-│   ├── soluzioni/
-│   └── ...
-├── quiz/                 # Quiz di autovalutazione
+│   └── soluzioni/
+│       └── Soluzione01.java
+├── quiz/                  # Quiz di autovalutazione
 │   ├── quiz-modulo.md
 │   └── soluzioni-quiz.md
-└── progetti/             # Progetti integrativi (opzionali)
-    ├── progetto1/
-    └── ...
+└── progetti/              # Progetti integrativi (opzionali)
+    └── progetto1/
 ```
+
+**Esempio di struttura per il Modulo A:**
+
+```
+A-Ambiente_di_sviluppo/
+├── README.md
+├── teoria/
+│   ├── 01-introduzione-java.md
+│   ├── 02-installazione-ide.md
+│   └── 03-primo-programma.md
+├── esempi/
+│   ├── Esempio01_HelloWorld.java
+│   ├── Esempio02_StampaVariabile.java
+│   └── Esempio03_InputUtente.java
+├── esercizi/
+│   ├── README.md
+│   ├── Esercizio01.java
+│   └── soluzioni/
+│       └── Soluzione01.java
+├── quiz/
+│   ├── quiz-modulo.md
+│   └── soluzioni-quiz.md
+└── progetti/
+    └── progetto1/
+```
+
+**Navigazione standard da inserire in ogni README e capitolo:**
+
+```markdown
+## Navigazione del Corso
+- [📑 Indice](../README.md)
+- [⬅️ Modulo Precedente](XX-NomeModuloPrecedente/README.md)
+- [➡️ Modulo Successivo](XX-NomeModuloSuccessivo/README.md)
+```
+
+**Suggerimenti per la coerenza tra i moduli:**
+- Mantieni la stessa struttura di cartelle e file in ogni modulo.
+- Ogni esempio deve essere commentato riga per riga con javadoc.
+- Ogni esercizio deve avere almeno due variazioni e soluzione dettagliata.
+- Quiz a scelta multipla con spiegazione delle risposte.
+- Checklist di autovalutazione a fine capitolo.
+- Inserisci diagrammi UML, flowchart, screenshot e tabelle dove utile (es. in teoria/ e multimedia/).
 
 ---
 
 ## 🛠️ **Strumenti Consigliati**
 
-### **IDE (Scegli uno):**
-- **IntelliJ IDEA Community** (Consigliato per principianti)
-- **Eclipse IDE**
-- **Visual Studio Code** + Estensioni Java
-
-### **Strumenti Aggiuntivi:**
-- **Git** per il controllo versione
-- **Maven** per la gestione progetti
-- **JUnit** per i test (moduli avanzati)
+- **IDE:** IntelliJ IDEA Community (consigliato), Eclipse IDE, Visual Studio Code + Estensioni Java
+- **Strumenti aggiuntivi:** Git, Maven, JUnit
 
 ---
 
 ## 📈 **Come Utilizzare questo Libro**
 
-### **Percorso Lineare (Raccomandato per Principianti):**
-1. Segui i moduli in ordine sequenziale (A → B → C → D → E → F)
-2. Completa teoria + esempi + esercizi di ogni modulo prima di proseguire
-3. Utilizza i quiz per verificare la tua comprensione
-
-### **Percorso Selettivo (Per chi ha Esperienza):**
-1. Consulta l'indice e salta ai moduli di interesse
-2. Usa la sezione "Prerequisiti" di ogni modulo per verificare le conoscenze necessarie
-3. Testa le tue conoscenze con quiz ed esercizi
+- **Percorso Lineare:** Segui i moduli in ordine, completa teoria, esempi, esercizi e quiz.
+- **Percorso Selettivo:** Salta ai moduli di interesse, verifica i prerequisiti, usa quiz ed esercizi per autovalutazione.
 
 ---
 
 ## ✅ **Sistema di Autovalutazione**
 
 Ogni modulo include:
-- **📝 Quiz teorici** con domande a scelta multipla
-- **💻 Esercizi pratici** con soluzioni dettagliate
-- **✅ Checklist di competenze** per auto-verificare l'apprendimento
-- **🎯 Progetti pratici** per consolidare le conoscenze
+- **📝 Quiz teorici** (scelta multipla)
+- **💻 Esercizi pratici** (con soluzioni dettagliate)
+- **✅ Checklist di competenze**
+- **🎯 Progetti pratici** (opzionali)
 
 ---
 
-## 🔗 **Risorse Aggiuntive**
+## 🖼️ **Elementi Multimediali**
 
-- **[📚 Appendici](appendici/README.md)** - Documentazione Java, Reference, Tools
-- **[❓ FAQ](FAQ.md)** - Domande frequenti e soluzioni a problemi comuni
-- **[🔧 Troubleshooting](troubleshooting.md)** - Risoluzione errori comuni
-- **[📖 Glossario](glossario.md)** - Terminologia Java e informatica
+- Diagrammi UML, flowchart, screenshot IDE, tabelle comparative e schemi riassuntivi sono integrati nei capitoli dove necessario.
 
 ---
 
 ## 👥 **Target e Livello**
 
-### **Studenti Universitari:**
-- Primo anno di Informatica/Ingegneria
-- Corsi di Programmazione I
-
-### **Programmatori:**
-- Principianti assoluti
-- Sviluppatori che conoscono altri linguaggi
-- Autodidatti con approccio pratico
-
-### **Docenti:**
-- Materiale didattico strutturato
-- Esempi pronti all'uso
-- Sistema di valutazione integrato
+- **Studenti universitari** (primo anno)
+- **Programmatori principianti**
+- **Sviluppatori** di altri linguaggi
+- **Autodidatti**
+- **Docenti** (materiale didattico strutturato)
 
 ---
 
 ## 📊 **Tempo di Completamento Stimato**
 
-| Livello | Tempo Totale | Modalità |
-|---------|--------------|----------|
-| **Principiante Completo** | 60-80 ore | Studio approfondito + tutti gli esercizi |
-| **Con Esperienza Base** | 40-50 ore | Focus su concetti nuovi + esercizi selezionati |
-| **Ripasso/Consultazione** | 20-30 ore | Teoria + esempi senza esercizi completi |
+| Livello                | Tempo Totale | Modalità                                      |
+|------------------------|--------------|-----------------------------------------------|
+| Principiante Completo  | 60-80 ore    | Studio approfondito + tutti gli esercizi      |
+| Con Esperienza Base    | 40-50 ore    | Focus su concetti nuovi + esercizi selezionati|
+| Ripasso/Consultazione  | 20-30 ore    | Teoria + esempi senza esercizi completi       |
 
 ---
 
@@ -208,5 +207,34 @@ Questo materiale è rilasciato sotto licenza MIT. Contributi, segnalazioni e mig
 
 ---
 
-*Ultimo aggiornamento: Giugno 2025*
+*Ultimo aggiornamento: Giugno 2025*  
 *Versione Java: 8+ (compatibile con versioni più recenti)*
+
+---
+
+## Navigazione del Corso
+
+- [📑 Indice](README.md)
+- [➡️ Modulo A - Ambiente di Sviluppo](A-Ambiente_di_sviluppo/README.md)
+
+---
+
+**Checklist di partenza:**
+- [ ] Ho installato Java 8+ e un IDE moderno
+- [ ] Ho letto la descrizione e gli obiettivi del libro
+- [ ] Ho consultato la struttura dei moduli
+- [ ] Sono pronto a iniziare!
+
+---
+
+**Per ogni modulo e capitolo, troverai la stessa navigazione e struttura, con link a quiz, esercizi, progetti e checklist di autovalutazione.**
+
+---
+
+**Come contribuire:**
+- Proponi correzioni tramite pull request o issue su GitHub
+- Suggerisci nuovi esempi, esercizi o quiz
+- Segnala errori o migliorie
+
+**Contatti:**
+- Per domande o supporto, consulta la sezione [FAQ](FAQ.md) o scrivi agli autori tramite GitHub
