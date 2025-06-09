@@ -18,3 +18,5 @@ Appunti ed esempi per gli studenti del corso **INFORMATICA1**
 - [INFORMATICA_1](https://github.com/filippo-bilardo/INFORMATICA_1)
 - [INFORMATICA_2](https://github.com/filippo-bilardo/INFORMATICA_2)
 - [INFORMATICA_3](https://github.com/filippo-bilardo/INFORMATICA_3_PHP)
+- [Java Essentials by Example](https://github.com/filippo-bilardo/Java-essentials-by-example)
+- [Git and GitHub by example](https://github.com/filippo-bilardo/Git-and-Github-by-example)
